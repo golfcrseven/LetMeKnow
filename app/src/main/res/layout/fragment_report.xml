@@ -92,7 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Number of sow"
+                    android:text="No. of sows"
                     android:id="@+id/textView17"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
@@ -274,7 +274,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Pig born alive per litter"
+                    android:text="Pigs born alive per litter"
                     android:id="@+id/textView24"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
@@ -396,7 +396,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Nursing pig death rate"
+                    android:text="Weanling pigs death rate"
                     android:id="@+id/textView278"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
@@ -457,7 +457,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Growing pig death rate"
+                    android:text="Growing pigs death rate"
                     android:id="@+id/textView353"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
@@ -518,7 +518,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Predict breeder information"
+                    android:text="Breeder Predict Value"
                     android:id="@+id/textView356"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -603,7 +603,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Number of matting sow"
+                    android:text="No. of mated sows"
                     android:id="@+id/textView361"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -694,7 +694,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Number of weaned sows"
+                    android:text="No. of  weaned sows"
                     android:id="@+id/textView366"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -785,7 +785,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Number of gilts in served"
+                    android:text="No. of gilts in served"
                     android:id="@+id/textView371"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -876,7 +876,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Number of lactating sows"
+                    android:text="No. of lactating sows"
                     android:id="@+id/textView376"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -899,12 +899,11 @@
                     android:textSize="12dp"
                     android:fontFamily="sans-serif-light"
                     android:textColor="#000000"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
                     android:paddingRight="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -916,10 +915,10 @@
                     android:fontFamily="sans-serif-light"
                     android:textColor="#000000"
                     android:text="-"
-                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"
+                    android:layout_alignTop="@+id/textView377"
                     android:layout_toLeftOf="@+id/textView377"
-                    android:layout_toStartOf="@+id/textView377"
-                    android:textStyle="bold" />
+                    android:layout_toStartOf="@+id/textView377" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -931,10 +930,10 @@
                     android:fontFamily="sans-serif-light"
                     android:textColor="#000000"
                     android:text="-"
-                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
                     android:layout_toLeftOf="@+id/textView378"
-                    android:layout_toStartOf="@+id/textView378"
-                    android:textStyle="bold" />
+                    android:layout_toStartOf="@+id/textView378" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -946,10 +945,10 @@
                     android:fontFamily="sans-serif-light"
                     android:textColor="#000000"
                     android:text="-"
-                    android:layout_below="@+id/RC18"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
                     android:layout_toLeftOf="@+id/RC18"
-                    android:layout_toStartOf="@+id/RC18"
-                    android:textStyle="bold" />
+                    android:layout_toStartOf="@+id/RC18" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -967,7 +966,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Number of gestating sows"
+                    android:text="No. of gestating sows"
                     android:id="@+id/textView381"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -1058,7 +1057,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Number of litters"
+                    android:text="No. of litters"
                     android:id="@+id/textView386"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -2484,7 +2483,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Predict pigs information"
+                    android:text="Pigs Predict Value"
                     android:id="@+id/textView466"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -2569,7 +2568,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Number of litters per week"
+                    android:text="No. of litters per week"
                     android:id="@+id/textView471"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -2594,7 +2593,8 @@
                     android:textColor="#000000"
                     android:paddingRight="5dp"
                     android:textStyle="bold"
-                    android:layout_below="@+id/textView473"
+                    android:layout_alignBaseline="@+id/textView471"
+                    android:layout_alignBottom="@+id/textView471"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginLeft="5dp" />
@@ -2610,7 +2610,7 @@
                     android:textColor="#000000"
                     android:text="-"
                     android:textStyle="bold"
-                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true"
                     android:layout_toLeftOf="@+id/textView472"
                     android:layout_toStartOf="@+id/textView472" />
 
@@ -2625,7 +2625,7 @@
                     android:textColor="#000000"
                     android:text="-"
                     android:textStyle="bold"
-                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true"
                     android:layout_toLeftOf="@+id/textView473"
                     android:layout_toStartOf="@+id/textView473" />
 
@@ -2640,7 +2640,7 @@
                     android:textColor="#000000"
                     android:text="-"
                     android:textStyle="bold"
-                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true"
                     android:layout_toLeftOf="@+id/RC37"
                     android:layout_toStartOf="@+id/RC37" />
             </RelativeLayout>
@@ -2751,7 +2751,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Number of piglets in farm (adj. 21 days)"
+                    android:text="No. of piglets in farm (adj. 21 days)"
                     android:id="@+id/textView481"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -2852,7 +2852,7 @@
                     android:textColor="#000000"
                     android:layout_toLeftOf="@+id/textView490"
                     android:layout_marginLeft="10dp"
-                    android:textStyle="bold"
+                    android:textStyle="normal"
                     android:layout_marginRight="10dp" />
 
                 <TextView
@@ -2933,7 +2933,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Number of nursing pigs in farm  (adj.42 days)"
+                    android:text="No. of nursing pigs in farm  (adj.42 days)"
                     android:id="@+id/textView491"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -3024,7 +3024,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Number of growing pigs in farm (adj. 112 days)"
+                    android:text="No. of growing pigs in farm (adj. 112 days)"
                     android:id="@+id/textView496"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -3208,7 +3208,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Total feed for nursing pig"
+                    android:text="Total feed for weanling pig"
                     android:id="@+id/textView506"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -3216,10 +3216,9 @@
                     android:textSize="14dp"
                     android:fontFamily="sans-serif-light"
                     android:textColor="#000000"
-                    android:layout_toLeftOf="@+id/RB44"
                     android:layout_marginLeft="10dp"
                     android:textStyle="bold"
-                    android:layout_marginRight="10dp" />
+                    android:layout_toLeftOf="@+id/RB44" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -3299,7 +3298,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Average feed for nursing pigs"
+                    android:text="Average feed for weanling pigs"
                     android:id="@+id/textView511"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -3385,7 +3384,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Total feed for nursing pig 1"
+                    android:text="Total feed for weanling pig 1"
                     android:id="@+id/textView516"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -3393,10 +3392,8 @@
                     android:textSize="14dp"
                     android:fontFamily="sans-serif-light"
                     android:textColor="#000000"
-                    android:layout_toLeftOf="@+id/RB46"
                     android:layout_marginLeft="10dp"
-                    android:textStyle="bold"
-                    android:layout_marginRight="10dp" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -3562,7 +3559,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Total feed for nursing pig 2"
+                    android:text="Total feed for weanling pig 2"
                     android:id="@+id/textView526"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -4274,7 +4271,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Total medicine cost"
+                    android:text="Total drug cost"
                     android:id="@+id/textView566"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -4364,7 +4361,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Average medicine cost per head"
+                    android:text="Average drug cost per head"
                     android:id="@+id/textView571"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"

@@ -12,12 +12,12 @@
         <item >Performance Data</item>
         <item >Population Structure</item>
         <item >Feed Consumption</item>
-        <item >Medicine</item>
+        <item >Drug List</item>
         <item >Sows Drug Cost</item>
         <item >Pig Drug Cost</item>
-        <item >Injection</item>
+        <item >Injection List</item>
         <item >Injection Cost</item>
-        <item >Vaccine</item>
+        <item >Vaccine List</item>
         <item >Vaccine Cost</item>
         <item >Report</item>
     </string-array>
