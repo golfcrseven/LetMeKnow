@@ -1136,37 +1136,37 @@ public class ReportFragment extends Fragment {
         S31 = S21+S22+S23+S24+S25;
         S32 = S28+S29+S30+S31;
 
-        rb43.setText(hc.df1((Q32/1000)));
-        RC43.setText(hc.df1((R32/1000)));
-        RD43.setText(hc.df1((S32/1000)));
+        rb43.setText(hc.df1((Q32)));
+        RC43.setText(hc.df1((R32)));
+        RD43.setText(hc.df1((S32)));
 
-        rb44.setText(hc.df1((Q28/1000)));
-        RC44.setText(hc.df1((R28/1000)));
-        RD44.setText(hc.df1((S28/1000)));
+        rb44.setText(hc.df1((Q28)));
+        RC44.setText(hc.df1((R28)));
+        RD44.setText(hc.df1((S28)));
 
         rb45.setText(hc.df1(M28));
         RC45.setText(hc.df1(N28));
         RD45.setText(hc.df1(O28));
 
-        rb46.setText(hc.df1((Q26/1000)));
-        RC46.setText(hc.df1((R26/1000)));
-        RD46.setText(hc.df1((S26/1000)));
+        rb46.setText(hc.df1((Q26)));
+        RC46.setText(hc.df1((R26)));
+        RD46.setText(hc.df1((S26)));
 
         rb47.setText(hc.df1(M26));
         RC47.setText(hc.df1(N26));
         RD47.setText(hc.df1(O26));
 
-        rb48.setText(hc.df1((Q27/1000)));
-        RC48.setText(hc.df1((R27/1000)));
-        RD48.setText(hc.df1((S27/1000)));
+        rb48.setText(hc.df1((Q27)));
+        RC48.setText(hc.df1((R27)));
+        RD48.setText(hc.df1((S27)));
 
         rb49.setText(hc.df1(M27));
         RC49.setText(hc.df1(N27));
         RD49.setText(hc.df1(O27));
 
-        rb50.setText(hc.df1((Q29/1000)));
-        RC50.setText(hc.df1((R29/1000)));
-        RD50.setText(hc.df1((S29/1000)));
+        rb50.setText(hc.df1((Q29)));
+        RC50.setText(hc.df1((R29)));
+        RD50.setText(hc.df1((S29)));
 
         rb51.setText(hc.df1(M29));
         RC51.setText(hc.df1(N29));
