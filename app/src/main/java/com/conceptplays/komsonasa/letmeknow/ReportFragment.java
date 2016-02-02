@@ -263,10 +263,10 @@ public class ReportFragment extends Fragment {
         DecimalFormat df0 = new DecimalFormat("#,###,###");
 
         double dataB5 = num1;
-        double dataB6 = (float) ((num2/(dataB5/18))*100.0);
-        double dataB7 = (float) (100.0*(num3*12)/dataB5);
+        double dataB6 = num2;//(float) ((num2/(dataB5/18))*100.0);
+        double dataB7 = num3;//(float) (100.0*(num3*12)/dataB5);
         double dataB9 = num5;
-        Integer dataB8 = (int) Math.ceil(num4*100/(100-dataB9));
+        Integer dataB8 = (int) Math.ceil(num4); //(int) Math.ceil(num4*100/(100-dataB9));
         double dataB10 = num6;
         double dataB11 = num7;
 
@@ -356,37 +356,37 @@ public class ReportFragment extends Fragment {
         I29 = (F23+F24+F25)*E29;
         I30 = I28+I29;
 
-        rb21.setText(hc.df1((G30/1000)));
-        RC21.setText(hc.df1((H30/1000)));
-        RD21.setText(hc.df1((I30/1000)));
+        rb21.setText(hc.df1((G30)));
+        RC21.setText(hc.df1((H30)));
+        RD21.setText(hc.df1((I30)));
 
-        rb22.setText(hc.df1((G28/1000)));
-        RC22.setText(hc.df1((H28/1000)));
-        RD22.setText(hc.df1((I28/1000)));
+        rb22.setText(hc.df1((G28)));
+        RC22.setText(hc.df1((H28)));
+        RD22.setText(hc.df1((I28)));
 
         rb23.setText(hc.df1(C28));
         RC23.setText(hc.df1(D28));
         RD23.setText(hc.df1(E28));
 
-        rb24.setText(hc.df1((G26/1000)));
-        RC24.setText(hc.df1((H26/1000)));
-        RD24.setText(hc.df1((I26/1000)));
+        rb24.setText(hc.df1((G26)));
+        RC24.setText(hc.df1((H26)));
+        RD24.setText(hc.df1((I26)));
 
         rb25.setText(hc.df1(C26));
         RC25.setText(hc.df1(D26));
         RD25.setText(hc.df1(E26));
 
-        rb26.setText(hc.df1((G27/1000)));
-        RC26.setText(hc.df1((H27/1000)));
-        RD26.setText(hc.df1((I27/1000)));
+        rb26.setText(hc.df1((G27)));
+        RC26.setText(hc.df1((H27)));
+        RD26.setText(hc.df1((I27)));
 
         rb27.setText(hc.df1(C27));
         RC27.setText(hc.df1(D27));
         RD27.setText(hc.df1(E27));
 
-        rb28.setText(hc.df1((G29/1000)));
-        RC28.setText(hc.df1((H29/1000)));
-        RD28.setText(hc.df1((I29/1000)));
+        rb28.setText(hc.df1((G29)));
+        RC28.setText(hc.df1((H29)));
+        RD28.setText(hc.df1((I29)));
 
         rb29.setText(hc.df1(C29));
         RC29.setText(hc.df1(D29));
@@ -411,9 +411,9 @@ public class ReportFragment extends Fragment {
             Double costMonth = (hc.string2double9df(TotalMonth.get(position))*hc.string2double(drugList.get(1)));//total*price
             TotalCostMonth = TotalCostMonth+costMonth;
         }
-        RC30.setText(hc.df2((TotalCost/1000)));
+        RC30.setText(hc.df2((TotalCost)));
 
-        RD30.setText(hc.df2((TotalCostMonth/1000)));
+        RD30.setText(hc.df2((TotalCostMonth)));
 
         rb31.setText(hc.df2(TotalCostSow));
 
@@ -439,15 +439,15 @@ public class ReportFragment extends Fragment {
         }
 
 
-        RC64.setText(hc.df2((TotalInjectionCost/1000)));
-        Double rd64 = (TotalInjectionCost/1000)/7*30;
+        RC64.setText(hc.df2((TotalInjectionCost)));
+        Double rd64 = (TotalInjectionCost)/7*30;
         RD64.setText(hc.df2(rd64));
 
-        RC32.setText(hc.df2((TotalInjectionPigletCost/1000)));
-        RD32.setText(hc.df2((TotalInjectionPigletCost/1000)/7*30));
-        rb33.setText(hc.df2((TotalInjectionPigletCost/1000)*22*1000/pB3));
+        RC32.setText(hc.df2((TotalInjectionPigletCost)));
+        RD32.setText(hc.df2((TotalInjectionPigletCost)/7*30));
+        rb33.setText(hc.df2((TotalInjectionPigletCost)*22*1000/pB3));
 
-        Double valrc58 = (TotalInjectionCost/1000) - (TotalInjectionPigletCost/1000);
+        Double valrc58 = (TotalInjectionCost) - (TotalInjectionPigletCost);
         RC58.setText(hc.df2(valrc58));
         RD58.setText(hc.df2(valrc58/7*30));
         rb59.setText(hc.df2(valrc58*22*1000/(pB30+pB36+pB44)));
@@ -469,16 +469,16 @@ public class ReportFragment extends Fragment {
             TotalVaccienPiglet = TotalVaccienPiglet+costPiglet;
         }
 
-        RC65.setText(hc.df2((TotalVaccineCost/1000)));
-        Double rd65 = (TotalVaccineCost/1000)/7*30;
+        RC65.setText(hc.df2((TotalVaccineCost)));
+        Double rd65 = (TotalVaccineCost)/7*30;
         RD65.setText(hc.df2(rd65));
 
-        RC34.setText(hc.df2((TotalVaccienPiglet/1000)));
-        Double valrd34 = (TotalVaccienPiglet/1000)/7*30;
+        RC34.setText(hc.df2((TotalVaccienPiglet)));
+        Double valrd34 = (TotalVaccienPiglet)/7*30;
         RD34.setText(hc.df2(valrd34));
-        rb35.setText(hc.df2((TotalVaccienPiglet/1000)*22*1000/pB3));
+        rb35.setText(hc.df2((TotalVaccienPiglet)*22*1000/pB3));
 
-        Double valrc60 = (TotalVaccineCost/1000)-(TotalVaccienPiglet/1000);
+        Double valrc60 = (TotalVaccineCost)-(TotalVaccienPiglet);
         RC60.setText(hc.df2(valrc60));
         RD60.setText(hc.df2(valrc60/7*30));
         rb61.setText(hc.df2(valrc60*22*1000/(pB30+pB36+pB44)));
@@ -518,12 +518,12 @@ public class ReportFragment extends Fragment {
             Double costhead = (hc.string2double9df(pigDrugHeadTotal.get(position))*hc.string2double(drugList.get(1)));//total*price
             TotalPigDrugHead = TotalPigDrugHead+costhead;
         }
-        RC56.setText(hc.df2(TotalPigDrugCostWeek/1000));
-        RD56.setText(hc.df2(TotalPigDrugCost/1000));
+        RC56.setText(hc.df2(TotalPigDrugCostWeek));
+        RD56.setText(hc.df2(TotalPigDrugCost));
         rb57.setText(hc.df2(TotalPigDrugHead));
 
-        RC63.setText(hc.df2((TotalCost/1000)+(TotalPigDrugCostWeek/1000)));
-        RD63.setText(hc.df2((TotalCostMonth/1000)+(TotalPigDrugCost/1000)));
+        RC63.setText(hc.df2((TotalCost)+(TotalPigDrugCostWeek)));
+        RD63.setText(hc.df2((TotalCostMonth)+(TotalPigDrugCost)));
     }
     public void getPopB(){
         ArrayList ar = pop.getB(this.db);
@@ -653,104 +653,104 @@ public class ReportFragment extends Fragment {
 
     public void getFCH(Double usage){
 
-        sumVal.set(0,usage*((C4*7)*pB9)/1000);
-        sumVal.set(1,usage*((C5*7)*pB10)/1000);
-        sumVal.set(2,usage*((C6*7)*pB11)/1000);
-        sumVal.set(3,usage*((C7*7)*pB12)/1000);
-        sumVal.set(4,usage*((C8*7)*pB13)/1000);
-        sumVal.set(5,usage*((C9*7)*pB14)/1000);
-        sumVal.set(6,usage*((C10*7)*pB15)/1000);
-        sumVal.set(7,usage*((C11*7)*pB16)/1000);
-        sumVal.set(8,usage*((C12*7)*pB17)/1000);
-        sumVal.set(9,usage*((C13*7)*pB18)/1000);
-        sumVal.set(10,usage*((C14*7)*pB19)/1000);
-        sumVal.set(11,usage*((C15*7)*pB20)/1000);
-        sumVal.set(12,usage*((C16*7)*pB21)/1000);
-        sumVal.set(13,usage*((C17*7)*pB22)/1000);
-        sumVal.set(14,usage*((C18*7)*pB23)/1000);
-        sumVal.set(15,usage*((C19*7)*pB24)/1000);
-        sumVal.set(16,usage*((C20*7)*pB25)/1000);
-        sumVal.set(17,usage*((C21*7)*pB26)/1000);
-        sumVal.set(18,usage*((C22*7)*pB26)/1000);
-        sumVal.set(19,usage*((C23*7)*pB5)/1000);
-        sumVal.set(20,usage*((C24*7)*pB5)/1000);
-        sumVal.set(21,usage*((C25*7)*pB5)/1000);
+        sumVal.set(0,usage*((C4*7)*pB9));
+        sumVal.set(1,usage*((C5*7)*pB10));
+        sumVal.set(2,usage*((C6*7)*pB11));
+        sumVal.set(3,usage*((C7*7)*pB12));
+        sumVal.set(4,usage*((C8*7)*pB13));
+        sumVal.set(5,usage*((C9*7)*pB14));
+        sumVal.set(6,usage*((C10*7)*pB15));
+        sumVal.set(7,usage*((C11*7)*pB16));
+        sumVal.set(8,usage*((C12*7)*pB17));
+        sumVal.set(9,usage*((C13*7)*pB18));
+        sumVal.set(10,usage*((C14*7)*pB19));
+        sumVal.set(11,usage*((C15*7)*pB20));
+        sumVal.set(12,usage*((C16*7)*pB21));
+        sumVal.set(13,usage*((C17*7)*pB22));
+        sumVal.set(14,usage*((C18*7)*pB23));
+        sumVal.set(15,usage*((C19*7)*pB24));
+        sumVal.set(16,usage*((C20*7)*pB25));
+        sumVal.set(17,usage*((C21*7)*pB26));
+        sumVal.set(18,usage*((C22*7)*pB26));
+        sumVal.set(19,usage*((C23*7)*pB5));
+        sumVal.set(20,usage*((C24*7)*pB5));
+        sumVal.set(21,usage*((C25*7)*pB5));
     }
     public void getFCHMONTH(Double usage){
 
-        sumValMonth.set(0,usage*((C4*30)*pB9)/1000);
-        sumValMonth.set(1,usage*((C5*30)*pB10)/1000);
-        sumValMonth.set(2,usage*((C6*30)*pB11)/1000);
-        sumValMonth.set(3,usage*((C7*30)*pB12)/1000);
-        sumValMonth.set(4,usage*((C8*30)*pB13)/1000);
-        sumValMonth.set(5,usage*((C9*30)*pB14)/1000);
-        sumValMonth.set(6,usage*((C10*30)*pB15)/1000);
-        sumValMonth.set(7,usage*((C11*30)*pB16)/1000);
-        sumValMonth.set(8,usage*((C12*30)*pB17)/1000);
-        sumValMonth.set(9,usage*((C13*30)*pB18)/1000);
-        sumValMonth.set(10,usage*((C14*30)*pB19)/1000);
-        sumValMonth.set(11,usage*((C15*30)*pB20)/1000);
-        sumValMonth.set(12,usage*((C16*30)*pB21)/1000);
-        sumValMonth.set(13,usage*((C17*30)*pB22)/1000);
-        sumValMonth.set(14,usage*((C18*30)*pB23)/1000);
-        sumValMonth.set(15,usage*((C19*30)*pB24)/1000);
-        sumValMonth.set(16,usage*((C20*30)*pB25)/1000);
-        sumValMonth.set(17,usage*((C21*30)*pB26)/1000);
-        sumValMonth.set(18,usage*((C22*30)*pB26)/1000);
-        sumValMonth.set(19,usage*((C23*30)*pB5)/1000);
-        sumValMonth.set(20,usage*((C24*30)*pB5)/1000);
-        sumValMonth.set(21,usage*((C25*30)*pB5)/1000);
+        sumValMonth.set(0,usage*((C4*30)*pB9));
+        sumValMonth.set(1,usage*((C5*30)*pB10));
+        sumValMonth.set(2,usage*((C6*30)*pB11));
+        sumValMonth.set(3,usage*((C7*30)*pB12));
+        sumValMonth.set(4,usage*((C8*30)*pB13));
+        sumValMonth.set(5,usage*((C9*30)*pB14));
+        sumValMonth.set(6,usage*((C10*30)*pB15));
+        sumValMonth.set(7,usage*((C11*30)*pB16));
+        sumValMonth.set(8,usage*((C12*30)*pB17));
+        sumValMonth.set(9,usage*((C13*30)*pB18));
+        sumValMonth.set(10,usage*((C14*30)*pB19));
+        sumValMonth.set(11,usage*((C15*30)*pB20));
+        sumValMonth.set(12,usage*((C16*30)*pB21));
+        sumValMonth.set(13,usage*((C17*30)*pB22));
+        sumValMonth.set(14,usage*((C18*30)*pB23));
+        sumValMonth.set(15,usage*((C19*30)*pB24));
+        sumValMonth.set(16,usage*((C20*30)*pB25));
+        sumValMonth.set(17,usage*((C21*30)*pB26));
+        sumValMonth.set(18,usage*((C22*30)*pB26));
+        sumValMonth.set(19,usage*((C23*30)*pB5));
+        sumValMonth.set(20,usage*((C24*30)*pB5));
+        sumValMonth.set(21,usage*((C25*30)*pB5));
     }
     public void getFCHPIGDRUGweek(Double usage){
 
-        sumValPigDrug.set(0,usage*((M4*7)*pB37)/1000);
-        sumValPigDrug.set(1,usage*((M5*7)*pB38)/1000);
-        sumValPigDrug.set(2,usage*((M6*7)*pB39)/1000);
-        sumValPigDrug.set(3,usage*((M7*7)*pB40)/1000);
-        sumValPigDrug.set(4,usage*((M8*7)*pB41)/1000);
-        sumValPigDrug.set(5,usage*((M9*7)*pB42)/1000);
-        sumValPigDrug.set(6,usage*((M10*7)*pB43)/1000);
-        sumValPigDrug.set(7,usage*((M11*7)*pB44)/1000);
-        sumValPigDrug.set(8,usage*((M12*7)*pB45)/1000);
-        sumValPigDrug.set(9,usage*((M13*7)*pB46)/1000);
-        sumValPigDrug.set(10,usage*((M14*7)*pB47)/1000);
-        sumValPigDrug.set(11,usage*((M15*7)*pB48)/1000);
-        sumValPigDrug.set(12,usage*((M16*7)*pB49)/1000);
-        sumValPigDrug.set(13,usage*((M17*7)*pB50)/1000);
-        sumValPigDrug.set(14,usage*((M18*7)*pB51)/1000);
-        sumValPigDrug.set(15,usage*((M19*7)*pB52)/1000);
-        sumValPigDrug.set(16,usage*((M20*7)*pB53)/1000);
-        sumValPigDrug.set(17,usage*((M21*7)*pB54)/1000);
-        sumValPigDrug.set(18,usage*((M22*7)*pB55)/1000);
-        sumValPigDrug.set(19,usage*((M23*7)*pB56)/1000);
-        sumValPigDrug.set(20,usage*((M24*7)*pB57)/1000);
-        sumValPigDrug.set(21,usage*((M25*7)*pB58)/1000);
+        sumValPigDrug.set(0,usage*((M4*7)*pB37));
+        sumValPigDrug.set(1,usage*((M5*7)*pB38));
+        sumValPigDrug.set(2,usage*((M6*7)*pB39));
+        sumValPigDrug.set(3,usage*((M7*7)*pB40));
+        sumValPigDrug.set(4,usage*((M8*7)*pB41));
+        sumValPigDrug.set(5,usage*((M9*7)*pB42));
+        sumValPigDrug.set(6,usage*((M10*7)*pB43));
+        sumValPigDrug.set(7,usage*((M11*7)*pB44));
+        sumValPigDrug.set(8,usage*((M12*7)*pB45));
+        sumValPigDrug.set(9,usage*((M13*7)*pB46));
+        sumValPigDrug.set(10,usage*((M14*7)*pB47));
+        sumValPigDrug.set(11,usage*((M15*7)*pB48));
+        sumValPigDrug.set(12,usage*((M16*7)*pB49));
+        sumValPigDrug.set(13,usage*((M17*7)*pB50));
+        sumValPigDrug.set(14,usage*((M18*7)*pB51));
+        sumValPigDrug.set(15,usage*((M19*7)*pB52));
+        sumValPigDrug.set(16,usage*((M20*7)*pB53));
+        sumValPigDrug.set(17,usage*((M21*7)*pB54));
+        sumValPigDrug.set(18,usage*((M22*7)*pB55));
+        sumValPigDrug.set(19,usage*((M23*7)*pB56));
+        sumValPigDrug.set(20,usage*((M24*7)*pB57));
+        sumValPigDrug.set(21,usage*((M25*7)*pB58));
     }
 
     public void getFCHPIGDRUG(Double usage){
 
-        sumValPigDrug.set(0,usage*((M4*30)*pB37)/1000);
-        sumValPigDrug.set(1,usage*((M5*30)*pB38)/1000);
-        sumValPigDrug.set(2,usage*((M6*30)*pB39)/1000);
-        sumValPigDrug.set(3,usage*((M7*30)*pB40)/1000);
-        sumValPigDrug.set(4,usage*((M8*30)*pB41)/1000);
-        sumValPigDrug.set(5,usage*((M9*30)*pB42)/1000);
-        sumValPigDrug.set(6,usage*((M10*30)*pB43)/1000);
-        sumValPigDrug.set(7,usage*((M11*30)*pB44)/1000);
-        sumValPigDrug.set(8,usage*((M12*30)*pB45)/1000);
-        sumValPigDrug.set(9,usage*((M13*30)*pB46)/1000);
-        sumValPigDrug.set(10,usage*((M14*30)*pB47)/1000);
-        sumValPigDrug.set(11,usage*((M15*30)*pB48)/1000);
-        sumValPigDrug.set(12,usage*((M16*30)*pB49)/1000);
-        sumValPigDrug.set(13,usage*((M17*30)*pB50)/1000);
-        sumValPigDrug.set(14,usage*((M18*30)*pB51)/1000);
-        sumValPigDrug.set(15,usage*((M19*30)*pB52)/1000);
-        sumValPigDrug.set(16,usage*((M20*30)*pB53)/1000);
-        sumValPigDrug.set(17,usage*((M21*30)*pB54)/1000);
-        sumValPigDrug.set(18,usage*((M22*30)*pB55)/1000);
-        sumValPigDrug.set(19,usage*((M23*30)*pB56)/1000);
-        sumValPigDrug.set(20,usage*((M24*30)*pB57)/1000);
-        sumValPigDrug.set(21,usage*((M25*30)*pB58)/1000);
+        sumValPigDrug.set(0,usage*((M4*30)*pB37));
+        sumValPigDrug.set(1,usage*((M5*30)*pB38));
+        sumValPigDrug.set(2,usage*((M6*30)*pB39));
+        sumValPigDrug.set(3,usage*((M7*30)*pB40));
+        sumValPigDrug.set(4,usage*((M8*30)*pB41));
+        sumValPigDrug.set(5,usage*((M9*30)*pB42));
+        sumValPigDrug.set(6,usage*((M10*30)*pB43));
+        sumValPigDrug.set(7,usage*((M11*30)*pB44));
+        sumValPigDrug.set(8,usage*((M12*30)*pB45));
+        sumValPigDrug.set(9,usage*((M13*30)*pB46));
+        sumValPigDrug.set(10,usage*((M14*30)*pB47));
+        sumValPigDrug.set(11,usage*((M15*30)*pB48));
+        sumValPigDrug.set(12,usage*((M16*30)*pB49));
+        sumValPigDrug.set(13,usage*((M17*30)*pB50));
+        sumValPigDrug.set(14,usage*((M18*30)*pB51));
+        sumValPigDrug.set(15,usage*((M19*30)*pB52));
+        sumValPigDrug.set(16,usage*((M20*30)*pB53));
+        sumValPigDrug.set(17,usage*((M21*30)*pB54));
+        sumValPigDrug.set(18,usage*((M22*30)*pB55));
+        sumValPigDrug.set(19,usage*((M23*30)*pB56));
+        sumValPigDrug.set(20,usage*((M24*30)*pB57));
+        sumValPigDrug.set(21,usage*((M25*30)*pB58));
     }
 
 

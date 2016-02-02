@@ -300,13 +300,13 @@ public class FeedSowsFragment extends  android.support.v4.app.Fragment {
 
     public  void setPopData(){
 
-        Float dataB5 = num1;
-        Float dataB6 = (Float) ((num2/(dataB5/18))*100);
-        Float dataB7 = (Float) (100*(num3*12)/dataB5);
-        Float dataB9 = num5;
-        Integer dataB8 = (int) Math.ceil(num4*100/(100-dataB9));
-        Float dataB10 = num6;
-        Float dataB11 = num7;
+        float dataB5 = num1;
+        float dataB6 = num2;//(float) ((num2/(dataB5/18))*100.0);
+        float dataB7 = num3;//(float) (100.0*(num3*12)/dataB5);
+        float dataB9 = num5;
+        Integer dataB8 = (int) Math.ceil(num4); //(int) Math.ceil(num4*100/(100-dataB9));
+        float dataB10 = num6;
+        float dataB11 = num7;
 
         B3 = dataB5;
         B5 = (Float) (B3/(16/(dataB6/100)+3));
@@ -399,11 +399,11 @@ public class FeedSowsFragment extends  android.support.v4.app.Fragment {
         cursor.close();
         db.close();
 
-        Float dataB5 = num1;
-        Float dataB6 = (Float) ((num2/(dataB5/18))*100);
-        Float dataB7 = (float) (100*(num3*12)/dataB5);
+        float dataB5 = num1;
+        float dataB6 = num2;//(float) ((num2/(dataB5/18))*100.0);
+        float dataB7 = num3;//(float) (100.0*(num3*12)/dataB5);
         float dataB9 = num5;
-        Integer dataB8 = (int) Math.ceil(num4*100/(100-dataB9));
+        Integer dataB8 = (int) Math.ceil(num4); //(int) Math.ceil(num4*100/(100-dataB9));
         float dataB10 = num6;
         float dataB11 = num7;
 

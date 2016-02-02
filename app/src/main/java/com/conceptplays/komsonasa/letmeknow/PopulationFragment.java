@@ -145,10 +145,10 @@ public class PopulationFragment extends Fragment {
         DecimalFormat df0 = new DecimalFormat("#,###,###");
 
         float dataB5 = num1;
-        float dataB6 = (float) ((num2/(dataB5/18))*100.0);
-        float dataB7 = (float) (100.0*(num3*12)/dataB5);
+        float dataB6 = num2;//(float) ((num2/(dataB5/18))*100.0);
+        float dataB7 = num3;//(float) (100.0*(num3*12)/dataB5);
         float dataB9 = num5;
-        Integer dataB8 = (int) Math.ceil(num4*100/(100-dataB9));
+        Integer dataB8 = (int) Math.ceil(num4); //(int) Math.ceil(num4*100/(100-dataB9));
         float dataB10 = num6;
         float dataB11 = num7;
 
