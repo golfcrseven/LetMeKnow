@@ -1,0 +1,256 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarStyle="insideOverlay"
+    android:background="@android:color/white"
+    android:id="@+id/scrollViewID"
+    tools:context=".ParkingActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+
+        <TextView
+            android:text="Performance Data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/textView7"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Number of sow : (sows)"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16dp"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/edtNumSow"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            style="Theme.DeviceDefault"
+            android:editable="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Farrowing sow per week : (sows)"
+            android:id="@+id/textView9"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@+id/edtNumSow"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edtFarrowSow"
+            android:layout_alignParentStart="false"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_alignRight="@+id/edtNumRSow"
+            android:layout_alignEnd="@+id/edtNumSow"
+            style="@android:style/Theme.DeviceDefault"
+            tools:ignore="UnknownId" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Replacement gilt per month : (gilts)"
+            android:id="@+id/textView10"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/edtFarrowSow"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/edtFarrowSow"
+            android:layout_alignEnd="@+id/edtFarrowSow" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/edtReplc"
+            android:layout_alignParentStart="false"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/edtFarrowSow"
+            android:layout_alignEnd="@+id/edtFarrowSow"
+            android:layout_marginTop="5dp"
+            style="@android:style/Theme.DeviceDefault" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Pigs weaned per litter : (pigs)"
+            android:id="@+id/edtPigsWeaned"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/edtReplc"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edtPigsWeanedLitter"
+            android:layout_alignParentStart="false"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/edtPigsWeaned"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_alignRight="@+id/edtReplc"
+            android:layout_alignEnd="@+id/edtReplc"
+            style="@android:style/Theme.DeviceDefault" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Pre-weaned piglet death rate : (%)"
+            android:id="@+id/textView12"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@+id/edtPigsWeanedLitter"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edtPreWeaned"
+            android:layout_alignParentStart="false"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_alignRight="@+id/edtPigsWeanedLitter"
+            android:layout_alignEnd="@+id/edtPigsWeanedLitter"
+            style="@android:style/Theme.DeviceDefault" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Weanling pigs death rate (4-9 wk) : (%)"
+            android:id="@+id/textView13"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@+id/edtPreWeaned"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edtWeanling"
+            android:layout_alignParentStart="false"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_alignRight="@+id/edtPreWeaned"
+            android:layout_alignEnd="@+id/edtPreWeaned"
+            style="@android:style/Theme.DeviceDefault" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Grower pigs death rate (4-9 wk) : (%)"
+            android:id="@+id/textView14"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@+id/edtWeanling"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edtGrower"
+            android:layout_alignParentStart="false"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/textView14"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_alignRight="@+id/edtWeanling"
+            android:layout_alignEnd="@+id/edtWeanling"
+            style="@android:style/Theme.DeviceDefault" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Confirm"
+            android:id="@+id/btnConfirm"
+            android:background="@drawable/btn"
+            android:fontFamily="sans-serif-light"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="49dp"
+            android:layout_below="@+id/edtGrower"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</ScrollView>

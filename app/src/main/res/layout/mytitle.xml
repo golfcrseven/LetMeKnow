@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/list_background" >
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:id="@+id/btnSlideMenu"
+        android:src="@drawable/ic_drawer"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myTitleTxt"
+        android:text = "Title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textColor="@color/list_item_title"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical|left"
+        android:layout_toRightOf="@+id/btnSlideMenu"
+        android:layout_toStartOf="@+id/btnAddMedicine"
+        android:layout_toLeftOf="@+id/btnAddMedicine" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddMedicine"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="+"
+        android:textSize="40dp"
+        android:background="@android:color/transparent"
+        android:textColor="#ffcccccc"
+        android:enabled="true"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/btnMenuConfig"
+        android:textSize="40dp"
+        android:background="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:textColor="@android:color/darker_gray"
+        android:layout_alignTop="@+id/btnSlideMenu"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

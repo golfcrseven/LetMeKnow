@@ -1,0 +1,3084 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarStyle="insideOverlay"
+    android:background="@android:color/white"
+    android:id="@+id/scrollViewID">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:background="@android:color/white"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:id="@+id/ly_ipw">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:weightSum="1"
+            android:gravity="center_vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Replacement gilts"
+                    android:id="@+id/textView282"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="1"
+                    android:id="@+id/textView283"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignTop="@+id/textView282"
+                    android:layout_centerHorizontal="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD5"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD5"
+                    android:enabled="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:editable="false"
+                    android:focusable="false" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD5"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD6"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD6"
+                    android:enabled="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:editable="false"
+                    android:focusable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="2"
+                    android:id="@+id/textView286"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD6"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout128ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD7"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD7"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="3"
+                    android:id="@+id/textView287"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD7"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout129ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout128ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD8"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD8"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="4"
+                    android:id="@+id/textView289"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignBaseline="@+id/edtD8"
+                    android:layout_alignBottom="@+id/edtD8"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD8"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout130ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout129ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD9"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD9"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="5"
+                    android:id="@+id/textView290"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD9"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout131ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout130ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD10"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD10"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="6"
+                    android:id="@+id/textView292"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD10"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout132ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout131ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD11"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD11"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="7"
+                    android:id="@+id/textView293"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD11"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout133ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout132ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD12"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD12"
+                    android:layout_toStartOf="@+id/chkD12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="8"
+                    android:id="@+id/textView294"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD12"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout134ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD13"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD13"
+                    android:layout_toStartOf="@+id/chkD13" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="0"
+                    android:id="@+id/textView295"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD13"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Gestating sows"
+                    android:id="@+id/textView310"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout135ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout134ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD14"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD14"
+                    android:layout_toStartOf="@+id/chkD14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="1"
+                    android:id="@+id/textView296"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD14"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout136ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout135ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD15"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD15"
+                    android:layout_toStartOf="@+id/chkD15" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="2"
+                    android:id="@+id/textView297"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD15"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout137ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout136ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD16"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD16"
+                    android:layout_toStartOf="@+id/chkD16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="3"
+                    android:id="@+id/textView298"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD16"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout138ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout137ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD17"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD17"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="4"
+                    android:id="@+id/textView299"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD17"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout139ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout138ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD18"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD18"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="5"
+                    android:id="@+id/textView300"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD18"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout140ipw"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout139ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD19"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD19"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="6"
+                    android:id="@+id/textView301"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD19"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout140ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/relativeLayout">
+
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtD20"
+                android:layout_weight="0.29"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/chkD20"
+                android:enabled="false"
+                android:editable="false"
+                android:focusable="false"
+                android:textColor="#ff002dff"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="7"
+                android:id="@+id/textView302"
+                android:textSize="14dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical"
+                android:layout_alignBaseline="@+id/chkD20"
+                android:layout_alignBottom="@+id/chkD20"
+                android:layout_centerHorizontal="true" />
+
+            <CheckBox
+                style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkD20"
+                android:checked="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/relativeLayout2">
+
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtD21"
+                android:layout_weight="0.29"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/chkD21"
+                android:enabled="false"
+                android:editable="false"
+                android:focusable="false"
+                android:textColor="#ff002dff"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="8"
+                android:id="@+id/textView303"
+                android:textSize="14dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <CheckBox
+                style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkD21"
+                android:checked="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/relativeLayout3">
+
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtD22"
+                android:layout_weight="0.29"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/chkD22"
+                android:enabled="false"
+                android:editable="false"
+                android:focusable="false"
+                android:textColor="#ff002dff"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="9"
+                android:id="@+id/textView304"
+                android:textSize="14dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <CheckBox
+                style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkD22"
+                android:checked="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/relativeLayout3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/relativeLayout4">
+
+            <EditText
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtD23"
+                android:layout_weight="0.29"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/chkD23"
+                android:enabled="false"
+                android:editable="false"
+                android:focusable="false"
+                android:textColor="#ff002dff"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="10"
+                android:id="@+id/textView305"
+                android:textSize="14dp"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <CheckBox
+                style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkD23"
+                android:checked="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout141"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/relativeLayout4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD24"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD24"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="11"
+                    android:id="@+id/textView307"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD24"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout142"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout141"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD25"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD25"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="12"
+                    android:id="@+id/textView309"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD25"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout143"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout142"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtD26"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD26"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="13"
+                    android:id="@+id/textView308"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD26"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout122"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout142"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD27"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="14"
+                    android:id="@+id/textView311"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD27"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout144"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout142"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText2"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD28"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="15"
+                    android:id="@+id/textView312"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD28"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout145"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout142"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText3"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="16"
+                    android:id="@+id/textView313"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD29"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout146"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/lactating">
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD30"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText4"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD30"
+                    android:layout_toStartOf="@+id/chkD30" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="1"
+                    android:id="@+id/textView314"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Lactating sows"
+                    android:id="@+id/textView315"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout147"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout142"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText5"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD31"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="2"
+                    android:id="@+id/textView316"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD31"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout148"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout142"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText6"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD32"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="3"
+                    android:id="@+id/textView317"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD32"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout149"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout5" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD33"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText7"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD33"
+                    android:layout_toStartOf="@+id/chkD33" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="1"
+                    android:id="@+id/textView318"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Weaned sows"
+                    android:id="@+id/textView319"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout150"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout142"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText8"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD34"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="2"
+                    android:id="@+id/textView320"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD34"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout151"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout6" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD35"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText9"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD35"
+                    android:layout_toStartOf="@+id/chkD35" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="1"
+                    android:id="@+id/textView321"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Piglets"
+                    android:id="@+id/textView322"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout152"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout142"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText10"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD36"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="2"
+                    android:id="@+id/textView323"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD36"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout153"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout142"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText11"
+                    android:layout_weight="0.29"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD37"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="3"
+                    android:id="@+id/textView324"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD37"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout154"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout7" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD38"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText12"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD38"
+                    android:layout_toStartOf="@+id/chkD38" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="4"
+                    android:id="@+id/textView325"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Nursring pigs"
+                    android:id="@+id/textView326"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout155"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout8" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD39"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText13"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD39"
+                    android:layout_toStartOf="@+id/chkD39" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="5"
+                    android:id="@+id/textView327"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout156"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout9" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD40"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText14"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD40"
+                    android:layout_toStartOf="@+id/chkD40" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="6"
+                    android:id="@+id/textView328"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout157"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout10" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD41"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText15"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD41"
+                    android:layout_toStartOf="@+id/chkD41" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="7"
+                    android:id="@+id/textView329"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout158"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout11" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD42"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText16"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD42"
+                    android:layout_toStartOf="@+id/chkD42" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="8"
+                    android:id="@+id/textView330"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout159"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout12" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD43"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText17"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD43"
+                    android:layout_toStartOf="@+id/chkD43" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="9"
+                    android:id="@+id/textView331"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout160"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout13" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD44"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText18"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD44"
+                    android:layout_toStartOf="@+id/chkD44" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="10"
+                    android:id="@+id/textView332"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Starter pigs"
+                    android:id="@+id/textView333"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout161"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout14" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD45"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText19"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD45"
+                    android:layout_toStartOf="@+id/chkD45" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="11"
+                    android:id="@+id/textView334"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout162"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout15" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD46"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText20"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD46"
+                    android:layout_toStartOf="@+id/chkD46" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="12"
+                    android:id="@+id/textView335"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout163"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout16" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD47"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText21"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD47"
+                    android:layout_toStartOf="@+id/chkD47" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="13"
+                    android:id="@+id/textView336"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout164"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout17" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD48"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText22"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignTop="@+id/textView337"
+                    android:layout_toLeftOf="@+id/chkD48"
+                    android:layout_toStartOf="@+id/chkD48" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="14"
+                    android:id="@+id/textView337"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout165"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout18" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD49"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText23"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignTop="@+id/textView338"
+                    android:layout_toLeftOf="@+id/chkD49"
+                    android:layout_toStartOf="@+id/chkD49" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="15"
+                    android:id="@+id/textView338"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout166"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout19" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD50"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText24"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignTop="@+id/textView339"
+                    android:layout_toLeftOf="@+id/chkD50"
+                    android:layout_toStartOf="@+id/chkD50" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="16"
+                    android:id="@+id/textView339"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Growing pigs"
+                    android:id="@+id/textView340"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout167"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout20" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD51"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText25"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignBottom="@+id/textView341"
+                    android:layout_toLeftOf="@+id/chkD51"
+                    android:layout_toStartOf="@+id/chkD51" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="17"
+                    android:id="@+id/textView341"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout168"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout21" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD52"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText26"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignTop="@+id/textView342"
+                    android:layout_toLeftOf="@+id/chkD52"
+                    android:layout_toStartOf="@+id/chkD52" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="18"
+                    android:id="@+id/textView342"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout169"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout22" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD53"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText27"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD53"
+                    android:layout_toStartOf="@+id/chkD53" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="19"
+                    android:id="@+id/textView343"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout170"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout23" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD54"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText28"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignTop="@+id/textView344"
+                    android:layout_toLeftOf="@+id/chkD54"
+                    android:layout_toStartOf="@+id/chkD54" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="20"
+                    android:id="@+id/textView344"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout171"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout24" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD55"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText29"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignBottom="@+id/textView346"
+                    android:layout_toLeftOf="@+id/chkD55" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="21"
+                    android:id="@+id/textView345"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Fattening pigs"
+                    android:id="@+id/textView346"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_alignTop="@+id/chkD55"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout172"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout25" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD56"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText30"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD56" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="22"
+                    android:id="@+id/textView347"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout173"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout26" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD57"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText31"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignTop="@+id/textView348"
+                    android:layout_toLeftOf="@+id/chkD57" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="23"
+                    android:id="@+id/textView348"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout174"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout27" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD58"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="24"
+                    android:id="@+id/textView349"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText32"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD58" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout175"
+            android:weightSum="1"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/linearLayout133ipw"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/relativeLayout28" >
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chkD59"
+                    android:checked="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="25"
+                    android:id="@+id/textView350"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <EditText
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText33"
+                    android:layout_weight="0.29"
+                    android:enabled="false"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="#ff002dff"
+                    android:textSize="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/chkD59" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

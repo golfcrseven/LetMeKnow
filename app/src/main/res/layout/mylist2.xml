@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="@android:color/white"
+    android:id="@+id/layout_list_2">
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/medicineName"
+        android:layout_weight="0.95"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <CheckBox
+        android:layout_width="26dp"
+        android:layout_height="match_parent"
+        android:text="New CheckBox"
+        android:id="@+id/checkBox"
+        android:shadowColor="@android:color/black"
+        style="@style/Theme.AppCompat.Light"
+        android:checked="false"
+        android:layout_weight="0.05" />
+
+</LinearLayout>

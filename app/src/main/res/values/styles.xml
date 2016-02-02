@@ -1,0 +1,69 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:textColor">@color/list_item_title</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:textColor">@color/list_item_title</item>
+    </style>
+
+    <style name="ActionBar" parent="android:Theme.Holo">
+        <item name="android:background">@color/list_background</item>
+        <item name="android:textColor">@color/list_item_title</item>
+    </style>
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">@color/list_background</item>
+        <item name="android:textColor">@color/list_item_title</item>
+    </style>
+
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme"
+        parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionMenuTextColor">@color/list_item_title</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionBarSize">70.0dip</item>
+        <item name="android:editTextStyle">@style/editText</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="android:Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText"
+        parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/list_item_title</item>
+    </style>
+
+    <!-- ActionBar tabs text styles -->
+    <style name="MyActionBarTabText"
+        parent="android:Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@color/list_item_title</item>
+    </style>
+
+
+
+    <style name="editText" parent="@android:style/Widget.Holo.Light.EditText">
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textColorHint">#FFBEBEBE</item>
+    </style>
+
+</resources>

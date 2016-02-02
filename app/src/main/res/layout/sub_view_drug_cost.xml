@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="@android:color/white"
+    android:id="@+id/layout_list">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/linearLayout2pdph"
+            android:layout_below="@+id/textView47">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Drugs"
+                    android:id="@+id/txtViewName"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_toStartOf="@+id/drugName"
+                    android:layout_toLeftOf="@+id/drugName" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tiamulin 10%"
+                    android:id="@+id/drugName"
+                    android:textSize="14dp"
+                    android:textColor="#ff999999"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center_horizontal|left" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout121"
+            android:layout_below="@+id/linearLayout2pdph"
+            android:layout_alignLeft="@+id/linearLayout2pdph"
+            android:layout_alignStart="@+id/linearLayout2pdph"
+            android:layout_marginTop="3dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Price"
+                    android:id="@+id/textView281"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_toStartOf="@+id/drugPrice"
+                    android:layout_toLeftOf="@+id/drugPrice" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tiamulin 10%"
+                    android:id="@+id/drugPrice"
+                    android:textSize="14dp"
+                    android:textColor="#ff999999"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center_horizontal|left" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LinearUsage"
+            android:layout_below="@+id/linearLayout121"
+            android:layout_alignLeft="@+id/linearLayout121"
+            android:layout_alignStart="@+id/linearLayout121"
+            android:layout_marginTop="3dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Usage"
+                    android:id="@+id/textView285"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_toStartOf="@+id/usage"
+                    android:layout_toLeftOf="@+id/usage" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tiamulin 10%"
+                    android:id="@+id/usage"
+                    android:textSize="14dp"
+                    android:textColor="#ff999999"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center_horizontal|left" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout123"
+            android:layout_below="@+id/LinearUsage"
+            android:layout_alignLeft="@+id/LinearUsage"
+            android:layout_alignStart="@+id/LinearUsage"
+            android:layout_marginTop="3dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Total"
+                    android:id="@+id/textView288"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_toStartOf="@+id/total"
+                    android:layout_toLeftOf="@+id/total" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tiamulin 10%"
+                    android:id="@+id/total"
+                    android:textSize="14dp"
+                    android:textColor="#ff999999"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center_horizontal|left" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout124"
+            android:layout_below="@+id/linearLayout123"
+            android:layout_alignLeft="@+id/linearLayout123"
+            android:layout_alignStart="@+id/linearLayout123"
+            android:layout_marginTop="3dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Cost"
+                    android:id="@+id/textView291"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_toStartOf="@+id/cost"
+                    android:layout_toLeftOf="@+id/cost" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tiamulin 10%"
+                    android:id="@+id/cost"
+                    android:textSize="14dp"
+                    android:textColor="#ff999999"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center_horizontal|left" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout125"
+            android:layout_below="@+id/linearLayout124"
+            android:layout_alignLeft="@+id/linearLayout124"
+            android:layout_alignStart="@+id/linearLayout124"
+            android:layout_marginTop="5dp">
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/edtBtnPerSow"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp">
+
+        </RelativeLayout>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:text="Edit"
+            android:id="@+id/edtBtnPerSow"
+            android:layout_alignTop="@+id/linearLayout125"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/list_selector"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:text="Remove"
+            android:id="@+id/btnRemove"
+            android:background="#ffa0201e"
+            android:layout_alignTop="@+id/edtBtnPerSow"
+            android:layout_toRightOf="@+id/edtBtnPerSow"
+            android:layout_toEndOf="@+id/edtBtnPerSow" />
+
+    </RelativeLayout>
+</LinearLayout>

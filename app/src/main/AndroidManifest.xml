@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.conceptplays.komsonasa.letmeknow" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FirstActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FeedSowsPerDayActivity"
+            android:label="@string/title_activity_feed_sows_per_day"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".FeedPigsPerDayActivity"
+            android:label="@string/title_activity_feed_pigs_per_day"
+            android:theme="@style/AppTheme" >
+        </activity>
+
+        <activity
+            android:name=".SowDrugPerSowActivity"
+            android:label="@string/title_activity_sow_drug_per_sow" >
+        </activity>
+
+        <activity
+            android:name=".PigDrugPerHeadActivity"
+            android:label="@string/title_activity_sow_drug_per_sow" >
+        </activity>
+        <activity
+            android:name=".InjectionPerWeekActivity"
+            android:label="@string/title_activity_sow_drug_per_sow" >
+        </activity>
+
+        <activity
+            android:name=".AddDrugsActivity"
+            android:label="@string/title_activity_add_drugs" >
+        </activity>
+
+        <activity
+            android:name=".AddInjectionActivity"
+            android:label="@string/title_activity_add_drugs" >
+        </activity>
+    </application>
+
+</manifest>
