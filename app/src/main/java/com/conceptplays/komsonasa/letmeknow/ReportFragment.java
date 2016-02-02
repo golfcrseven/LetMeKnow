@@ -1172,17 +1172,17 @@ public class ReportFragment extends Fragment {
         RC51.setText(hc.df1(N29));
         RD51.setText(hc.df1(O29));
 
-        rb52.setText(hc.df1((Q30/1000)));
-        RC52.setText(hc.df1((R30/1000)));
-        RD52.setText(hc.df1((S30/1000)));
+        rb52.setText(hc.df1((Q30)));
+        RC52.setText(hc.df1((R30)));
+        RD52.setText(hc.df1((S30)));
 
         rb53.setText(hc.df1(M30));
         RC53.setText(hc.df1(N30));
         RD53.setText(hc.df1(O30));
 
-        rb54.setText(hc.df1((Q31/1000)));
-        RC54.setText(hc.df1((R31/1000)));
-        RD54.setText(hc.df1((S31/1000)));
+        rb54.setText(hc.df1((Q31)));
+        RC54.setText(hc.df1((R31)));
+        RD54.setText(hc.df1((S31)));
 
         rb55.setText(hc.df1(M31));
         RC55.setText(hc.df1(N31));
