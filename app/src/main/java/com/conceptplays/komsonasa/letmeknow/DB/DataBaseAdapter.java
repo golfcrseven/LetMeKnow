@@ -15,7 +15,7 @@ public class DataBaseAdapter {
     private static final String TAG = "DabtabaseAdapter";
     //Database
     private  static final String DB_NAME = "lmk_db"; //Database Name
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
 
     //Table Name
     public static final String INDEX_TABLE = "data_index";
@@ -236,7 +236,7 @@ public class DataBaseAdapter {
             db.execSQL(DB_VACCINE_COST_TABLE_CREATE);
 
             db.execSQL("insert into " +INDEX_TABLE+" (_id,data_g5,data_g6,data_g7,data_g8,data_g9,data_g10,data_g11) values ("+
-            "1,400,16,14,10,9,3,5)");
+            "1,100000,85,20,10,5,3,2)");
 
             db.execSQL("insert into " +FDSOW_TABLE+" (_id,fd_c4,fd_c5,fd_c6,fd_c7,fd_c8,fd_c9,fd_c10,fd_c11,fd_c12,fd_c13,fd_c14,fd_c15,"+
             "fd_c16,fd_c17,fd_c18,fd_c19,fd_c20,fd_c21,fd_c22,fd_c23,fd_c24,fd_c25) values ("+
