@@ -1874,7 +1874,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Nursring pigs"
+                    android:text="Weanling pigs"
                     android:id="@+id/textView326"
                     android:textSize="14dp"
                     android:textColor="@android:color/black"
