@@ -2582,7 +2582,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="pigs"
@@ -2600,7 +2600,7 @@
                     android:layout_marginLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView473"
@@ -2615,7 +2615,7 @@
                     android:layout_toStartOf="@+id/textView472" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC37"
@@ -2630,7 +2630,7 @@
                     android:layout_toStartOf="@+id/textView473" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView475"
@@ -2674,7 +2674,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="pigs"
@@ -2691,7 +2691,7 @@
                     android:layout_marginLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView478"
@@ -2706,7 +2706,7 @@
                     android:layout_toStartOf="@+id/textView477" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC38"
@@ -2721,7 +2721,7 @@
                     android:layout_toStartOf="@+id/textView478" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView480"
@@ -2765,7 +2765,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="pigs"
@@ -2782,7 +2782,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView483"
@@ -2797,7 +2797,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC39"
@@ -2812,7 +2812,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView485"
@@ -2856,7 +2856,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="pigs"
@@ -2873,7 +2873,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView488"
@@ -2888,7 +2888,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC40"
@@ -2903,7 +2903,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView490"
@@ -2947,7 +2947,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="pigs"
@@ -2964,7 +2964,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView493"
@@ -2979,7 +2979,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC41"
@@ -2994,7 +2994,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView495"
@@ -3038,7 +3038,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="pigs"
@@ -3055,7 +3055,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView498"
@@ -3070,7 +3070,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC42"
@@ -3085,7 +3085,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView500"
@@ -3131,7 +3131,7 @@
                     android:paddingLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="tons"
@@ -3221,7 +3221,7 @@
                     android:layout_toLeftOf="@+id/RB44" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="tons"
@@ -3238,7 +3238,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD44"
@@ -3253,7 +3253,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC44"
@@ -3268,7 +3268,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB44"
@@ -3311,7 +3311,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="kg."
@@ -3327,7 +3327,7 @@
                     android:layout_marginLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD45"
@@ -3341,7 +3341,7 @@
                     android:layout_toStartOf="@+id/textView512" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC45"
@@ -3355,7 +3355,7 @@
                     android:layout_toStartOf="@+id/RD45" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB45"
@@ -3396,7 +3396,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="tons"
@@ -3413,7 +3413,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD46"
@@ -3428,7 +3428,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC46"
@@ -3443,7 +3443,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB46"
@@ -3486,7 +3486,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="kg."
@@ -3502,7 +3502,7 @@
                     android:layout_marginLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD47"
@@ -3516,7 +3516,7 @@
                     android:layout_toStartOf="@+id/textView522" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC47"
@@ -3530,7 +3530,7 @@
                     android:layout_toStartOf="@+id/RD47" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB47"
@@ -3573,7 +3573,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="tons"
@@ -3590,7 +3590,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD48"
@@ -3605,7 +3605,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC48"
@@ -3620,7 +3620,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB48"
@@ -3663,7 +3663,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="kg."
@@ -3679,7 +3679,7 @@
                     android:layout_marginLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD49"
@@ -3693,7 +3693,7 @@
                     android:layout_toStartOf="@+id/textView532" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC49"
@@ -3707,7 +3707,7 @@
                     android:layout_toStartOf="@+id/RD49" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB49"
@@ -3750,7 +3750,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="tons"
@@ -3767,7 +3767,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD50"
@@ -3782,7 +3782,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC50"
@@ -3797,7 +3797,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB50"
@@ -3840,7 +3840,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="kg."
@@ -3856,7 +3856,7 @@
                     android:layout_marginLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD51"
@@ -3870,7 +3870,7 @@
                     android:layout_toStartOf="@+id/textView542" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC51"
@@ -3884,7 +3884,7 @@
                     android:layout_toStartOf="@+id/RD51" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB51"
@@ -3927,7 +3927,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="tons"
@@ -3944,7 +3944,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD52"
@@ -3959,7 +3959,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC52"
@@ -3974,7 +3974,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB52"
@@ -4017,7 +4017,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="kg."
@@ -4033,7 +4033,7 @@
                     android:layout_marginLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD53"
@@ -4047,7 +4047,7 @@
                     android:layout_toStartOf="@+id/textView552" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC53"
@@ -4061,7 +4061,7 @@
                     android:layout_toStartOf="@+id/RD53" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB53"
@@ -4104,7 +4104,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="tons"
@@ -4121,7 +4121,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD54"
@@ -4136,7 +4136,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC54"
@@ -4151,7 +4151,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB54"
@@ -4194,7 +4194,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="kg."
@@ -4210,7 +4210,7 @@
                     android:layout_marginLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD55"
@@ -4224,7 +4224,7 @@
                     android:layout_toStartOf="@+id/textView562" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC55"
@@ -4238,7 +4238,7 @@
                     android:layout_toStartOf="@+id/RD55" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB55"
@@ -4285,7 +4285,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="20dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text=" ฿"
@@ -4302,7 +4302,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD56"
@@ -4317,7 +4317,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC56"
@@ -4374,7 +4374,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="20dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text=" ฿"
@@ -4390,7 +4390,7 @@
                     android:layout_marginLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD57"
@@ -4404,7 +4404,7 @@
                     android:layout_toStartOf="@+id/textView572" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC57"
@@ -4418,7 +4418,7 @@
                     android:layout_toStartOf="@+id/RD57" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB57"
@@ -4465,7 +4465,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="20dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text=" ฿"
@@ -4482,7 +4482,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD58"
@@ -4497,7 +4497,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC58"
@@ -4554,7 +4554,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="20dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text=" ฿"
@@ -4570,7 +4570,7 @@
                     android:layout_marginLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD59"
@@ -4584,7 +4584,7 @@
                     android:layout_toStartOf="@+id/textView582" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC59"
@@ -4598,7 +4598,7 @@
                     android:layout_toStartOf="@+id/RD59" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB59"
@@ -4645,7 +4645,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="20dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text=" ฿"
@@ -4662,7 +4662,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD60"
@@ -4677,7 +4677,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC60"
@@ -4734,7 +4734,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="20dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text=" ฿"
@@ -4750,7 +4750,7 @@
                     android:layout_marginLeft="5dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD61"
@@ -4764,7 +4764,7 @@
                     android:layout_toStartOf="@+id/textView592" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC61"
@@ -4778,7 +4778,7 @@
                     android:layout_toStartOf="@+id/RD61" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RB61"
@@ -4910,7 +4910,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="20dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text=" ฿"
@@ -4927,7 +4927,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD63"
@@ -4942,7 +4942,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC63"
@@ -4957,7 +4957,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView605"
@@ -5001,7 +5001,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="20dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text=" ฿"
@@ -5018,7 +5018,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD64"
@@ -5033,7 +5033,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC64"
@@ -5048,7 +5048,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView610"
@@ -5092,7 +5092,7 @@
                     android:layout_marginRight="10dp" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="25dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text=" ฿"
@@ -5105,11 +5105,10 @@
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginLeft="5dp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RD65"
@@ -5124,7 +5123,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/RC65"
@@ -5139,7 +5138,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:id="@+id/textView615"
