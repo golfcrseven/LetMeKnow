@@ -356,37 +356,37 @@ public class ReportFragment extends Fragment {
         I29 = (F23+F24+F25)*E29;
         I30 = I28+I29;
 
-        rb21.setText(hc.df1((G30)));
-        RC21.setText(hc.df1((H30)));
-        RD21.setText(hc.df1((I30)));
+        rb21.setText(hc.df1((G30/1000)));
+        RC21.setText(hc.df1((H30/1000)));
+        RD21.setText(hc.df1((I30/1000)));
 
-        rb22.setText(hc.df1((G28)));
-        RC22.setText(hc.df1((H28)));
-        RD22.setText(hc.df1((I28)));
+        rb22.setText(hc.df1((G28/1000)));
+        RC22.setText(hc.df1((H28/1000)));
+        RD22.setText(hc.df1((I28/1000)));
 
         rb23.setText(hc.df1(C28));
         RC23.setText(hc.df1(D28));
         RD23.setText(hc.df1(E28));
 
-        rb24.setText(hc.df1((G26)));
-        RC24.setText(hc.df1((H26)));
-        RD24.setText(hc.df1((I26)));
+        rb24.setText(hc.df1((G26/1000)));
+        RC24.setText(hc.df1((H26/1000)));
+        RD24.setText(hc.df1((I26/1000)));
 
         rb25.setText(hc.df1(C26));
         RC25.setText(hc.df1(D26));
         RD25.setText(hc.df1(E26));
 
-        rb26.setText(hc.df1((G27)));
-        RC26.setText(hc.df1((H27)));
-        RD26.setText(hc.df1((I27)));
+        rb26.setText(hc.df1((G27/1000)));
+        RC26.setText(hc.df1((H27/1000)));
+        RD26.setText(hc.df1((I27/1000)));
 
         rb27.setText(hc.df1(C27));
         RC27.setText(hc.df1(D27));
         RD27.setText(hc.df1(E27));
 
-        rb28.setText(hc.df1((G29)));
-        RC28.setText(hc.df1((H29)));
-        RD28.setText(hc.df1((I29)));
+        rb28.setText(hc.df1((G29/1000)));
+        RC28.setText(hc.df1((H29/1000)));
+        RD28.setText(hc.df1((I29/1000)));
 
         rb29.setText(hc.df1(C29));
         RC29.setText(hc.df1(D29));
@@ -445,7 +445,7 @@ public class ReportFragment extends Fragment {
 
         RC32.setText(hc.df2((TotalInjectionPigletCost)));
         RD32.setText(hc.df2((TotalInjectionPigletCost)/7*30));
-        rb33.setText(hc.df2((TotalInjectionPigletCost)*22*1000/pB3));
+        rb33.setText(hc.df2((TotalInjectionPigletCost/1000)*22*1000/pB3));
 
         Double valrc58 = (TotalInjectionCost) - (TotalInjectionPigletCost);
         RC58.setText(hc.df2(valrc58));
@@ -476,7 +476,7 @@ public class ReportFragment extends Fragment {
         RC34.setText(hc.df2((TotalVaccienPiglet)));
         Double valrd34 = (TotalVaccienPiglet)/7*30;
         RD34.setText(hc.df2(valrd34));
-        rb35.setText(hc.df2((TotalVaccienPiglet)*22*1000/pB3));
+        rb35.setText(hc.df2((TotalVaccienPiglet/1000)*22*1000/pB3));
 
         Double valrc60 = (TotalVaccineCost)-(TotalVaccienPiglet);
         RC60.setText(hc.df2(valrc60));
