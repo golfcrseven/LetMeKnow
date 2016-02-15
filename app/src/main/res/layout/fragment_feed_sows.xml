@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
-        android:padding="15dp">
+        android:padding="15dp"
+        android:paddingBottom="50dp">
 
 
         <LinearLayout
@@ -35,7 +36,9 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="19dp"
             android:textColor="@android:color/black"
-            android:fontFamily="sans-serif-light" />
+            android:fontFamily="sans-serif-light"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -50,8 +53,9 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginTop="5dp"
-            android:textSize="16dp"
-            android:fontFamily="sans-serif-light" />
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -74,12 +78,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for flushing"
                     android:id="@+id/textView65"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/m26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -87,13 +92,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/m26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -117,12 +123,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for gestating sows"
                     android:id="@+id/textView83"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/c27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -130,13 +137,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/c27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -160,12 +168,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average gesfating feed usage"
                     android:id="@+id/textView91"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/c28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -173,13 +182,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/c28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -203,12 +213,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average lactating feed usage"
                     android:id="@+id/textView97"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/c29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -216,13 +227,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/c29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -234,11 +246,12 @@
             android:id="@+id/textView103"
             android:textColor="@android:color/black"
             android:layout_marginTop="19dp"
-            android:textSize="16dp"
+            android:textSize="18dp"
             android:layout_below="@+id/linearLayout5"
             android:layout_alignLeft="@+id/textView56"
             android:layout_alignStart="@+id/textView56"
-            android:fontFamily="sans-serif-light" />
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -260,12 +273,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for flushing"
                     android:id="@+id/textView106"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/d26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -273,13 +287,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/d26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -303,12 +318,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for gestating sows"
                     android:id="@+id/textView112"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/d27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -316,13 +332,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/d27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -346,12 +363,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average gesfating feed usage"
                     android:id="@+id/textView118"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/d28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -359,13 +377,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/d28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -389,12 +408,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average lactating feed usage"
                     android:id="@+id/textView124"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/d29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -402,13 +422,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/d29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -420,11 +441,12 @@
             android:id="@+id/textView130"
             android:textColor="@android:color/black"
             android:layout_marginTop="21dp"
-            android:textSize="16dp"
+            android:textSize="18dp"
             android:layout_below="@+id/linearLayout9"
             android:layout_alignLeft="@+id/textView103"
             android:layout_alignStart="@+id/textView103"
-            android:fontFamily="sans-serif-light" />
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -446,12 +468,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for flushing"
                     android:id="@+id/textView133"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/e26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -459,13 +482,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/e26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -488,13 +512,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for gestating sows"
                     android:id="@+id/textView139"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/e27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -502,13 +527,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/e27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -531,13 +557,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average gesfating feed usage"
                     android:id="@+id/textView145"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/e28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -545,13 +572,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/e28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -574,13 +602,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average lactating feed usage"
                     android:id="@+id/textView151"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/e29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -588,13 +617,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/e29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -609,7 +639,9 @@
             android:layout_below="@+id/linearLayout13"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:fontFamily="sans-serif-light" />
+            android:fontFamily="sans-serif-light"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -618,12 +650,13 @@
             android:text="- Feed per day"
             android:id="@+id/textView160"
             android:textColor="@android:color/black"
-            android:textSize="16dp"
+            android:textSize="18dp"
             android:layout_marginTop="5dp"
             android:layout_below="@+id/textView157"
             android:layout_alignLeft="@+id/textView130"
             android:layout_alignStart="@+id/textView130"
-            android:fontFamily="sans-serif-light" />
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -645,12 +678,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for flushing"
                     android:id="@+id/textView163"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/g26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -658,13 +692,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/g26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2126ff"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -687,13 +722,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for gestating sows"
                     android:id="@+id/textView165"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/g27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -701,13 +737,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/g27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2126ff"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -730,13 +767,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average gesfating feed usage"
                     android:id="@+id/textView167"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/g28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -744,13 +782,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/g28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff303c"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -773,13 +812,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average lactating feed usage"
                     android:id="@+id/textView169"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/g29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -787,13 +827,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/g29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff303c"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -816,13 +857,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Total feed usage"
                     android:id="@+id/textView171"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/g30"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -830,13 +872,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/g30"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff303c"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -847,12 +890,13 @@
             android:text="- Feed per week"
             android:id="@+id/textView173"
             android:textColor="@android:color/black"
-            android:textSize="16dp"
+            android:textSize="18dp"
             android:layout_marginTop="15dp"
             android:layout_below="@+id/linearLayout18"
             android:layout_alignLeft="@+id/textView160"
             android:layout_alignStart="@+id/textView160"
-            android:fontFamily="sans-serif-light" />
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -874,12 +918,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for flushing"
                     android:id="@+id/textView174"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/h26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -887,13 +932,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/h26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2126ff"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -917,13 +963,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for gestating sows"
                     android:id="@+id/textView176"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/h27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -931,13 +978,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/h27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2126ff"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -961,13 +1009,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average gesfating feed usage"
                     android:id="@+id/textView178"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/h28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -975,13 +1024,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/h28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff303c"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1005,13 +1055,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average lactating feed usage"
                     android:id="@+id/textView180"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/h29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1019,13 +1070,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/h29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff303c"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1049,13 +1101,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Total feed usage"
                     android:id="@+id/textView182"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/h30"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1063,13 +1116,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/h30"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff303c"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1080,12 +1134,13 @@
             android:text="- Feed per month"
             android:id="@+id/textView184"
             android:textColor="@android:color/black"
-            android:textSize="16dp"
+            android:textSize="18dp"
             android:layout_marginTop="15dp"
             android:layout_below="@+id/linearLayout23"
             android:layout_alignLeft="@+id/textView173"
             android:layout_alignStart="@+id/textView173"
-            android:fontFamily="sans-serif-light" />
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -1107,12 +1162,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for flushing"
                     android:id="@+id/textView185"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/i26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1120,13 +1176,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/i26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2126ff"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1150,13 +1207,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average feed for gestating sows"
                     android:id="@+id/textView187"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/i27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1164,13 +1222,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/i27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2126ff"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1194,13 +1253,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average gesfating feed usage"
                     android:id="@+id/textView189"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/i28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1208,13 +1268,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/i28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff303c"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1238,13 +1299,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average lactating feed usage"
                     android:id="@+id/textView191"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/i29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1252,13 +1314,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/i29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff303c"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1282,13 +1345,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Total feed usage"
                     android:id="@+id/textView193"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/i30"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1296,13 +1360,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/i30"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff303c"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 

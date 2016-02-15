@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
-        android:padding="15dp">
+        android:padding="15dp"
+        android:paddingBottom="50dp">
 
 
         <LinearLayout
@@ -35,7 +36,9 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="19dp"
             android:textColor="@android:color/black"
-            android:fontFamily="sans-serif-light" />
+            android:fontFamily="sans-serif-light"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -50,8 +53,9 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginTop="5dp"
-            android:textSize="16dp"
-            android:fontFamily="sans-serif-light" />
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -74,12 +78,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 1 feed usage"
                     android:id="@+id/textView65"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/m26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -87,13 +92,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/m26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -117,12 +123,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 2 feed usage"
                     android:id="@+id/textView74"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/m27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -130,13 +137,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/m27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -160,12 +168,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig usage"
                     android:id="@+id/textView88"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/m28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -173,13 +182,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="28"
                     android:id="@+id/m28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -203,12 +213,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average starter pig feed usage"
                     android:id="@+id/textView94"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/m29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -216,13 +227,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="29"
                     android:id="@+id/m29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -246,12 +258,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average growing pig feed usage"
                     android:id="@+id/textView109"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/m30"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -259,13 +272,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="30"
                     android:id="@+id/m30"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -289,12 +303,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average fattening pig feed usage"
                     android:id="@+id/textView121"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/m31"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -302,13 +317,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="31"
                     android:id="@+id/m31"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -332,12 +348,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Total feed usage"
                     android:id="@+id/textView136"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/m32"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -345,13 +362,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="32"
                     android:id="@+id/m32"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -362,12 +380,13 @@
             android:text="- Feed per week"
             android:id="@+id/textView100"
             android:textColor="@android:color/black"
-            android:textSize="16dp"
+            android:textSize="18dp"
             android:fontFamily="sans-serif-light"
             android:layout_below="@+id/linearLayout61"
             android:layout_alignLeft="@+id/textView56"
             android:layout_alignStart="@+id/textView56"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -389,12 +408,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 1 feed usage"
                     android:id="@+id/textView115"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/n26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -402,13 +422,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="n26"
                     android:id="@+id/n26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -432,12 +453,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 2 feed usage"
                     android:id="@+id/textView142"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/n27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -445,13 +467,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/n27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -475,12 +498,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig usage"
                     android:id="@+id/textView154"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/n28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -488,13 +512,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="28"
                     android:id="@+id/n28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -518,12 +543,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average starter pig feed usage"
                     android:id="@+id/textView166"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/n29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -531,13 +557,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="29"
                     android:id="@+id/n29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -561,12 +588,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average growing pig feed usage"
                     android:id="@+id/textView170"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/n30"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -574,13 +602,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="30"
                     android:id="@+id/n30"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -604,12 +633,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average fattening pig feed usage"
                     android:id="@+id/textView175"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/n31"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -617,13 +647,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="31"
                     android:id="@+id/n31"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -647,12 +678,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Total feed usage"
                     android:id="@+id/textView179"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/n32"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -660,13 +692,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="32"
                     android:id="@+id/n32"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -677,12 +710,13 @@
             android:text="- Feed per month"
             android:id="@+id/textView127"
             android:textColor="@android:color/black"
-            android:textSize="16dp"
+            android:textSize="18dp"
             android:fontFamily="sans-serif-light"
             android:layout_below="@+id/linearLayout68"
             android:layout_alignLeft="@+id/textView100"
             android:layout_alignStart="@+id/textView100"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -704,12 +738,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 1 feed usage"
                     android:id="@+id/textView148"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/o26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -717,13 +752,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="n26"
                     android:id="@+id/o26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -747,12 +783,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 2 feed usage"
                     android:id="@+id/textView168"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/o27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -760,13 +797,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/o27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -790,12 +828,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig usage"
                     android:id="@+id/textView177"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/o28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -803,13 +842,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="28"
                     android:id="@+id/o28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -833,12 +873,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average starter pig feed usage"
                     android:id="@+id/textView183"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/o29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -846,13 +887,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="29"
                     android:id="@+id/o29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -876,12 +918,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average growing pig feed usage"
                     android:id="@+id/textView188"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/o30"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -889,13 +932,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="30"
                     android:id="@+id/o30"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -919,12 +963,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average fattening pig feed usage"
                     android:id="@+id/textView192"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/o31"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -932,13 +977,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="31"
                     android:id="@+id/o31"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -962,12 +1008,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Total feed usage"
                     android:id="@+id/textView226"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/o32"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="50dp"
@@ -975,13 +1022,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="32"
                     android:id="@+id/o32"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff2a8543"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -996,7 +1044,9 @@
             android:layout_below="@+id/linearLayout75"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -1005,12 +1055,13 @@
             android:text="- Feed per day"
             android:id="@+id/textView172"
             android:textColor="@android:color/black"
-            android:textSize="16dp"
+            android:textSize="18dp"
             android:fontFamily="sans-serif-light"
             android:layout_below="@+id/textView164"
             android:layout_alignLeft="@+id/textView127"
             android:layout_alignStart="@+id/textView127"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -1032,12 +1083,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 1 feed usage"
                     android:id="@+id/textView181"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/q26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1045,13 +1097,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="n26"
                     android:id="@+id/q26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff012dd9"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1075,12 +1128,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 2 feed usage"
                     android:id="@+id/textView190"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/q27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1088,13 +1142,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/q27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff012dd9"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1118,12 +1173,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig usage"
                     android:id="@+id/textView227"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/q28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1131,13 +1187,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="28"
                     android:id="@+id/q28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1161,12 +1218,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average starter pig feed usage"
                     android:id="@+id/textView229"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/q29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1174,13 +1232,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="29"
                     android:id="@+id/q29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1204,12 +1263,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average growing pig feed usage"
                     android:id="@+id/textView231"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/q30"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1217,13 +1277,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="30"
                     android:id="@+id/q30"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1247,12 +1308,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average fattening pig feed usage"
                     android:id="@+id/textView233"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/q31"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1260,13 +1322,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="31"
                     android:id="@+id/q31"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1290,12 +1353,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Total feed usage"
                     android:id="@+id/textView235"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/q32"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1303,13 +1367,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="32"
                     android:id="@+id/q32"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1320,12 +1385,13 @@
             android:text="- Feed per week"
             android:id="@+id/textView186"
             android:textColor="@android:color/black"
-            android:textSize="16dp"
+            android:textSize="18dp"
             android:fontFamily="sans-serif-light"
             android:layout_marginTop="15dp"
             android:layout_below="@+id/linearLayout82"
             android:layout_alignLeft="@+id/textView172"
-            android:layout_alignStart="@+id/textView172" />
+            android:layout_alignStart="@+id/textView172"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -1347,12 +1413,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 1 feed usage"
                     android:id="@+id/textView194"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/r26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1360,13 +1427,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="n26"
                     android:id="@+id/r26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff012dd9"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1390,12 +1458,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 2 feed usage"
                     android:id="@+id/textView230"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/r27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1403,13 +1472,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/r27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff012dd9"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1433,12 +1503,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average nursring pig usage"
                     android:id="@+id/textView234"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/r28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1446,13 +1517,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="28"
                     android:id="@+id/r28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1476,12 +1548,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average starter pig feed usage"
                     android:id="@+id/textView237"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/r29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1489,13 +1562,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="29"
                     android:id="@+id/r29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1519,12 +1593,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average growing pig feed usage"
                     android:id="@+id/textView239"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/r30"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1532,13 +1607,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="30"
                     android:id="@+id/r30"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1562,12 +1638,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average fattening pig feed usage"
                     android:id="@+id/textView241"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/r31"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1575,13 +1652,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="31"
                     android:id="@+id/r31"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1605,12 +1683,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Total feed usage"
                     android:id="@+id/textView243"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/r32"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1618,13 +1697,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="32"
                     android:id="@+id/r32"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1635,12 +1715,13 @@
             android:text="- Feed per month"
             android:id="@+id/textView245"
             android:textColor="@android:color/black"
-            android:textSize="16dp"
+            android:textSize="18dp"
             android:fontFamily="sans-serif-light"
             android:layout_marginTop="15dp"
             android:layout_below="@+id/linearLayout89"
             android:layout_alignLeft="@+id/textView186"
-            android:layout_alignStart="@+id/textView186" />
+            android:layout_alignStart="@+id/textView186"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -1662,12 +1743,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 1 feed usage"
                     android:id="@+id/textView246"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/s26"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1675,13 +1757,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="n26"
                     android:id="@+id/s26"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff012dd9"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1705,12 +1788,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig 2 feed usage"
                     android:id="@+id/textView248"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/s27"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1718,13 +1802,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3.0"
                     android:id="@+id/s27"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ff012dd9"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1748,12 +1833,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average weanling pig usage"
                     android:id="@+id/textView250"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/s28"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1761,13 +1847,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="28"
                     android:id="@+id/s28"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1791,12 +1878,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average starter pig feed usage"
                     android:id="@+id/textView252"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/s29"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1804,13 +1892,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="29"
                     android:id="@+id/s29"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1834,12 +1923,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average growing pig feed usage"
                     android:id="@+id/textView254"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/s30"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1847,13 +1937,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="30"
                     android:id="@+id/s30"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1877,12 +1968,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Average fattening pig feed usage"
                     android:id="@+id/textView256"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/s31"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1890,13 +1982,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="31"
                     android:id="@+id/s31"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1920,12 +2013,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Total feed usage"
                     android:id="@+id/textView258"
-                    android:textSize="14dp"
-                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
                     android:layout_toLeftOf="@+id/s32"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -1933,13 +2027,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="32"
                     android:id="@+id/s32"
-                    android:textSize="14dp"
+                    android:textSize="16dp"
                     android:textColor="#ffff0000"
                     android:gravity="right"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="sans-serif-light" />
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 

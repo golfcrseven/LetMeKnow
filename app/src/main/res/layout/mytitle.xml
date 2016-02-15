@@ -25,12 +25,13 @@ android:background="@color/list_background" >
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:textColor="@color/list_item_title"
-        android:textSize="15dp"
+        android:textSize="18dp"
         android:fontFamily="sans-serif-light"
         android:gravity="center_vertical|left"
         android:layout_toRightOf="@+id/btnSlideMenu"
         android:layout_toStartOf="@+id/btnAddMedicine"
-        android:layout_toLeftOf="@+id/btnAddMedicine" />
+        android:layout_toLeftOf="@+id/btnAddMedicine"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="wrap_content"
@@ -42,7 +43,7 @@ android:background="@color/list_background" >
         android:text="+"
         android:textSize="40dp"
         android:background="@android:color/transparent"
-        android:textColor="#ffcccccc"
+        android:textColor="#ffffff"
         android:enabled="true"
         android:visibility="visible" />
 

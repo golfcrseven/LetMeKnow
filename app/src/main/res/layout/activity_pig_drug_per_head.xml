@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:scrollbarStyle="insideOverlay"
     android:background="@android:color/white"
-    android:id="@+id/scrollViewID">
+    android:id="@+id/scrollViewID"
+    android:paddingRight="20dp">
 
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -128,7 +129,8 @@
                     android:checked="false"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:button="@drawable/custom_chkbox" />
 
             </RelativeLayout>
 
@@ -187,7 +189,8 @@
                     android:checked="false"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -243,7 +246,8 @@
                     android:checked="false"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -299,7 +303,8 @@
                     android:checked="false"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -355,7 +360,8 @@
                     android:checked="false"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -411,7 +417,8 @@
                     android:checked="false"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -467,7 +474,8 @@
                     android:checked="false"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox" />
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -524,7 +532,8 @@
                     android:id="@+id/chkD12"
                     android:checked="false"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -581,7 +590,8 @@
                     android:id="@+id/chkD13"
                     android:checked="false"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -638,7 +648,8 @@
                     android:id="@+id/chkD14"
                     android:checked="false"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -695,7 +706,8 @@
                     android:id="@+id/chkD15"
                     android:checked="false"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -752,7 +764,8 @@
                     android:id="@+id/chkD16"
                     android:checked="false"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -808,7 +821,8 @@
                     android:id="@+id/chkD17"
                     android:checked="false"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -864,7 +878,8 @@
                     android:id="@+id/chkD18"
                     android:checked="false"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -920,7 +935,8 @@
                     android:id="@+id/chkD19"
                     android:checked="false"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -969,7 +985,8 @@
                 android:id="@+id/chkD20"
                 android:checked="false"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:button="@drawable/custom_chkbox" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -1017,7 +1034,8 @@
                 android:id="@+id/chkD21"
                 android:checked="false"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:button="@drawable/custom_chkbox" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -1065,7 +1083,8 @@
                 android:id="@+id/chkD22"
                 android:checked="false"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:button="@drawable/custom_chkbox" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -1113,7 +1132,8 @@
                 android:id="@+id/chkD23"
                 android:checked="false"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:button="@drawable/custom_chkbox" />
         </RelativeLayout>
 
         <LinearLayout
@@ -1167,7 +1187,8 @@
                     android:id="@+id/chkD24"
                     android:checked="false"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1222,7 +1243,8 @@
                     android:id="@+id/chkD25"
                     android:checked="false"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1277,7 +1299,8 @@
                     android:id="@+id/chkD26"
                     android:checked="false"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:button="@drawable/custom_chkbox" />
             </RelativeLayout>
         </LinearLayout>
 
