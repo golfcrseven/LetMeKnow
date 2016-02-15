@@ -7,14 +7,13 @@
     android:scrollbarStyle="insideOverlay"
     android:background="@android:color/white"
     android:id="@+id/scrollViewID"
-    android:paddingRight="20dp">
+    android:paddingBottom="30dp">
 
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:padding="15dp">
+        android:background="@android:color/white">
 
 
         <LinearLayout
@@ -30,7 +29,9 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -80,7 +81,10 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="#ebebeb">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -106,7 +110,7 @@
                     android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginLeft="58dp"
                     android:layout_marginStart="65dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentBottom="true"
@@ -132,10 +136,11 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD5"
                     android:checked="false"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
-                    android:button="@drawable/custom_chkbox" />
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
 
             </RelativeLayout>
 
@@ -156,7 +161,9 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <EditText
                     android:layout_width="68dp"
@@ -193,10 +200,11 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD6"
                     android:checked="false"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
-                    android:button="@drawable/custom_chkbox" />
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -214,7 +222,10 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="#ebebeb">
 
                 <EditText
                     android:layout_width="68dp"
@@ -251,10 +262,11 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD7"
                     android:checked="false"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
-                    android:button="@drawable/custom_chkbox" />
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -272,7 +284,9 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <EditText
                     android:layout_width="68dp"
@@ -309,10 +323,11 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD8"
                     android:checked="false"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
-                    android:button="@drawable/custom_chkbox" />
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_alignBottom="@+id/textView289"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -330,7 +345,10 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="#ebebeb">
 
                 <EditText
                     android:layout_width="68dp"
@@ -367,10 +385,11 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD9"
                     android:checked="false"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
-                    android:button="@drawable/custom_chkbox" />
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -388,7 +407,9 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <EditText
                     android:layout_width="68dp"
@@ -425,10 +446,11 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD10"
                     android:checked="false"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
-                    android:button="@drawable/custom_chkbox" />
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -446,7 +468,10 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="#ebebeb">
 
                 <EditText
                     android:layout_width="68dp"
@@ -483,10 +508,11 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD11"
                     android:checked="false"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
-                    android:button="@drawable/custom_chkbox" />
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -504,7 +530,9 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <EditText
                     android:layout_width="68dp"
@@ -543,9 +571,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD12"
                     android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:button="@drawable/custom_chkbox" />
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -563,7 +592,10 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="#ebebeb">
 
                 <EditText
                     android:layout_width="68dp"
@@ -602,9 +634,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD13"
                     android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:button="@drawable/custom_chkbox" />
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -622,7 +655,9 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <EditText
                     android:layout_width="68dp"
@@ -661,9 +696,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD14"
                     android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:button="@drawable/custom_chkbox" />
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -681,7 +717,10 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="#ebebeb">
 
                 <EditText
                     android:layout_width="68dp"
@@ -720,9 +759,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD15"
                     android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:button="@drawable/custom_chkbox" />
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -740,7 +780,9 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <EditText
                     android:layout_width="68dp"
@@ -779,9 +821,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD16"
                     android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:button="@drawable/custom_chkbox" />
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -799,7 +842,10 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="#ebebeb">
 
                 <EditText
                     android:layout_width="68dp"
@@ -837,9 +883,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD17"
                     android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:button="@drawable/custom_chkbox" />
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -857,7 +904,9 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <EditText
                     android:layout_width="68dp"
@@ -895,9 +944,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD18"
                     android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:button="@drawable/custom_chkbox" />
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -915,7 +965,10 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="#ebebeb">
 
                 <EditText
                     android:layout_width="68dp"
@@ -953,9 +1006,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD19"
                     android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:button="@drawable/custom_chkbox" />
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -966,7 +1020,9 @@
             android:layout_below="@+id/linearLayout140pdph"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:id="@+id/relativeLayout">
+            android:id="@+id/relativeLayout"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
 
             <EditText
                 android:layout_width="68dp"
@@ -1004,9 +1060,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkD20"
                 android:checked="false"
+                android:button="@drawable/custom_chkbox"
+                android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:button="@drawable/custom_chkbox" />
+                android:layout_alignParentEnd="true" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -1016,7 +1073,10 @@
             android:layout_below="@+id/relativeLayout"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:id="@+id/relativeLayout2">
+            android:id="@+id/relativeLayout2"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="#ebebeb">
 
             <EditText
                 android:layout_width="68dp"
@@ -1054,9 +1114,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkD21"
                 android:checked="false"
+                android:button="@drawable/custom_chkbox"
+                android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:button="@drawable/custom_chkbox" />
+                android:layout_alignParentEnd="true" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -1066,7 +1127,9 @@
             android:layout_below="@+id/relativeLayout2"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:id="@+id/relativeLayout3">
+            android:id="@+id/relativeLayout3"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
 
             <EditText
                 android:layout_width="68dp"
@@ -1104,9 +1167,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkD22"
                 android:checked="false"
+                android:button="@drawable/custom_chkbox"
+                android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:button="@drawable/custom_chkbox" />
+                android:layout_alignParentEnd="true" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -1116,7 +1180,10 @@
             android:layout_below="@+id/relativeLayout3"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:id="@+id/relativeLayout4">
+            android:id="@+id/relativeLayout4"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="#ebebeb">
 
             <EditText
                 android:layout_width="68dp"
@@ -1154,9 +1221,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/chkD23"
                 android:checked="false"
+                android:button="@drawable/custom_chkbox"
+                android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:button="@drawable/custom_chkbox" />
+                android:layout_alignParentEnd="true" />
         </RelativeLayout>
 
         <LinearLayout
@@ -1173,7 +1241,9 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <EditText
                     android:layout_width="68dp"
@@ -1194,7 +1264,7 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="23"
                     android:id="@+id/textView307"
-                    android:textSize="18dp"
+                    android:textSize="18sp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:layout_marginStart="89dp"
@@ -1210,9 +1280,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD24"
                     android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:button="@drawable/custom_chkbox" />
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1230,7 +1301,10 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical" >
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="#ebebeb">
 
                 <EditText
                     android:layout_width="68dp"
@@ -1267,9 +1341,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD25"
                     android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:button="@drawable/custom_chkbox" />
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1287,7 +1362,9 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <EditText
                     android:layout_width="68dp"
@@ -1324,9 +1401,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/chkD26"
                     android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:button="@drawable/custom_chkbox" />
+                    android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
 

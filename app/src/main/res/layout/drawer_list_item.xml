@@ -37,6 +37,6 @@
         android:layout_centerVertical="true"
         android:layout_marginRight="8dp"
         android:textColor="@color/counter_text_color"
-        android:textSize="15dp" />
+        android:textSize="18dp" />
 
 </RelativeLayout>
