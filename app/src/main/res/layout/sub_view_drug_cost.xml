@@ -36,13 +36,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Drugs"
                     android:id="@+id/txtViewName"
-                    android:textSize="14dp"
-                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:fontFamily="sans-serif-light"
                     android:layout_toStartOf="@+id/drugName"
-                    android:layout_toLeftOf="@+id/drugName" />
+                    android:layout_toLeftOf="@+id/drugName"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="200dp"
@@ -50,13 +51,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Tiamulin 10%"
                     android:id="@+id/drugName"
-                    android:textSize="14dp"
-                    android:textColor="#ff999999"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
                     android:fontFamily="sans-serif-light"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:gravity="center_horizontal|left" />
+                    android:gravity="center_horizontal|left"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -81,13 +83,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Price"
                     android:id="@+id/textView281"
-                    android:textSize="14dp"
-                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:fontFamily="sans-serif-light"
                     android:layout_toStartOf="@+id/drugPrice"
-                    android:layout_toLeftOf="@+id/drugPrice" />
+                    android:layout_toLeftOf="@+id/drugPrice"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="200dp"
@@ -95,13 +98,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Tiamulin 10%"
                     android:id="@+id/drugPrice"
-                    android:textSize="14dp"
-                    android:textColor="#ff999999"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
                     android:fontFamily="sans-serif-light"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:gravity="center_horizontal|left" />
+                    android:gravity="center_horizontal|left"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -126,13 +130,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Usage"
                     android:id="@+id/textView285"
-                    android:textSize="14dp"
-                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:fontFamily="sans-serif-light"
                     android:layout_toStartOf="@+id/usage"
-                    android:layout_toLeftOf="@+id/usage" />
+                    android:layout_toLeftOf="@+id/usage"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="200dp"
@@ -140,13 +145,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Tiamulin 10%"
                     android:id="@+id/usage"
-                    android:textSize="14dp"
-                    android:textColor="#ff999999"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
                     android:fontFamily="sans-serif-light"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:gravity="center_horizontal|left" />
+                    android:gravity="center_horizontal|left"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -171,13 +177,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Total"
                     android:id="@+id/textView288"
-                    android:textSize="14dp"
-                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:fontFamily="sans-serif-light"
                     android:layout_toStartOf="@+id/total"
-                    android:layout_toLeftOf="@+id/total" />
+                    android:layout_toLeftOf="@+id/total"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="200dp"
@@ -185,13 +192,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Tiamulin 10%"
                     android:id="@+id/total"
-                    android:textSize="14dp"
-                    android:textColor="#ff999999"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
                     android:fontFamily="sans-serif-light"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:gravity="center_horizontal|left" />
+                    android:gravity="center_horizontal|left"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -216,13 +224,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Cost"
                     android:id="@+id/textView291"
-                    android:textSize="14dp"
-                    android:textColor="#000"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:fontFamily="sans-serif-light"
                     android:layout_toStartOf="@+id/cost"
-                    android:layout_toLeftOf="@+id/cost" />
+                    android:layout_toLeftOf="@+id/cost"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="200dp"
@@ -230,13 +239,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Tiamulin 10%"
                     android:id="@+id/cost"
-                    android:textSize="14dp"
-                    android:textColor="#ff999999"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
                     android:fontFamily="sans-serif-light"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:gravity="center_horizontal|left" />
+                    android:gravity="center_horizontal|left"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -275,7 +285,11 @@
             android:layout_alignParentStart="true"
             android:background="@drawable/list_selector"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            android:gravity="center|clip_horizontal|clip_vertical"
+            android:textColor="#cccccc"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -286,7 +300,10 @@
             android:background="#ffa0201e"
             android:layout_alignTop="@+id/edtBtnPerSow"
             android:layout_toRightOf="@+id/edtBtnPerSow"
-            android:layout_toEndOf="@+id/edtBtnPerSow" />
+            android:gravity="center|clip_horizontal|clip_vertical"
+            android:textColor="#cccccc"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 </LinearLayout>
