@@ -40,13 +40,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Replacement gilts"
                     android:id="@+id/textView282"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:gravity="center_vertical" />
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -54,12 +55,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="1"
                     android:id="@+id/textView283"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignTop="@+id/textView282"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:layout_width="68dp"
@@ -121,12 +123,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="2"
                     android:id="@+id/textView286"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -174,12 +177,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3"
                     android:id="@+id/textView287"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -228,13 +232,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="4"
                     android:id="@+id/textView289"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignBaseline="@+id/edtD8"
                     android:layout_alignBottom="@+id/edtD8"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -283,12 +288,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="5"
                     android:id="@+id/textView290"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -337,12 +343,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="6"
                     android:id="@+id/textView292"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -391,12 +398,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="7"
                     android:id="@+id/textView293"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -446,12 +454,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="8"
                     android:id="@+id/textView294"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -501,12 +510,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="0"
                     android:id="@+id/textView295"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -524,13 +534,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Gestating sows"
                     android:id="@+id/textView310"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -570,12 +581,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="1"
                     android:id="@+id/textView296"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -625,12 +637,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="2"
                     android:id="@+id/textView297"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -681,12 +694,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3"
                     android:id="@+id/textView298"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -735,12 +749,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="4"
                     android:id="@+id/textView299"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -789,12 +804,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="5"
                     android:id="@+id/textView300"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -843,12 +859,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="6"
                     android:id="@+id/textView301"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -890,13 +907,14 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="7"
                 android:id="@+id/textView302"
-                android:textSize="14dp"
+                android:textSize="18dp"
                 android:textColor="@android:color/black"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_vertical"
                 android:layout_alignBaseline="@+id/chkD20"
                 android:layout_alignBottom="@+id/chkD20"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold" />
 
             <CheckBox
                 style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -937,12 +955,13 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="8"
                 android:id="@+id/textView303"
-                android:textSize="14dp"
+                android:textSize="18dp"
                 android:textColor="@android:color/black"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_vertical"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold" />
 
             <CheckBox
                 style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -983,12 +1002,13 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="9"
                 android:id="@+id/textView304"
-                android:textSize="14dp"
+                android:textSize="18dp"
                 android:textColor="@android:color/black"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_vertical"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold" />
 
             <CheckBox
                 style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1029,12 +1049,13 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="10"
                 android:id="@+id/textView305"
-                android:textSize="14dp"
+                android:textSize="18dp"
                 android:textColor="@android:color/black"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_vertical"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold" />
 
             <CheckBox
                 style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1082,12 +1103,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="11"
                     android:id="@+id/textView307"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1136,12 +1158,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="12"
                     android:id="@+id/textView309"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1190,12 +1213,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="13"
                     android:id="@+id/textView308"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1244,12 +1268,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="14"
                     android:id="@+id/textView311"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1298,12 +1323,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="15"
                     android:id="@+id/textView312"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1352,12 +1378,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="16"
                     android:id="@+id/textView313"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1418,12 +1445,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="1"
                     android:id="@+id/textView314"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1431,13 +1459,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Lactating sows"
                     android:id="@+id/textView315"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1476,12 +1505,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="2"
                     android:id="@+id/textView316"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1530,12 +1560,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3"
                     android:id="@+id/textView317"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1596,12 +1627,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="1"
                     android:id="@+id/textView318"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1609,13 +1641,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Weaned sows"
                     android:id="@+id/textView319"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1654,12 +1687,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="2"
                     android:id="@+id/textView320"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1720,12 +1754,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="1"
                     android:id="@+id/textView321"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1733,13 +1768,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Piglets"
                     android:id="@+id/textView322"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1778,12 +1814,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="2"
                     android:id="@+id/textView323"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1832,12 +1869,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3"
                     android:id="@+id/textView324"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1898,12 +1936,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="4"
                     android:id="@+id/textView325"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1911,13 +1950,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Weanling pigs"
                     android:id="@+id/textView326"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1968,12 +2008,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="5"
                     android:id="@+id/textView327"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -2025,12 +2066,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="6"
                     android:id="@+id/textView328"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2081,12 +2123,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="7"
                     android:id="@+id/textView329"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2137,12 +2180,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="8"
                     android:id="@+id/textView330"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2193,12 +2237,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="9"
                     android:id="@+id/textView331"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2249,12 +2294,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="10"
                     android:id="@+id/textView332"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -2262,13 +2308,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Starter pigs"
                     android:id="@+id/textView333"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2319,12 +2366,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="11"
                     android:id="@+id/textView334"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2375,12 +2423,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="12"
                     android:id="@+id/textView335"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2431,12 +2480,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="13"
                     android:id="@+id/textView336"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2487,12 +2537,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="14"
                     android:id="@+id/textView337"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2543,12 +2594,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="15"
                     android:id="@+id/textView338"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2599,12 +2651,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="16"
                     android:id="@+id/textView339"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -2612,13 +2665,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Growing pigs"
                     android:id="@+id/textView340"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2669,12 +2723,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="17"
                     android:id="@+id/textView341"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2725,12 +2780,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="18"
                     android:id="@+id/textView342"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2781,12 +2837,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="19"
                     android:id="@+id/textView343"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2837,12 +2894,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="20"
                     android:id="@+id/textView344"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2892,12 +2950,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="21"
                     android:id="@+id/textView345"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -2905,13 +2964,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Fattening pigs"
                     android:id="@+id/textView346"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_alignTop="@+id/chkD55"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -2961,12 +3021,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="22"
                     android:id="@+id/textView347"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -3016,12 +3077,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="23"
                     android:id="@+id/textView348"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -3058,12 +3120,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="24"
                     android:id="@+id/textView349"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:layout_width="68dp"
@@ -3114,12 +3177,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="25"
                     android:id="@+id/textView350"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_vertical"
                     android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:layout_width="68dp"

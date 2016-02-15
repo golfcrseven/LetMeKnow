@@ -11,19 +11,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
-        android:padding="15dp">
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="50dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Feed per day of Pigs"
+            android:text="FEED PIGS PER DAY"
             android:id="@+id/textView11"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:textColor="@android:color/black"
             android:textSize="23dp"
-            android:fontFamily="sans-serif-light" />
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,7 +40,8 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:textColor="#000"
-            android:fontFamily="sans-serif-light" />
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -60,8 +65,10 @@
                     android:text="Week"
                     android:id="@+id/textView196"
                     android:gravity="center_horizontal"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -73,8 +80,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:gravity="center_horizontal"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
             </RelativeLayout>
 
         </LinearLayout>
@@ -103,8 +112,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -115,7 +126,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -143,8 +157,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -155,7 +171,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    style="@android:style/Theme.DeviceDefault" />
+                    style="@android:style/Theme.DeviceDefault"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -183,8 +202,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     style="@android:style/Theme.DeviceDefault"
@@ -195,7 +216,10 @@
                     android:id="@+id/m6"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -210,7 +234,8 @@
             android:layout_below="@+id/linearLayout97"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -233,8 +258,10 @@
                     android:text="Week"
                     android:id="@+id/textView236"
                     android:gravity="center_horizontal"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -246,8 +273,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:gravity="center_horizontal"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -274,8 +303,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -286,7 +317,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -313,8 +347,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -325,7 +361,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -352,8 +391,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -364,7 +405,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -379,7 +423,8 @@
             android:layout_below="@+id/linearLayout101"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -402,8 +447,10 @@
                     android:text="Week"
                     android:id="@+id/textView249"
                     android:gravity="center_horizontal"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -415,8 +462,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:gravity="center_horizontal"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -443,8 +492,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -455,7 +506,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -482,8 +536,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -494,7 +550,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -521,8 +580,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -533,7 +594,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -560,8 +624,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -572,7 +638,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -599,8 +668,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -611,7 +682,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -638,8 +712,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -650,7 +726,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -665,7 +744,8 @@
             android:layout_below="@+id/linearLayout108"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -688,8 +768,10 @@
                     android:text="Week"
                     android:id="@+id/textView263"
                     android:gravity="center_horizontal"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -701,8 +783,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:gravity="center_horizontal"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -729,8 +813,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -741,7 +827,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -768,8 +857,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -780,7 +871,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -807,8 +901,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -819,7 +915,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -846,8 +945,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -858,7 +959,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -885,8 +989,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -897,7 +1003,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -912,7 +1021,8 @@
             android:layout_below="@+id/linearLayout114"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -935,8 +1045,10 @@
                     android:text="Week"
                     android:id="@+id/textView271"
                     android:gravity="center_horizontal"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <TextView
                     android:layout_width="80dp"
@@ -948,8 +1060,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:gravity="center_horizontal"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -976,8 +1090,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -988,7 +1104,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1015,8 +1134,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -1027,7 +1148,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1054,8 +1178,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -1066,7 +1192,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1093,8 +1222,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -1105,7 +1236,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -1132,8 +1266,10 @@
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:textColor="@android:color/darker_gray"
-                    android:fontFamily="sans-serif-light" />
+                    android:textColor="#4a4a4a"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
 
                 <EditText
                     android:layout_width="80dp"
@@ -1144,7 +1280,10 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:numeric="decimal"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#4a4a4a" />
             </RelativeLayout>
         </LinearLayout>
 

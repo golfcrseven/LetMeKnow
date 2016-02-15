@@ -6,7 +6,7 @@
     android:scrollbarStyle="insideOverlay"
     android:background="@android:color/white"
     android:id="@+id/scrollViewID"
-    android:paddingBottom="15dp">
+    android:paddingBottom="30dp">
 
 
     <LinearLayout

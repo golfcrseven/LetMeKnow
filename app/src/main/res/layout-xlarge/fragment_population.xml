@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     android:scrollbarStyle="insideOverlay"
     android:background="@android:color/white"
-    android:id="@+id/scrollViewID">
+    android:id="@+id/scrollViewID"
+    android:paddingBottom="30dp">
 
 
     <LinearLayout

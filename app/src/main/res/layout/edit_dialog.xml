@@ -11,14 +11,16 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medicine Name"
         android:id="@+id/txtInpName"
-        android:textColor="#FFF" />
+        android:textColor="#FFF"
+        android:textSize="18dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edtMedicineName"
         android:textColor="@android:color/darker_gray"
-        style="@style/AppTheme" />
+        style="@style/AppTheme"
+        android:textSize="18dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,7 +29,8 @@
         android:text="Price"
         android:id="@+id/textView279"
         android:layout_marginTop="10dp"
-        android:textColor="#FFF" />
+        android:textColor="#FFF"
+        android:textSize="18dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -36,5 +39,6 @@
         android:ems="10"
         android:id="@+id/edtMedicinePrice"
         android:textColor="@android:color/darker_gray"
-        style="@style/AppTheme" />
+        style="@style/AppTheme"
+        android:textSize="18dp" />
 </LinearLayout>

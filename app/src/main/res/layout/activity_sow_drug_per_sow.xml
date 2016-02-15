@@ -38,12 +38,13 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Usage"
                     android:id="@+id/textView65"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:layout_width="100dp"
@@ -56,7 +57,9 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
-                    android:textColor="#ffff1529" />
+                    android:textColor="#ffff1529"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
 
@@ -85,13 +88,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Flushing"
                     android:id="@+id/textView282"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:gravity="center_vertical" />
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -99,15 +103,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="1"
                     android:id="@+id/textView283"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="36dp"
+                    android:layout_marginLeft="50dp"
                     android:layout_marginStart="36dp"
                     android:layout_alignTop="@+id/textView282"
                     android:layout_toRightOf="@+id/textView282"
                     android:layout_toEndOf="@+id/textView282"
-                    android:gravity="center_vertical" />
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:layout_width="74dp"
@@ -171,15 +176,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="2"
                     android:id="@+id/textView286"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="118dp" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -228,13 +234,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Gestating"
                     android:id="@+id/textView284"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:gravity="center_vertical" />
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -242,15 +249,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="0"
                     android:id="@+id/textView287"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="31dp"
+                    android:layout_marginLeft="40dp"
                     android:layout_marginStart="31dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_toRightOf="@+id/textView284"
-                    android:layout_toEndOf="@+id/textView284" />
+                    android:layout_toEndOf="@+id/textView284"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -299,15 +307,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="1"
                     android:id="@+id/textView289"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -356,15 +365,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="2"
                     android:id="@+id/textView290"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -413,15 +423,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3"
                     android:id="@+id/textView292"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -470,15 +481,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="4"
                     android:id="@+id/textView293"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -528,15 +540,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="5"
                     android:id="@+id/textView294"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -586,15 +599,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="6"
                     android:id="@+id/textView295"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -644,15 +658,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="7"
                     android:id="@+id/textView296"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -702,15 +717,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="8"
                     android:id="@+id/textView297"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -760,15 +776,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="9"
                     android:id="@+id/textView298"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -817,15 +834,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="10"
                     android:id="@+id/textView299"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -874,15 +892,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="11"
                     android:id="@+id/textView300"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -931,15 +950,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="12"
                     android:id="@+id/textView301"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="89dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -981,15 +1001,16 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="13"
                 android:id="@+id/textView302"
-                android:textSize="14dp"
+                android:textSize="18dp"
                 android:textColor="@android:color/black"
                 android:fontFamily="sans-serif-light"
-                android:layout_marginLeft="89dp"
+                android:layout_marginLeft="119dp"
                 android:layout_marginStart="89dp"
                 android:gravity="center_vertical"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:textStyle="bold" />
 
             <CheckBox
                 style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1030,15 +1051,16 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="14"
                 android:id="@+id/textView303"
-                android:textSize="14dp"
+                android:textSize="18dp"
                 android:textColor="@android:color/black"
                 android:fontFamily="sans-serif-light"
-                android:layout_marginLeft="89dp"
+                android:layout_marginLeft="119dp"
                 android:layout_marginStart="89dp"
                 android:gravity="center_vertical"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:textStyle="bold" />
 
             <CheckBox
                 style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1079,15 +1101,16 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="15"
                 android:id="@+id/textView304"
-                android:textSize="14dp"
+                android:textSize="18dp"
                 android:textColor="@android:color/black"
                 android:fontFamily="sans-serif-light"
-                android:layout_marginLeft="89dp"
+                android:layout_marginLeft="119dp"
                 android:layout_marginStart="89dp"
                 android:gravity="center_vertical"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:textStyle="bold" />
 
             <CheckBox
                 style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1128,15 +1151,16 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="16"
                 android:id="@+id/textView305"
-                android:textSize="14dp"
+                android:textSize="18dp"
                 android:textColor="@android:color/black"
                 android:fontFamily="sans-serif-light"
-                android:layout_marginLeft="89dp"
+                android:layout_marginLeft="119dp"
                 android:layout_marginStart="89dp"
                 android:gravity="center_vertical"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:textStyle="bold" />
 
             <CheckBox
                 style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1184,13 +1208,14 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Lacating"
                     android:id="@+id/textView306"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:gravity="center_vertical" />
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1198,15 +1223,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="1"
                     android:id="@+id/textView307"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="49dp"
                     android:layout_marginStart="40dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentBottom="true"
                     android:layout_toRightOf="@+id/textView306"
-                    android:layout_toEndOf="@+id/textView306" />
+                    android:layout_toEndOf="@+id/textView306"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1255,15 +1281,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="2"
                     android:id="@+id/textView309"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="94dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
@@ -1312,15 +1339,16 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="3"
                     android:id="@+id/textView308"
-                    android:textSize="14dp"
+                    android:textSize="18dp"
                     android:textColor="@android:color/black"
                     android:fontFamily="sans-serif-light"
-                    android:layout_marginLeft="94dp"
+                    android:layout_marginLeft="119dp"
                     android:layout_marginStart="89dp"
                     android:gravity="center_vertical"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold" />
 
                 <CheckBox
                     style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
