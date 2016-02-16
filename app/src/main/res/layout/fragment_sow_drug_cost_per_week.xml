@@ -69,6 +69,14 @@
             </RelativeLayout>
 
         </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/layout_for_add"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#525252"></RelativeLayout>
     </RelativeLayout>
 
 </ScrollView>
