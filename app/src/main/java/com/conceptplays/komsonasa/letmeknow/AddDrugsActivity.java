@@ -6,6 +6,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -214,12 +215,14 @@ public class AddDrugsActivity extends Activity {
             }
 
             TextView chapterName = (TextView)convertView.findViewById(R.id.medicineName);
-            //TextView chapterDesc = (TextView)convertView.findViewById(R.id.Price);
+            TextView chapterNo = (TextView)convertView.findViewById(R.id.medecine_no);
 
             final medicineChapter chapter = medicineChapterList.get(position);
 
             chapterName.setText(chapter.chapterName);
-            //chapterDesc.setText(chapter.chapterPrice);
+            chapterNo.setText((position + 1) + ")");
+            if((position%2)==0)
+                convertView.setBackgroundColor(Color.parseColor("#ebebeb"));
 
             holder = new ViewHolder();
             holder.chkBox = (CheckBox) convertView.findViewById(R.id.checkBox);

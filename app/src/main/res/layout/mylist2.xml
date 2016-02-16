@@ -8,15 +8,28 @@
     android:id="@+id/layout_list_2">
 
     <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="No."
+        android:id="@+id/medecine_no"
+        android:layout_weight="0.005"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
         android:layout_width="242dp"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medium Text"
         android:id="@+id/medicineName"
-        android:layout_weight="0.95"
+        android:layout_weight="0.9"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        android:layout_marginLeft="15dp"
         android:textColor="#000000"
         android:textSize="18dp"
         android:textStyle="bold"/>
