@@ -6,16 +6,13 @@
     android:scrollbarStyle="insideOverlay"
     android:background="@android:color/white"
     android:id="@+id/scrollViewID"
-    android:paddingLeft="15dp"
-    android:paddingTop="15dp"
-    android:paddingRight="50dp"
-    android:paddingBottom="50dp">
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:padding="15dp">
+        android:background="@android:color/white">
 
     <TextView
         android:layout_width="wrap_content"
@@ -43,7 +40,8 @@
         android:textColor="#000"
         android:fontFamily="sans-serif-light"
         android:textStyle="bold"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -52,9 +50,10 @@
         android:layout_below="@+id/textView195"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
-        android:id="@+id/linearLayout29">
+        android:id="@+id/linearLayout29"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="50dp">
 
         <RelativeLayout
             android:layout_width="fill_parent"
@@ -95,14 +94,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout29"
-        android:layout_alignLeft="@+id/linearLayout29"
-        android:layout_alignStart="@+id/linearLayout29"
         android:layout_marginTop="5dp"
-        android:id="@+id/linearLayout30">
+        android:id="@+id/linearLayout30"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent" >
+            android:layout_height="fill_parent"
+            android:paddingLeft="40dp"
+            android:paddingRight="50dp">
 
             <TextView
                 android:layout_width="50dp"
@@ -147,7 +148,10 @@
 
         <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent" >
+            android:layout_height="fill_parent"
+            android:background="#ebebeb"
+            android:paddingLeft="40dp"
+            android:paddingRight="50dp">
 
             <TextView
                 android:layout_width="50dp"
@@ -207,7 +211,8 @@
                 android:layout_alignParentStart="true"
                 android:fontFamily="sans-serif-light"
                 android:textStyle="bold"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:paddingLeft="20dp" />
         </RelativeLayout>
     </LinearLayout>
 
@@ -223,7 +228,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="30dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -265,7 +272,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -309,7 +318,10 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:background="#ebebeb"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -353,7 +365,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -397,7 +411,10 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:background="#ebebeb"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -441,7 +458,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -485,7 +504,10 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:background="#ebebeb"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -529,7 +551,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -573,7 +597,10 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:background="#ebebeb"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -617,7 +644,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -661,7 +690,10 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:background="#ebebeb"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -705,7 +737,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -749,7 +783,10 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:background="#ebebeb"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -793,7 +830,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -837,7 +876,10 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:background="#ebebeb"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -881,7 +923,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -925,7 +969,10 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:background="#ebebeb"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -969,7 +1016,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -1014,7 +1063,8 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1044,7 +1094,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -1086,7 +1138,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -1130,7 +1184,10 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:background="#ebebeb"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
@@ -1174,7 +1231,9 @@
 
             <RelativeLayout
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="fill_parent"
+                android:paddingLeft="40dp"
+                android:paddingRight="50dp">
 
                 <TextView
                     android:layout_width="50dp"
