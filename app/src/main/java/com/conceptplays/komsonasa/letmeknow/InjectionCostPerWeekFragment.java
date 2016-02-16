@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -107,6 +108,9 @@ public class InjectionCostPerWeekFragment extends android.support.v4.app.Fragmen
         for (int i=1; i<=DrugIdList.size();i++){
             final int position = i-1;
             View custom = infltr.inflate(R.layout.sub_view_drug_cost, null);
+            if((position%2)==1)
+                custom.setBackgroundColor(Color.parseColor("#ebebeb"));
+            TextView txtNo = (TextView)custom.findViewById(R.id.drugNo);
             TextView name =(TextView)custom.findViewById(R.id.txtViewName);
             name.setText("Injection");
             final TextView tvDrugName = (TextView)custom.findViewById(R.id.drugName);
@@ -121,6 +125,7 @@ public class InjectionCostPerWeekFragment extends android.support.v4.app.Fragmen
             ArrayList<String> drugList = new ArrayList<String>();
             drugList.clear();
             drugList = getDrug(Long.valueOf(DrugIdList.get(position)), db);
+            txtNo.setText((position+1)+")");
             tvDrugName.setText(drugList.get(0).toString());
             tvDrugPrice.setText(drugList.get(1).toString()+" ฿");
             tvTotal.setText(hc.df1(hc.string2double(Total.get(position))));

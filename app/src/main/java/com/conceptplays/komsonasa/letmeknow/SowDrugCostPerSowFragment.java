@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
@@ -116,6 +117,9 @@ public class SowDrugCostPerSowFragment extends android.support.v4.app.Fragment {
         for (int i=1; i<=DrugIdList.size();i++){
             final int position = i-1;
             View custom = infltr.inflate(R.layout.sub_view_drug_cost, null);
+            if((position%2)==1)
+                custom.setBackgroundColor(Color.parseColor("#ebebeb"));
+            TextView txtNo = (TextView)custom.findViewById(R.id.drugNo);
             final TextView tvDrugName = (TextView)custom.findViewById(R.id.drugName);
             final TextView tvDrugPrice = (TextView)custom.findViewById(R.id.drugPrice);
             TextView tvUsage = (TextView)custom.findViewById(R.id.usage);
@@ -125,6 +129,7 @@ public class SowDrugCostPerSowFragment extends android.support.v4.app.Fragment {
             ArrayList<String> drugList = new ArrayList<String>();
             drugList.clear();
             drugList = getDrug(Long.valueOf(DrugIdList.get(position)), db);
+            txtNo.setText((position+1)+")");
             tvDrugName.setText(drugList.get(0).toString());
             tvDrugPrice.setText(drugList.get(1).toString()+" ฿");
             tvUsage.setText(Usage.get(position).toString());

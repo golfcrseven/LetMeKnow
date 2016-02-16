@@ -119,7 +119,7 @@ public class MedicineFragment extends android.support.v4.app.Fragment {
 
             medicineChapter chapter = medicineChapterList.get(position);
 
-            chapterName.setText(chapter.chapterName);
+            chapterName.setText((position+1)+")  "+chapter.chapterName);
             chapterDesc.setText(chapter.chapterPrice);
 
 
