@@ -8,12 +8,12 @@
         android:label="@string/app_name"
         android:theme="@style/CustomActionBarTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.conceptplays.komsonasa.elancopro.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".FirstActivity"
+            android:name="com.conceptplays.komsonasa.elancopro.FirstActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -23,43 +23,43 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FeedSowsPerDayActivity"
+            android:name="com.conceptplays.komsonasa.elancopro.FeedSowsPerDayActivity"
             android:label="@string/title_activity_feed_sows_per_day"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name=".FeedPigsPerDayActivity"
+            android:name="com.conceptplays.komsonasa.elancopro.FeedPigsPerDayActivity"
             android:label="@string/title_activity_feed_pigs_per_day"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait" >
         </activity>
 
         <activity
-            android:name=".SowDrugPerSowActivity"
+            android:name="com.conceptplays.komsonasa.elancopro.SowDrugPerSowActivity"
             android:label="@string/title_activity_sow_drug_per_sow"
             android:screenOrientation="portrait" >
         </activity>
 
         <activity
-            android:name=".PigDrugPerHeadActivity"
+            android:name="com.conceptplays.komsonasa.elancopro.PigDrugPerHeadActivity"
             android:label="@string/title_activity_sow_drug_per_sow"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name=".InjectionPerWeekActivity"
+            android:name="com.conceptplays.komsonasa.elancopro.InjectionPerWeekActivity"
             android:label="@string/title_activity_sow_drug_per_sow"
             android:screenOrientation="portrait" >
         </activity>
 
         <activity
-            android:name=".AddDrugsActivity"
+            android:name="com.conceptplays.komsonasa.elancopro.AddDrugsActivity"
             android:label="@string/title_activity_add_drugs"
             android:screenOrientation="portrait" >
         </activity>
 
         <activity
-            android:name=".AddInjectionActivity"
+            android:name="com.conceptplays.komsonasa.elancopro.AddInjectionActivity"
             android:label="@string/title_activity_add_drugs"
             android:screenOrientation="portrait" >
         </activity>
