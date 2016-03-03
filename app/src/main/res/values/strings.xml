@@ -6,22 +6,22 @@
     <string name="hello_world">Hello world!</string>
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="drawer_close">Slider Menu Closed</string>
-    
+
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
-        <item >Performance Data</item>
-        <item >Population Structure</item>
-        <item >Feed Consumption</item>
-        <item >Drug List</item>
-        <item >Sows Drug Cost</item>
-        <item >Pig Drug Cost</item>
-        <item >Injection List</item>
-        <item >Injection Cost</item>
-        <item >Vaccine List</item>
-        <item >Vaccine Cost</item>
-        <item >Report</item>
+        <item>Performance Data</item>
+        <item>Population Structure</item>
+        <item>Feed Consumption</item>
+        <item>Drug List</item>
+        <item>Sows Drug Cost</item>
+        <item>Pig Drug Cost</item>
+        <item>Injection List</item>
+        <item>Injection Cost</item>
+        <item>Vaccine List</item>
+        <item>Vaccine Cost</item>
+        <item>Report</item>
     </string-array>
-    
+
     <!-- Nav Drawer List Item Icons -->
     <!-- Keep them in order as the titles are in -->
     <array name="nav_drawer_icons">
@@ -37,7 +37,7 @@
         <item>@drawable/ic_whats_hot</item>
         <item>@drawable/ic_whats_hot</item>
     </array>
-    
+
     <!-- Content Description -->
     <string name="desc_list_item_icon">Item Icon</string>
     <string name="title_activity_first">FirstActivity</string>
@@ -45,7 +45,7 @@
     <string name="purpost_detail">let Me Know could estimate population structure, feed consumption  premix drug usage cost and injectable medicine cost of pig farm. Easy  for everyone to predict expense of farm and compare solution cost between ur and competitors</string>
     <string name="leteasy">Just put some number in Data Sheet and let it calculate report for u automaticaly.  Besides u could adjust feed intake curve on ur way. Furthermore u could compare  drug usage cost or injectable medicine cost between ur and competitor product, hurry up to do that.</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_feed_sows_per_day">FeedSowsPerDayActivity</string>
     <string name="title_activity_feed_pigs_per_day">FeedPigsPerDayActivity</string>

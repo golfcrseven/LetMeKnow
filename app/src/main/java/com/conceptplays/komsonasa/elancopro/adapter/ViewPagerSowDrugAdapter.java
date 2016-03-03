@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import com.conceptplays.komsonasa.elancopro.SowDrugCostPerWeekFragment;
 import com.conceptplays.komsonasa.elancopro.SowDrugCostPerMonthFragment;
 import com.conceptplays.komsonasa.elancopro.SowDrugCostPerSowFragment;
+import com.conceptplays.komsonasa.elancopro.SowDrugCostSum;
 
 
 /**
@@ -14,8 +15,8 @@ import com.conceptplays.komsonasa.elancopro.SowDrugCostPerSowFragment;
  */
 
 public class ViewPagerSowDrugAdapter extends FragmentPagerAdapter {
-    final int PAGE_COUNT = 3;
-    private String titles[] = new String[]{"1.Per Sow", "2.Per week (by population inventory)","3.Per month (by population inventory)" };
+    final int PAGE_COUNT = 4;
+    private String titles[] = new String[]{"1.Per Sow", "2.Per week","3.Per month","Summary" };
 
     public ViewPagerSowDrugAdapter(FragmentManager fm) {
         super(fm);
@@ -34,6 +35,9 @@ public class ViewPagerSowDrugAdapter extends FragmentPagerAdapter {
             case 2:
                 SowDrugCostPerMonthFragment fragmenttab3 = new SowDrugCostPerMonthFragment();
                 return  fragmenttab3;
+            case 3:
+                SowDrugCostSum fragmenttab4 = new SowDrugCostSum();
+                return  fragmenttab4;
         }
         return null;
     }
