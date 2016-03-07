@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:id="@+id/layout_list"
+    android:paddingTop="5dp"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/linearLayout2" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="No."
+                    android:id="@+id/drugNo"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2pdph"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_alignLeft="@+id/linearLayout2"
+            android:layout_alignStart="@+id/linearLayout2">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Drugs"
+                    android:id="@+id/txtViewName"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tiamulin 10%"
+                    android:id="@+id/drugName"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="false"
+                    android:gravity="center_horizontal|left"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/txtViewName"
+                    android:layout_toEndOf="@+id/txtViewName" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout121"
+            android:layout_below="@+id/linearLayout2pdph"
+            android:layout_alignLeft="@+id/linearLayout2">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Price"
+                    android:id="@+id/textView281"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="false"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tiamulin 10%"
+                    android:id="@+id/drugPrice"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center_horizontal|left"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/textView281"
+                    android:layout_toEndOf="@+id/textView281"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LinearUsage"
+            android:layout_below="@+id/linearLayout121"
+            android:layout_alignLeft="@+id/linearLayout2">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Cost per day"
+                    android:id="@+id/textView285"
+                    android:textSize="18dp"
+                    android:textColor="#202cae"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tiamulin 10%"
+                    android:id="@+id/sum_per_day"
+                    android:textSize="18dp"
+                    android:textColor="#202cae"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="false"
+                    android:gravity="center_horizontal|left"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/textView285"
+                    android:layout_toEndOf="@+id/textView285" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout123"
+            android:layout_below="@+id/LinearUsage"
+            android:layout_alignLeft="@+id/linearLayout2">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Cost per week"
+                    android:id="@+id/textView288"
+                    android:textSize="18dp"
+                    android:textColor="#202cae"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="false"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tiamulin 10%"
+                    android:id="@+id/sum_per_week"
+                    android:textSize="18dp"
+                    android:textColor="#202cae"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="false"
+                    android:gravity="center_horizontal|left"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/textView288"
+                    android:layout_toEndOf="@+id/textView288" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout124"
+            android:layout_below="@+id/linearLayout123"
+            android:layout_alignLeft="@+id/linearLayout2"
+            android:layout_marginBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Cost per month"
+                    android:id="@+id/textView291"
+                    android:textSize="18dp"
+                    android:textColor="#202cae"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="false"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tiamulin 10%"
+                    android:id="@+id/sum_per_month"
+                    android:textSize="18dp"
+                    android:textColor="#202cae"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="false"
+                    android:gravity="center_horizontal|left"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/textView291"
+                    android:layout_toEndOf="@+id/textView291" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:alpha="0"
+            android:layout_below="@+id/linearLayout124">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
