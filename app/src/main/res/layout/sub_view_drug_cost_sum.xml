@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:layout_width="220dp"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="No."
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:layout_width="220dp"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Drugs"
@@ -117,7 +117,8 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="false"
                     android:fontFamily="sans-serif-light"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:visibility="gone" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -135,7 +136,7 @@
                     android:textStyle="bold"
                     android:layout_toRightOf="@+id/textView281"
                     android:layout_toEndOf="@+id/textView281"
-                    />
+                    android:visibility="gone" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -153,10 +154,10 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:layout_width="220dp"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Cost per day"
+                    android:text="Cost per sow"
                     android:id="@+id/textView285"
                     android:textSize="18dp"
                     android:textColor="#202cae"
@@ -171,9 +172,9 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Tiamulin 10%"
-                    android:id="@+id/sum_per_day"
+                    android:id="@+id/sum_per_sow"
                     android:textSize="18dp"
-                    android:textColor="#202cae"
+                    android:textColor="#ffff272b"
                     android:fontFamily="sans-serif-light"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
@@ -199,7 +200,7 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:layout_width="220dp"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Cost per week"
@@ -218,7 +219,7 @@
                     android:text="Tiamulin 10%"
                     android:id="@+id/sum_per_week"
                     android:textSize="18dp"
-                    android:textColor="#202cae"
+                    android:textColor="#ffff272b"
                     android:fontFamily="sans-serif-light"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
@@ -245,7 +246,7 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:layout_width="220dp"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Cost per month"
@@ -264,7 +265,7 @@
                     android:text="Tiamulin 10%"
                     android:id="@+id/sum_per_month"
                     android:textSize="18dp"
-                    android:textColor="#202cae"
+                    android:textColor="#ffff272b"
                     android:fontFamily="sans-serif-light"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"

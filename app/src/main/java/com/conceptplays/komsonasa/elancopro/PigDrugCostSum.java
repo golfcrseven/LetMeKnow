@@ -5,7 +5,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,15 +14,15 @@ import android.widget.TextView;
 
 import com.conceptplays.komsonasa.elancopro.Class.HelperClass;
 import com.conceptplays.komsonasa.elancopro.DB.DataBaseAdapter;
-
 import com.conceptplays.komsonasa.letmeknow.R;
 
 import java.util.ArrayList;
 
+
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link android.app.Fragment} subclass.
  */
-public class SowDrugCostSum extends android.support.v4.app.Fragment {
+public class PigDrugCostSum extends android.support.v4.app.Fragment {
     DataBaseAdapter db;
     HelperClass hc;
     FeedSowsFragment pop;
@@ -46,12 +45,13 @@ public class SowDrugCostSum extends android.support.v4.app.Fragment {
     TextView tvTotalCost;
     TextView tvTotalCostMonth;
     Double C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C23,C24,C25;
+    Double M4,M5,M6,M7,M8,M9,M10,M11,M12,M13,M14,M15,M16,M17,M18,M19,M20,M21,M22,M23,M24,M25;
     Double P4,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18,P19,P20,P21,P22,P23,P24,P25;
 
     ArrayList<Double> sumVal = new ArrayList<Double>();
     ArrayList<Double> sumValMonth = new ArrayList<Double>();
 
-    public SowDrugCostSum() {
+    public PigDrugCostSum() {
         // Required empty public constructor
     }
 
@@ -59,7 +59,6 @@ public class SowDrugCostSum extends android.support.v4.app.Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         // Inflate the layout for this fragment
         View v =  inflater.inflate(R.layout.fragment_sow_drug_cost_sum, container, false);
 
@@ -82,11 +81,11 @@ public class SowDrugCostSum extends android.support.v4.app.Fragment {
     public  void getData() {
 
         getPopB();//Population(B)
-        getFeedC();//FeedConsumption(C)
+        getFeedM();//FeedConsumption(M)
 
         db.open();
         Cursor cursor;
-        cursor = db.getAll(db.DRUG_SOW_PERSOW_TABLE, "asc");
+        cursor = db.getAll(db.DRUG_PIG_TABLE, "asc");
         cursor.requery();
         ListID.clear();
         DrugIdList.clear();
@@ -134,10 +133,11 @@ public class SowDrugCostSum extends android.support.v4.app.Fragment {
             ArrayList<String> drugList = new ArrayList<String>();
             drugList.clear();
             drugList = PerSow.getDrug(Long.valueOf(DrugIdList.get(position)), this.db);
-            txtNo.setText((position + 1) + ")");
+            txtNo.setText((position+1)+")");
             tvDrugName.setText(drugList.get(0).toString());
             tvDrugPrice.setText(drugList.get(1).toString()+" ฿");
-           // tvSow.setText(Usage.get(position).toString());
+            //tvUsage.setText(Usage.get(position).toString());
+            //tvTotal.setText(hc.df3(hc.string2double(Total.get(position))));
 
             Double costSow = (hc.string2double9df(TotalSow.get(position))*hc.string2double(drugList.get(1)));//total*price
             TotalCostSow = TotalCostSow+costSow;
@@ -152,69 +152,72 @@ public class SowDrugCostSum extends android.support.v4.app.Fragment {
             TotalCostMonth = TotalCostMonth+costMonth;
             tvMonth.setText(hc.df2(costMonth));
 
+
             parent.addView(custom);
         }
         tvTotalCostSow.setText(hc.df2(TotalCostSow));
         tvTotalCost.setText(hc.df2(TotalCost));
         tvTotalCostMonth.setText(hc.df2(TotalCostMonth));
-    }
 
+    }
+    
     public void getPopB(){
         ArrayList ar = pop.getB(this.db);
-        P4 = Double.valueOf(ar.get(8).toString());
-        P5 = Double.valueOf(ar.get(9).toString());
-        P6 = Double.valueOf(ar.get(10).toString());
-        P7 = Double.valueOf(ar.get(11).toString());
-        P8 = Double.valueOf(ar.get(12).toString());
-        P9 = Double.valueOf(ar.get(13).toString());
-        P10 = Double.valueOf(ar.get(14).toString());
-        P11 = Double.valueOf(ar.get(15).toString());
-        P12 = Double.valueOf(ar.get(16).toString());
-        P13 = Double.valueOf(ar.get(17).toString());
-        P14 = Double.valueOf(ar.get(18).toString());
-        P15 = Double.valueOf(ar.get(19).toString());
-        P16 = Double.valueOf(ar.get(20).toString());
-        P17 = Double.valueOf(ar.get(21).toString());
-        P18 = Double.valueOf(ar.get(22).toString());
-        P19 = Double.valueOf(ar.get(23).toString());
-        P20 = Double.valueOf(ar.get(24).toString());
-        P21 = Double.valueOf(ar.get(25).toString());
-        P22 = Double.valueOf(ar.get(26).toString());
-        P23 = Double.valueOf(ar.get(4).toString());
-        P24 = Double.valueOf(ar.get(4).toString());
-        P25 = Double.valueOf(ar.get(4).toString());
+        P4 = Double.valueOf(ar.get(8+28).toString());
+        P5 = Double.valueOf(ar.get(9+28).toString());
+        P6 = Double.valueOf(ar.get(10+28).toString());
+        P7 = Double.valueOf(ar.get(11+28).toString());
+        P8 = Double.valueOf(ar.get(12+28).toString());
+        P9 = Double.valueOf(ar.get(13+28).toString());
+        P10 = Double.valueOf(ar.get(14+28).toString());
+        P11 = Double.valueOf(ar.get(15+28).toString());
+        P12 = Double.valueOf(ar.get(16+28).toString());
+        P13 = Double.valueOf(ar.get(17+28).toString());
+        P14 = Double.valueOf(ar.get(18+28).toString());
+        P15 = Double.valueOf(ar.get(19+28).toString());
+        P16 = Double.valueOf(ar.get(20+28).toString());
+        P17 = Double.valueOf(ar.get(21+28).toString());
+        P18 = Double.valueOf(ar.get(22+28).toString());
+        P19 = Double.valueOf(ar.get(23+28).toString());
+        P20 = Double.valueOf(ar.get(24+28).toString());
+        P21 = Double.valueOf(ar.get(25+28).toString());
+        P22 = Double.valueOf(ar.get(26+28).toString());
+        P23 = Double.valueOf(ar.get(27+28).toString());
+        P24 = Double.valueOf(ar.get(28+28).toString());
+        P25 = Double.valueOf(ar.get(29+28).toString());
     }
 
-    public void getFeedC(){
+
+    public void getFeedM(){
         db.open();
         Cursor cursor;
-        cursor = db.getRow(db.FDSOW_TABLE, Long.valueOf(1));
+        cursor = db.getRow(db.FDPIG_TABLE, Long.valueOf(1));
         cursor.requery();
 
         if(cursor.moveToFirst()){
             do{
-                C4 = Double.valueOf(cursor.getString(1));
-                C5 = Double.valueOf(cursor.getString(2));
-                C6 = Double.valueOf(cursor.getString(3));
-                C7 = Double.valueOf(cursor.getString(4));
-                C8 = Double.valueOf(cursor.getString(5));
-                C9 = Double.valueOf(cursor.getString(6));
-                C10 = Double.valueOf(cursor.getString(7));
-                C11 = Double.valueOf(cursor.getString(8));
-                C12 = Double.valueOf(cursor.getString(9));
-                C13 = Double.valueOf(cursor.getString(10));
-                C14 = Double.valueOf(cursor.getString(11));
-                C15 = Double.valueOf(cursor.getString(12));
-                C16 = Double.valueOf(cursor.getString(13));
-                C17 = Double.valueOf(cursor.getString(14));
-                C18 = Double.valueOf(cursor.getString(15));
-                C19 = Double.valueOf(cursor.getString(16));
-                C20 = Double.valueOf(cursor.getString(17));
-                C21 = Double.valueOf(cursor.getString(18));
-                C22 = Double.valueOf(cursor.getString(19));
-                C23 = Double.valueOf(cursor.getString(20));
-                C24 = Double.valueOf(cursor.getString(21));
-                C25 = Double.valueOf(cursor.getString(22));
+                M4 = Double.valueOf(cursor.getString(1));
+                M5 = Double.valueOf(cursor.getString(2));
+                M6 = Double.valueOf(cursor.getString(3));
+                M7 = Double.valueOf(cursor.getString(4));
+                M8 = Double.valueOf(cursor.getString(5));
+                M9 = Double.valueOf(cursor.getString(6));
+                M10 = Double.valueOf(cursor.getString(7));
+                M11 = Double.valueOf(cursor.getString(8));
+                M12 = Double.valueOf(cursor.getString(9));
+                M13 = Double.valueOf(cursor.getString(10));
+                M14 = Double.valueOf(cursor.getString(11));
+                M15 = Double.valueOf(cursor.getString(12));
+                M16 = Double.valueOf(cursor.getString(13));
+                M17 = Double.valueOf(cursor.getString(14));
+                M18 = Double.valueOf(cursor.getString(15));
+                M19 = Double.valueOf(cursor.getString(16));
+                M20 = Double.valueOf(cursor.getString(17));
+                M21 = Double.valueOf(cursor.getString(18));
+                M22 = Double.valueOf(cursor.getString(19));
+                M23 = Double.valueOf(cursor.getString(20));
+                M24 = Double.valueOf(cursor.getString(21));
+                M25 = Double.valueOf(cursor.getString(22));
 
             }while(cursor.moveToNext());
         }
@@ -224,56 +227,56 @@ public class SowDrugCostSum extends android.support.v4.app.Fragment {
 
     public void getFCH(Double usage){
 
-        sumVal.set(0,usage*((C4*7)*P4)/1000);
-        sumVal.set(1,usage*((C5*7)*P5)/1000);
-        sumVal.set(2,usage*((C6*7)*P6)/1000);
-        sumVal.set(3,usage*((C7*7)*P7)/1000);
-        sumVal.set(4,usage*((C8*7)*P8)/1000);
-        sumVal.set(5,usage*((C9*7)*P9)/1000);
-        sumVal.set(6,usage*((C10*7)*P10)/1000);
-        sumVal.set(7,usage*((C11*7)*P11)/1000);
-        sumVal.set(8,usage*((C12*7)*P12)/1000);
-        sumVal.set(9,usage*((C13*7)*P13)/1000);
-        sumVal.set(10,usage*((C14*7)*P14)/1000);
-        sumVal.set(11,usage*((C15*7)*P15)/1000);
-        sumVal.set(12,usage*((C16*7)*P16)/1000);
-        sumVal.set(13,usage*((C17*7)*P17)/1000);
-        sumVal.set(14,usage*((C18*7)*P18)/1000);
-        sumVal.set(15,usage*((C19*7)*P19)/1000);
-        sumVal.set(16,usage*((C20*7)*P20)/1000);
-        sumVal.set(17,usage*((C21*7)*P21)/1000);
-        sumVal.set(18,usage*((C22*7)*P22)/1000);
-        sumVal.set(19,usage*((C23*7)*P23)/1000);
-        sumVal.set(20,usage*((C24*7)*P24)/1000);
-        sumVal.set(21,usage*((C25*7)*P25)/1000);
+        sumVal.set(0,usage*((M4*7)*P4)/1000);
+        sumVal.set(1,usage*((M5*7)*P5)/1000);
+        sumVal.set(2,usage*((M6*7)*P6)/1000);
+        sumVal.set(3,usage*((M7*7)*P7)/1000);
+        sumVal.set(4,usage*((M8*7)*P8)/1000);
+        sumVal.set(5,usage*((M9*7)*P9)/1000);
+        sumVal.set(6,usage*((M10*7)*P10)/1000);
+        sumVal.set(7,usage*((M11*7)*P11)/1000);
+        sumVal.set(8,usage*((M12*7)*P12)/1000);
+        sumVal.set(9,usage*((M13*7)*P13)/1000);
+        sumVal.set(10,usage*((M14*7)*P14)/1000);
+        sumVal.set(11,usage*((M15*7)*P15)/1000);
+        sumVal.set(12,usage*((M16*7)*P16)/1000);
+        sumVal.set(13,usage*((M17*7)*P17)/1000);
+        sumVal.set(14,usage*((M18*7)*P18)/1000);
+        sumVal.set(15,usage*((M19*7)*P19)/1000);
+        sumVal.set(16,usage*((M20*7)*P20)/1000);
+        sumVal.set(17,usage*((M21*7)*P21)/1000);
+        sumVal.set(18,usage*((M22*7)*P22)/1000);
+        sumVal.set(19,usage*((M23*7)*P23)/1000);
+        sumVal.set(20,usage*((M24*7)*P24)/1000);
+        sumVal.set(21,usage*((M25*7)*P25)/1000);
     }
     public void getFCHMONTH(Double usage){
 
-        sumValMonth.set(0,usage*((C4*30)*P4)/1000);
-        sumValMonth.set(1,usage*((C5*30)*P5)/1000);
-        sumValMonth.set(2,usage*((C6*30)*P6)/1000);
-        sumValMonth.set(3,usage*((C7*30)*P7)/1000);
-        sumValMonth.set(4,usage*((C8*30)*P8)/1000);
-        sumValMonth.set(5,usage*((C9*30)*P9)/1000);
-        sumValMonth.set(6,usage*((C10*30)*P10)/1000);
-        sumValMonth.set(7,usage*((C11*30)*P11)/1000);
-        sumValMonth.set(8,usage*((C12*30)*P12)/1000);
-        sumValMonth.set(9,usage*((C13*30)*P13)/1000);
-        sumValMonth.set(10,usage*((C14*30)*P14)/1000);
-        sumValMonth.set(11,usage*((C15*30)*P15)/1000);
-        sumValMonth.set(12,usage*((C16*30)*P16)/1000);
-        sumValMonth.set(13,usage*((C17*30)*P17)/1000);
-        sumValMonth.set(14,usage*((C18*30)*P18)/1000);
-        sumValMonth.set(15,usage*((C19*30)*P19)/1000);
-        sumValMonth.set(16,usage*((C20*30)*P20)/1000);
-        sumValMonth.set(17,usage*((C21*30)*P21)/1000);
-        sumValMonth.set(18,usage*((C22*30)*P22)/1000);
-        sumValMonth.set(19,usage*((C23*30)*P23)/1000);
-        sumValMonth.set(20,usage*((C24*30)*P24)/1000);
-        sumValMonth.set(21,usage*((C25*30)*P25)/1000);
+        sumValMonth.set(0,usage*((M4*30)*P4)/1000);
+        sumValMonth.set(1,usage*((M5*30)*P5)/1000);
+        sumValMonth.set(2,usage*((M6*30)*P6)/1000);
+        sumValMonth.set(3,usage*((M7*30)*P7)/1000);
+        sumValMonth.set(4,usage*((M8*30)*P8)/1000);
+        sumValMonth.set(5,usage*((M9*30)*P9)/1000);
+        sumValMonth.set(6,usage*((M10*30)*P10)/1000);
+        sumValMonth.set(7,usage*((M11*30)*P11)/1000);
+        sumValMonth.set(8,usage*((M12*30)*P12)/1000);
+        sumValMonth.set(9,usage*((M13*30)*P13)/1000);
+        sumValMonth.set(10,usage*((M14*30)*P14)/1000);
+        sumValMonth.set(11,usage*((M15*30)*P15)/1000);
+        sumValMonth.set(12,usage*((M16*30)*P16)/1000);
+        sumValMonth.set(13,usage*((M17*30)*P17)/1000);
+        sumValMonth.set(14,usage*((M18*30)*P18)/1000);
+        sumValMonth.set(15,usage*((M19*30)*P19)/1000);
+        sumValMonth.set(16,usage*((M20*30)*P20)/1000);
+        sumValMonth.set(17,usage*((M21*30)*P21)/1000);
+        sumValMonth.set(18,usage*((M22*30)*P22)/1000);
+        sumValMonth.set(19,usage*((M23*30)*P23)/1000);
+        sumValMonth.set(20,usage*((M24*30)*P24)/1000);
+        sumValMonth.set(21,usage*((M25*30)*P25)/1000);
     }
 
-    public Double getTotal(String string, Double usage) {
+    private Double getTotal(String string, Double usage) {
         Double sum = 0.000000000;
         sumVal.clear();
 
@@ -299,7 +302,7 @@ public class SowDrugCostSum extends android.support.v4.app.Fragment {
 
     }
 
-    public Double getTotalMonth(String string, Double usage) {
+    private Double getTotalMonth(String string, Double usage) {
         Double sum = 0.000000000;
         sumValMonth.clear();
 
@@ -324,6 +327,7 @@ public class SowDrugCostSum extends android.support.v4.app.Fragment {
         return sum;
 
     }
+
 
     @Override
     public void onResume(){
