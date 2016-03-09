@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.FrameLayout;
 
 import com.conceptplays.komsonasa.elancopro.adapter.ViewPagerVaccineAdapter;
 import com.conceptplays.komsonasa.letmeknow.R;
@@ -25,6 +26,9 @@ public class VaccineCostFragment extends Fragment {
 
         Button btnAdd = (Button) getActivity().findViewById(R.id.btnAddMedicine);
         btnAdd.setVisibility(View.VISIBLE);
+
+        FrameLayout frmPopup = (FrameLayout)v.findViewById(R.id.frameLayout_popup);
+        frmPopup.setVisibility(View.GONE);
 
         return v;
     }
