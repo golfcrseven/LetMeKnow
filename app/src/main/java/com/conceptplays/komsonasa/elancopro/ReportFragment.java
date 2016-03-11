@@ -396,7 +396,7 @@ public class ReportFragment extends Fragment {
 
         //getTotalDrugCost
         totalDrugCost();
-        Double TotalCost = 0.0, TotalCostMonth = 0.0, TotalCostSow = 0.0;
+        Double TotalCost = 0.0, TotalCostMonth = 0.0, TotalCostSow = 0.0 ,TotalCostWeek = 0.0;
         for (int i=1; i<=DrugIdList.size();i++) {
             final int position = i-1;
             SowDrugCostPerSowFragment  PerSow = new SowDrugCostPerSowFragment();
@@ -406,6 +406,7 @@ public class ReportFragment extends Fragment {
 
             Double costSow = (hc.string2double9df(TotalSow.get(position))*hc.string2double(drugList.get(1)));//total*price
             TotalCostSow = TotalCostSow + costSow;
+
             Double cost = (hc.string2double9df(Total.get(position))*hc.string2double(drugList.get(1)));//total*price
             TotalCost = TotalCost+cost;
 
@@ -654,104 +655,104 @@ public class ReportFragment extends Fragment {
 
     public void getFCH(Double usage){
 
-        sumVal.set(0,usage*((C4*7)*pB9));
-        sumVal.set(1,usage*((C5*7)*pB10));
-        sumVal.set(2,usage*((C6*7)*pB11));
-        sumVal.set(3,usage*((C7*7)*pB12));
-        sumVal.set(4,usage*((C8*7)*pB13));
-        sumVal.set(5,usage*((C9*7)*pB14));
-        sumVal.set(6,usage*((C10*7)*pB15));
-        sumVal.set(7,usage*((C11*7)*pB16));
-        sumVal.set(8,usage*((C12*7)*pB17));
-        sumVal.set(9,usage*((C13*7)*pB18));
-        sumVal.set(10,usage*((C14*7)*pB19));
-        sumVal.set(11,usage*((C15*7)*pB20));
-        sumVal.set(12,usage*((C16*7)*pB21));
-        sumVal.set(13,usage*((C17*7)*pB22));
-        sumVal.set(14,usage*((C18*7)*pB23));
-        sumVal.set(15,usage*((C19*7)*pB24));
-        sumVal.set(16,usage*((C20*7)*pB25));
-        sumVal.set(17,usage*((C21*7)*pB26));
-        sumVal.set(18,usage*((C22*7)*pB26));
-        sumVal.set(19,usage*((C23*7)*pB5));
-        sumVal.set(20,usage*((C24*7)*pB5));
-        sumVal.set(21,usage*((C25*7)*pB5));
+        sumVal.set(0,usage*((C4*7)*pB9)/1000);
+        sumVal.set(1,usage*((C5*7)*pB10)/1000);
+        sumVal.set(2,usage*((C6*7)*pB11)/1000);
+        sumVal.set(3,usage*((C7*7)*pB12)/1000);
+        sumVal.set(4,usage*((C8*7)*pB13)/1000);
+        sumVal.set(5,usage*((C9*7)*pB14)/1000);
+        sumVal.set(6,usage*((C10*7)*pB15)/1000);
+        sumVal.set(7,usage*((C11*7)*pB16)/1000);
+        sumVal.set(8,usage*((C12*7)*pB17)/1000);
+        sumVal.set(9,usage*((C13*7)*pB18)/1000);
+        sumVal.set(10,usage*((C14*7)*pB19)/1000);
+        sumVal.set(11,usage*((C15*7)*pB20)/1000);
+        sumVal.set(12,usage*((C16*7)*pB21)/1000);
+        sumVal.set(13,usage*((C17*7)*pB22)/1000);
+        sumVal.set(14,usage*((C18*7)*pB23)/1000);
+        sumVal.set(15,usage*((C19*7)*pB24)/1000);
+        sumVal.set(16,usage*((C20*7)*pB25)/1000);
+        sumVal.set(17,usage*((C21*7)*pB26)/1000);
+        sumVal.set(18,usage*((C22*7)*pB26)/1000);
+        sumVal.set(19,usage*((C23*7)*pB5)/1000);
+        sumVal.set(20,usage*((C24*7)*pB5)/1000);
+        sumVal.set(21,usage*((C25*7)*pB5)/1000);
     }
     public void getFCHMONTH(Double usage){
 
-        sumValMonth.set(0,usage*((C4*30)*pB9));
-        sumValMonth.set(1,usage*((C5*30)*pB10));
-        sumValMonth.set(2,usage*((C6*30)*pB11));
-        sumValMonth.set(3,usage*((C7*30)*pB12));
-        sumValMonth.set(4,usage*((C8*30)*pB13));
-        sumValMonth.set(5,usage*((C9*30)*pB14));
-        sumValMonth.set(6,usage*((C10*30)*pB15));
-        sumValMonth.set(7,usage*((C11*30)*pB16));
-        sumValMonth.set(8,usage*((C12*30)*pB17));
-        sumValMonth.set(9,usage*((C13*30)*pB18));
-        sumValMonth.set(10,usage*((C14*30)*pB19));
-        sumValMonth.set(11,usage*((C15*30)*pB20));
-        sumValMonth.set(12,usage*((C16*30)*pB21));
-        sumValMonth.set(13,usage*((C17*30)*pB22));
-        sumValMonth.set(14,usage*((C18*30)*pB23));
-        sumValMonth.set(15,usage*((C19*30)*pB24));
-        sumValMonth.set(16,usage*((C20*30)*pB25));
-        sumValMonth.set(17,usage*((C21*30)*pB26));
-        sumValMonth.set(18,usage*((C22*30)*pB26));
-        sumValMonth.set(19,usage*((C23*30)*pB5));
-        sumValMonth.set(20,usage*((C24*30)*pB5));
-        sumValMonth.set(21,usage*((C25*30)*pB5));
+        sumValMonth.set(0,usage*((C4*30)*pB9)/1000);
+        sumValMonth.set(1,usage*((C5*30)*pB10)/1000);
+        sumValMonth.set(2,usage*((C6*30)*pB11)/1000);
+        sumValMonth.set(3,usage*((C7*30)*pB12)/1000);
+        sumValMonth.set(4,usage*((C8*30)*pB13)/1000);
+        sumValMonth.set(5,usage*((C9*30)*pB14)/1000);
+        sumValMonth.set(6,usage*((C10*30)*pB15)/1000);
+        sumValMonth.set(7,usage*((C11*30)*pB16)/1000);
+        sumValMonth.set(8,usage*((C12*30)*pB17)/1000);
+        sumValMonth.set(9,usage*((C13*30)*pB18)/1000);
+        sumValMonth.set(10,usage*((C14*30)*pB19)/1000);
+        sumValMonth.set(11,usage*((C15*30)*pB20)/1000);
+        sumValMonth.set(12,usage*((C16*30)*pB21)/1000);
+        sumValMonth.set(13,usage*((C17*30)*pB22)/1000);
+        sumValMonth.set(14,usage*((C18*30)*pB23)/1000);
+        sumValMonth.set(15,usage*((C19*30)*pB24)/1000);
+        sumValMonth.set(16,usage*((C20*30)*pB25)/1000);
+        sumValMonth.set(17,usage*((C21*30)*pB26)/1000);
+        sumValMonth.set(18,usage*((C22*30)*pB26)/1000);
+        sumValMonth.set(19,usage*((C23*30)*pB5)/1000);
+        sumValMonth.set(20,usage*((C24*30)*pB5)/1000);
+        sumValMonth.set(21,usage*((C25*30)*pB5)/1000);
     }
     public void getFCHPIGDRUGweek(Double usage){
 
-        sumValPigDrug.set(0,usage*((M4*7)*pB37));
-        sumValPigDrug.set(1,usage*((M5*7)*pB38));
-        sumValPigDrug.set(2,usage*((M6*7)*pB39));
-        sumValPigDrug.set(3,usage*((M7*7)*pB40));
-        sumValPigDrug.set(4,usage*((M8*7)*pB41));
-        sumValPigDrug.set(5,usage*((M9*7)*pB42));
-        sumValPigDrug.set(6,usage*((M10*7)*pB43));
-        sumValPigDrug.set(7,usage*((M11*7)*pB44));
-        sumValPigDrug.set(8,usage*((M12*7)*pB45));
-        sumValPigDrug.set(9,usage*((M13*7)*pB46));
-        sumValPigDrug.set(10,usage*((M14*7)*pB47));
-        sumValPigDrug.set(11,usage*((M15*7)*pB48));
-        sumValPigDrug.set(12,usage*((M16*7)*pB49));
-        sumValPigDrug.set(13,usage*((M17*7)*pB50));
-        sumValPigDrug.set(14,usage*((M18*7)*pB51));
-        sumValPigDrug.set(15,usage*((M19*7)*pB52));
-        sumValPigDrug.set(16,usage*((M20*7)*pB53));
-        sumValPigDrug.set(17,usage*((M21*7)*pB54));
-        sumValPigDrug.set(18,usage*((M22*7)*pB55));
-        sumValPigDrug.set(19,usage*((M23*7)*pB56));
-        sumValPigDrug.set(20,usage*((M24*7)*pB57));
-        sumValPigDrug.set(21,usage*((M25*7)*pB58));
+        sumValPigDrug.set(0,usage*((M4*7)*pB37)/1000);
+        sumValPigDrug.set(1,usage*((M5*7)*pB38)/1000);
+        sumValPigDrug.set(2,usage*((M6*7)*pB39)/1000);
+        sumValPigDrug.set(3,usage*((M7*7)*pB40)/1000);
+        sumValPigDrug.set(4,usage*((M8*7)*pB41)/1000);
+        sumValPigDrug.set(5,usage*((M9*7)*pB42)/1000);
+        sumValPigDrug.set(6,usage*((M10*7)*pB43)/1000);
+        sumValPigDrug.set(7,usage*((M11*7)*pB44)/1000);
+        sumValPigDrug.set(8,usage*((M12*7)*pB45)/1000);
+        sumValPigDrug.set(9,usage*((M13*7)*pB46)/1000);
+        sumValPigDrug.set(10,usage*((M14*7)*pB47)/1000);
+        sumValPigDrug.set(11,usage*((M15*7)*pB48)/1000);
+        sumValPigDrug.set(12,usage*((M16*7)*pB49)/1000);
+        sumValPigDrug.set(13,usage*((M17*7)*pB50)/1000);
+        sumValPigDrug.set(14,usage*((M18*7)*pB51)/1000);
+        sumValPigDrug.set(15,usage*((M19*7)*pB52)/1000);
+        sumValPigDrug.set(16,usage*((M20*7)*pB53)/1000);
+        sumValPigDrug.set(17,usage*((M21*7)*pB54)/1000);
+        sumValPigDrug.set(18,usage*((M22*7)*pB55)/1000);
+        sumValPigDrug.set(19,usage*((M23*7)*pB56)/1000);
+        sumValPigDrug.set(20,usage*((M24*7)*pB57)/1000);
+        sumValPigDrug.set(21,usage*((M25*7)*pB58)/1000);
     }
 
     public void getFCHPIGDRUG(Double usage){
 
-        sumValPigDrug.set(0,usage*((M4*30)*pB37));
-        sumValPigDrug.set(1,usage*((M5*30)*pB38));
-        sumValPigDrug.set(2,usage*((M6*30)*pB39));
-        sumValPigDrug.set(3,usage*((M7*30)*pB40));
-        sumValPigDrug.set(4,usage*((M8*30)*pB41));
-        sumValPigDrug.set(5,usage*((M9*30)*pB42));
-        sumValPigDrug.set(6,usage*((M10*30)*pB43));
-        sumValPigDrug.set(7,usage*((M11*30)*pB44));
-        sumValPigDrug.set(8,usage*((M12*30)*pB45));
-        sumValPigDrug.set(9,usage*((M13*30)*pB46));
-        sumValPigDrug.set(10,usage*((M14*30)*pB47));
-        sumValPigDrug.set(11,usage*((M15*30)*pB48));
-        sumValPigDrug.set(12,usage*((M16*30)*pB49));
-        sumValPigDrug.set(13,usage*((M17*30)*pB50));
-        sumValPigDrug.set(14,usage*((M18*30)*pB51));
-        sumValPigDrug.set(15,usage*((M19*30)*pB52));
-        sumValPigDrug.set(16,usage*((M20*30)*pB53));
-        sumValPigDrug.set(17,usage*((M21*30)*pB54));
-        sumValPigDrug.set(18,usage*((M22*30)*pB55));
-        sumValPigDrug.set(19,usage*((M23*30)*pB56));
-        sumValPigDrug.set(20,usage*((M24*30)*pB57));
-        sumValPigDrug.set(21,usage*((M25*30)*pB58));
+        sumValPigDrug.set(0,usage*((M4*30)*pB37)/1000);
+        sumValPigDrug.set(1,usage*((M5*30)*pB38)/1000);
+        sumValPigDrug.set(2,usage*((M6*30)*pB39)/1000);
+        sumValPigDrug.set(3,usage*((M7*30)*pB40)/1000);
+        sumValPigDrug.set(4,usage*((M8*30)*pB41)/1000);
+        sumValPigDrug.set(5,usage*((M9*30)*pB42)/1000);
+        sumValPigDrug.set(6,usage*((M10*30)*pB43)/1000);
+        sumValPigDrug.set(7,usage*((M11*30)*pB44)/1000);
+        sumValPigDrug.set(8,usage*((M12*30)*pB45)/1000);
+        sumValPigDrug.set(9,usage*((M13*30)*pB46)/1000);
+        sumValPigDrug.set(10,usage*((M14*30)*pB47)/1000);
+        sumValPigDrug.set(11,usage*((M15*30)*pB48)/1000);
+        sumValPigDrug.set(12,usage*((M16*30)*pB49)/1000);
+        sumValPigDrug.set(13,usage*((M17*30)*pB50)/1000);
+        sumValPigDrug.set(14,usage*((M18*30)*pB51)/1000);
+        sumValPigDrug.set(15,usage*((M19*30)*pB52)/1000);
+        sumValPigDrug.set(16,usage*((M20*30)*pB53)/1000);
+        sumValPigDrug.set(17,usage*((M21*30)*pB54)/1000);
+        sumValPigDrug.set(18,usage*((M22*30)*pB55)/1000);
+        sumValPigDrug.set(19,usage*((M23*30)*pB56)/1000);
+        sumValPigDrug.set(20,usage*((M24*30)*pB57)/1000);
+        sumValPigDrug.set(21,usage*((M25*30)*pB58)/1000);
     }
 
 

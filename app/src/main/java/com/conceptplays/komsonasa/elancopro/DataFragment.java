@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
+import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -178,7 +179,9 @@ public class DataFragment extends DialogFragment {
 
         if(cursor.moveToFirst()){
             do{
-                edtNumSow.setText(cursor.getString(1));
+                Double d = Double.valueOf(cursor.getString(1));
+                Integer intD = d.intValue();
+                edtNumSow.setText(intD.toString());
                 edtFarrowSow.setText(cursor.getString(2));
                 edtReplc.setText(cursor.getString(3));
                 edtPigsWeanedLitter.setText(cursor.getString(4));
