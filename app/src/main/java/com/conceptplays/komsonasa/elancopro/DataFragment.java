@@ -7,10 +7,14 @@ import android.content.DialogInterface;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
+import android.text.InputFilter;
+import android.text.Spanned;
+import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
@@ -73,6 +77,7 @@ public class DataFragment extends DialogFragment {
         edtPreWeaned = (EditText)v.findViewById(R.id.edtPreWeaned);
         edtGrower = (EditText)v.findViewById(R.id.edtGrower);
         edtWeanling = (EditText)v.findViewById(R.id.edtWeanling);
+        edtFarrowSow.setFilters(new InputFilter[]{ new InputFilterMinMax("1", "95")});
 
         setData();
 
@@ -98,27 +103,52 @@ public class DataFragment extends DialogFragment {
         weanLing =  edtWeanling.getText().toString();
         grower =  edtGrower.getText().toString();
 
-        if(numSow.isEmpty()){
+        String errorTxt = "Data is not complete!";
+        Integer value = Integer.parseInt(farrowSow);
+        if(value<75){
+            error = true;
+            errorTxt = "Farrowing Rate Minimum 75% ";
+            clearFocus();
+            edtFarrowSow.requestFocus();
+        }
+        if(value>90){
+            error = true;
+            errorTxt = "Farrowing Rate Maximum 90% ";
+            clearFocus();
+            edtFarrowSow.requestFocus();
+        }
+
+        if(error == false && numSow.isEmpty()){
             error = true;
             edtNumSow.requestFocus();
-        }else if(error == false && farrowSow.isEmpty()){
+        }
+        if(error == false && farrowSow.isEmpty()){
             error = true;
             edtFarrowSow.requestFocus();
-        }else if(error == false && replc.isEmpty()){
+        }
+        if(error == false && replc.isEmpty()){
             error = true;
             edtReplc.requestFocus();
-        }else if(error == false && pigsWeanedListter.isEmpty()){
+        }
+        if(error == false && pigsWeanedListter.isEmpty()){
             error = true;
             edtPigsWeanedLitter.requestFocus();
-        }else if(error == false && preWeaned.isEmpty()){
+        }
+        if(error == false && preWeaned.isEmpty()){
             error = true;
             edtPreWeaned.requestFocus();
-        }else if(error == false && weanLing.isEmpty()){
+        }
+        if(error == false && weanLing.isEmpty()){
             error = true;
             edtWeanling.requestFocus();
-        }else if(error == false && grower.isEmpty()){
+        }
+        if(error == false && grower.isEmpty()){
             error = true;
             edtGrower.requestFocus();
+        }
+
+        if(error){
+            ShowAlert(getActivity(), "Warning!", errorTxt, true);
         }else{
             AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
             dialog.setMessage("Are you confirm to save data?");
@@ -137,12 +167,8 @@ public class DataFragment extends DialogFragment {
                 }
             });
             dialog.show();
-
         }
 
-        if(error){
-            ShowAlert(getActivity(), "Warning!", "Data is not complete!", true);
-        }
     }
     private  void insertData(){
         ContentValues cv = new ContentValues();
@@ -224,5 +250,47 @@ public class DataFragment extends DialogFragment {
             }
         });
         alertDialog.show();
+    }
+
+    public void clearFocus(){
+        edtNumSow.clearFocus();
+        edtFarrowSow.clearFocus();
+        edtReplc.clearFocus();
+        edtPigsWeanedLitter.clearFocus();
+        edtPreWeaned.clearFocus();
+        edtWeanling.clearFocus();
+        edtGrower.clearFocus();
+    }
+
+
+
+}
+
+class InputFilterMinMax implements InputFilter {
+
+    private int min, max;
+
+    public InputFilterMinMax(int min, int max) {
+        this.min = min;
+        this.max = max;
+    }
+
+    public InputFilterMinMax(String min, String max) {
+        this.min = Integer.parseInt(min);
+        this.max = Integer.parseInt(max);
+    }
+
+    @Override
+    public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
+        try {
+            int input = Integer.parseInt(dest.toString() + source.toString());
+            if (isInRange(min, max, input))
+                return null;
+        } catch (NumberFormatException nfe) { }
+        return "";
+    }
+
+    private boolean isInRange(int a, int b, int c) {
+        return b > a ? c >= a && c <= b : c >= b && c <= a;
     }
 }

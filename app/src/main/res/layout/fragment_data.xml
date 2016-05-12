@@ -6,7 +6,7 @@
     android:scrollbarStyle="insideOverlay"
     android:background="@android:color/white"
     android:id="@+id/scrollViewID"
-    tools:context=".ParkingActivity">
+    tools:context=".MainActivity">
 
 
     <RelativeLayout
@@ -67,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Farrowing rate : (%)"
+            android:text="Farrowing rate : (%) "
             android:id="@+id/textView9"
             android:fontFamily="sans-serif-light"
             android:textSize="18dp"
@@ -272,6 +272,20 @@
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"
             android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="-  Min 75%, Max 90%"
+            android:id="@+id/textView2_star"
+            android:fontFamily="sans-serif-light"
+            android:textSize="13dp"
+            android:textColor="#ff0000"
+            android:layout_above="@+id/edtFarrowSow"
+            android:layout_toRightOf="@+id/textView9"
+            android:layout_toEndOf="@+id/textView9" />
+
     </RelativeLayout>
 
 </ScrollView>
