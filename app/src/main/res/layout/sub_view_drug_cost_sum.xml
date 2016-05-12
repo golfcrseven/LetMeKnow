@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:layout_width="220dp"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="No."
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:layout_width="220dp"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Drugs"
@@ -117,7 +117,8 @@
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="false"
                     android:fontFamily="sans-serif-light"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:visibility="gone" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -134,7 +135,8 @@
                     android:gravity="center_horizontal|left"
                     android:textStyle="bold"
                     android:layout_toRightOf="@+id/textView281"
-                    android:layout_toEndOf="@+id/textView281" />
+                    android:layout_toEndOf="@+id/textView281"
+                    android:visibility="gone" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -152,13 +154,13 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:layout_width="220dp"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Usage"
+                    android:text="Cost per sow"
                     android:id="@+id/textView285"
                     android:textSize="18dp"
-                    android:textColor="#000000"
+                    android:textColor="#202cae"
                     android:fontFamily="sans-serif-light"
                     android:textStyle="bold"
                     android:layout_alignParentTop="true"
@@ -170,9 +172,9 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Tiamulin 10%"
-                    android:id="@+id/usage"
+                    android:id="@+id/sum_per_sow"
                     android:textSize="18dp"
-                    android:textColor="#000000"
+                    android:textColor="#ffff272b"
                     android:fontFamily="sans-serif-light"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
@@ -198,13 +200,13 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:layout_width="220dp"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Total"
+                    android:text="Cost per week"
                     android:id="@+id/textView288"
                     android:textSize="18dp"
-                    android:textColor="#000000"
+                    android:textColor="#202cae"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="false"
                     android:fontFamily="sans-serif-light"
@@ -215,9 +217,9 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Tiamulin 10%"
-                    android:id="@+id/total"
+                    android:id="@+id/sum_per_week"
                     android:textSize="18dp"
-                    android:textColor="#000000"
+                    android:textColor="#ffff272b"
                     android:fontFamily="sans-serif-light"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
@@ -244,13 +246,13 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:layout_width="220dp"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Cost"
+                    android:text="Cost per month"
                     android:id="@+id/textView291"
                     android:textSize="18dp"
-                    android:textColor="#000000"
+                    android:textColor="#202cae"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="false"
                     android:fontFamily="sans-serif-light"
@@ -261,9 +263,9 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="Tiamulin 10%"
-                    android:id="@+id/cost"
+                    android:id="@+id/sum_per_month"
                     android:textSize="18dp"
-                    android:textColor="#000000"
+                    android:textColor="#ffff272b"
                     android:fontFamily="sans-serif-light"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
@@ -276,57 +278,15 @@
             </RelativeLayout>
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="40dp"
-            android:id="@+id/linearLayout125"
-            android:layout_below="@+id/linearLayout124"
-            android:layout_alignLeft="@+id/linearLayout2">
-
-            <Button
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="170dp"
-                android:layout_height="30dp"
-                android:text="Edit"
-                android:id="@+id/edtBtnPerSow"
-                android:layout_alignTop="@+id/linearLayout125"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:background="@drawable/list_selector"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
-                android:gravity="center|clip_horizontal|clip_vertical"
-                android:textColor="#cccccc"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                android:layout_gravity="top" />
-
-            <Button
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="170dp"
-                android:layout_height="30dp"
-                android:text="Remove"
-                android:id="@+id/btnRemove"
-                android:background="#ffa0201e"
-                android:layout_alignTop="@+id/edtBtnPerSow"
-                android:layout_toRightOf="@+id/edtBtnPerSow"
-                android:gravity="center|clip_horizontal|clip_vertical"
-                android:textColor="#cccccc"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                android:layout_gravity="bottom" />
-        </LinearLayout>
-
         <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"
-            android:layout_below="@+id/linearLayout125"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginTop="25dp"
-            android:alpha="0">
+            android:alpha="0"
+            android:layout_below="@+id/linearLayout124">
 
         </RelativeLayout>
 

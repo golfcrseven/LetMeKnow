@@ -7,7 +7,8 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
 
         <android.support.v4.view.PagerTabStrip
             android:id="@+id/pagerTabStrip"
@@ -18,5 +19,42 @@
             android:textAppearance="@style/PagerTabStripText">
         </android.support.v4.view.PagerTabStrip>
     </android.support.v4.view.ViewPager>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_toEndOf="@id/viewPager"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#454141"
+        android:id="@+id/frameLayout_popup"
+        android:alpha="0.8">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="&lt;----  Slide left or right to view other page  ---->"
+                android:id="@+id/textView352"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="22dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnClosePopup"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:src="@android:drawable/ic_menu_close_clear_cancel" />
+        </RelativeLayout>
+    </FrameLayout>
 
 </RelativeLayout>
