@@ -445,9 +445,9 @@ public class ReportFragment extends Fragment {
         Double rd64 = (TotalInjectionCost)/7*30;
         RD64.setText(hc.df2(rd64));
 
-        RC32.setText(hc.df2((TotalInjectionPigletCost)));
-        RD32.setText(hc.df2((TotalInjectionPigletCost)/7*30));
-        rb33.setText(hc.df2((TotalInjectionPigletCost/1000)*22*1000/pB3));
+        RC32.setText(hc.formatPrice((TotalInjectionPigletCost)));
+        RD32.setText(hc.formatPrice((TotalInjectionPigletCost)/7*30));
+        rb33.setText(hc.formatPrice((TotalInjectionPigletCost/1000)*22*1000/pB3));
 
         Double valrc58 = (TotalInjectionCost) - (TotalInjectionPigletCost);
         RC58.setText(hc.df2(valrc58));

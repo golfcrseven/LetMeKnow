@@ -7,11 +7,9 @@ import android.content.DialogInterface;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
-<<<<<<< HEAD
+
 import android.text.InputFilter;
 import android.text.Spanned;
-=======
->>>>>>> aefdbd7c4232228f857dd574feda82f72f428bc5
 import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
