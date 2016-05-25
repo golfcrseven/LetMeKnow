@@ -31,7 +31,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp">
+                android:paddingRight="80dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -65,6 +65,52 @@
             </RelativeLayout>
 
         </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="0dp"
+            android:id="@+id/linearLayout2pdphxx">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="80dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Select All"
+                    android:id="@+id/textView65xx"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/checkBox_Select_All"
+                    android:layout_toStartOf="@+id/checkBox_Select_All"
+                    android:paddingRight="15dp" />
+
+                <CheckBox
+                    style="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox_Select_All"
+                    android:checked="false"
+                    android:button="@drawable/custom_chkbox"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -74,7 +120,7 @@
             android:layout_below="@+id/linearLayout2pdph"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="50dp"
             android:weightSum="1"
             android:gravity="center_vertical">
 
@@ -83,7 +129,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp"
+                android:paddingRight="80dp"
                 android:background="#ebebeb">
 
                 <TextView
@@ -162,7 +208,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp">
+                android:paddingRight="80dp">
 
                 <EditText
                     android:layout_width="74dp"
@@ -223,7 +269,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp"
+                android:paddingRight="80dp"
                 android:background="#ebebeb">
 
                 <EditText
@@ -300,7 +346,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp">
+                android:paddingRight="80dp">
 
                 <EditText
                     android:layout_width="74dp"
@@ -361,7 +407,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp"
+                android:paddingRight="80dp"
                 android:background="#ebebeb">
 
                 <EditText
@@ -423,7 +469,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp">
+                android:paddingRight="80dp">
 
                 <EditText
                     android:layout_width="74dp"
@@ -484,7 +530,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp"
+                android:paddingRight="80dp"
                 android:background="#ebebeb">
 
                 <EditText
@@ -546,7 +592,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp">
+                android:paddingRight="80dp">
 
                 <EditText
                     android:layout_width="74dp"
@@ -608,7 +654,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp"
+                android:paddingRight="80dp"
                 android:background="#ebebeb">
 
                 <EditText
@@ -671,7 +717,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp">
+                android:paddingRight="80dp">
 
                 <EditText
                     android:layout_width="74dp"
@@ -733,7 +779,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp"
+                android:paddingRight="80dp"
                 android:background="#ebebeb">
 
                 <EditText
@@ -796,7 +842,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp">
+                android:paddingRight="80dp">
 
                 <EditText
                     android:layout_width="74dp"
@@ -858,7 +904,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp"
+                android:paddingRight="80dp"
                 android:background="#ebebeb">
 
                 <EditText
@@ -920,7 +966,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp">
+                android:paddingRight="80dp">
 
                 <EditText
                     android:layout_width="74dp"
@@ -981,7 +1027,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp"
+                android:paddingRight="80dp"
                 android:background="#ebebeb">
 
                 <EditText
@@ -1036,7 +1082,7 @@
             android:layout_alignParentStart="true"
             android:id="@+id/relativeLayout"
             android:paddingLeft="20dp"
-            android:paddingRight="20dp">
+            android:paddingRight="80dp">
 
             <EditText
                 android:layout_width="74dp"
@@ -1089,7 +1135,7 @@
             android:layout_alignParentStart="true"
             android:id="@+id/relativeLayout2"
             android:paddingLeft="20dp"
-            android:paddingRight="20dp"
+            android:paddingRight="80dp"
             android:background="#ebebeb">
 
             <EditText
@@ -1143,7 +1189,7 @@
             android:layout_alignParentStart="true"
             android:id="@+id/relativeLayout3"
             android:paddingLeft="20dp"
-            android:paddingRight="20dp">
+            android:paddingRight="80dp">
 
             <EditText
                 android:layout_width="74dp"
@@ -1196,7 +1242,7 @@
             android:layout_alignParentStart="true"
             android:id="@+id/relativeLayout4"
             android:paddingLeft="20dp"
-            android:paddingRight="20dp"
+            android:paddingRight="80dp"
             android:background="#ebebeb">
 
             <EditText
@@ -1257,7 +1303,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp">
+                android:paddingRight="80dp">
 
                 <EditText
                     android:layout_width="74dp"
@@ -1333,7 +1379,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp"
+                android:paddingRight="80dp"
                 android:background="#ebebeb">
 
                 <EditText
@@ -1395,7 +1441,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
-                android:paddingRight="20dp">
+                android:paddingRight="80dp">
 
                 <EditText
                     android:layout_width="74dp"

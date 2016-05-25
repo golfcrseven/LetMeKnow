@@ -413,11 +413,11 @@ public class ReportFragment extends Fragment {
             Double costMonth = (hc.string2double9df(TotalMonth.get(position))*hc.string2double(drugList.get(1)));//total*price
             TotalCostMonth = TotalCostMonth+costMonth;
         }
-        RC30.setText(hc.df2((TotalCost)));
+        RC30.setText(hc.formatPrice((TotalCost)));
 
-        RD30.setText(hc.df2((TotalCostMonth)));
+        RD30.setText(hc.formatPrice((TotalCostMonth)));
 
-        rb31.setText(hc.df2(TotalCostSow));
+        rb31.setText(hc.formatPrice(TotalCostSow));
 
 
 
@@ -441,18 +441,18 @@ public class ReportFragment extends Fragment {
         }
 
 
-        RC64.setText(hc.df2((TotalInjectionCost)));
+        RC64.setText(hc.formatPrice((TotalInjectionCost)));
         Double rd64 = (TotalInjectionCost)/7*30;
-        RD64.setText(hc.df2(rd64));
+        RD64.setText(hc.formatPrice(rd64));
 
-        RC32.setText(hc.df2((TotalInjectionPigletCost)));
-        RD32.setText(hc.df2((TotalInjectionPigletCost)/7*30));
-        rb33.setText(hc.df2((TotalInjectionPigletCost/1000)*22*1000/pB3));
+        RC32.setText(hc.formatPrice((TotalInjectionPigletCost)));
+        RD32.setText(hc.formatPrice((TotalInjectionPigletCost)/7*30));
+        rb33.setText(hc.formatPrice((TotalInjectionPigletCost/1000)*22*1000/pB3));
 
         Double valrc58 = (TotalInjectionCost) - (TotalInjectionPigletCost);
-        RC58.setText(hc.df2(valrc58));
-        RD58.setText(hc.df2(valrc58/7*30));
-        rb59.setText(hc.df2(valrc58*22*1000/(pB30+pB36+pB44)));
+        RC58.setText(hc.formatPrice(valrc58));
+        RD58.setText(hc.formatPrice(valrc58/7*30));
+        rb59.setText(hc.formatPrice(valrc58*22*1000/(pB30+pB36+pB44)));
 
         //Vaccine
         //Injection
@@ -471,19 +471,19 @@ public class ReportFragment extends Fragment {
             TotalVaccienPiglet = TotalVaccienPiglet+costPiglet;
         }
 
-        RC65.setText(hc.df2((TotalVaccineCost)));
+        RC65.setText(hc.formatPrice((TotalVaccineCost)));
         Double rd65 = (TotalVaccineCost)/7*30;
-        RD65.setText(hc.df2(rd65));
+        RD65.setText(hc.formatPrice(rd65));
 
-        RC34.setText(hc.df2((TotalVaccienPiglet)));
+        RC34.setText(hc.formatPrice((TotalVaccienPiglet)));
         Double valrd34 = (TotalVaccienPiglet)/7*30;
-        RD34.setText(hc.df2(valrd34));
-        rb35.setText(hc.df2((TotalVaccienPiglet/1000)*22*1000/pB3));
+        RD34.setText(hc.formatPrice(valrd34));
+        rb35.setText(hc.formatPrice((TotalVaccienPiglet/1000)*22*1000/pB3));
 
         Double valrc60 = (TotalVaccineCost)-(TotalVaccienPiglet);
-        RC60.setText(hc.df2(valrc60));
-        RD60.setText(hc.df2(valrc60/7*30));
-        rb61.setText(hc.df2(valrc60*22*1000/(pB30+pB36+pB44)));
+        RC60.setText(hc.formatPrice(valrc60));
+        RD60.setText(hc.formatPrice(valrc60/7*30));
+        rb61.setText(hc.formatPrice(valrc60*22*1000/(pB30+pB36+pB44)));
 
 
         RC37.setText(hc.df1(pB28));
@@ -520,12 +520,12 @@ public class ReportFragment extends Fragment {
             Double costhead = (hc.string2double9df(pigDrugHeadTotal.get(position))*hc.string2double(drugList.get(1)));//total*price
             TotalPigDrugHead = TotalPigDrugHead+costhead;
         }
-        RC56.setText(hc.df2(TotalPigDrugCostWeek));
-        RD56.setText(hc.df2(TotalPigDrugCost));
-        rb57.setText(hc.df2(TotalPigDrugHead));
+        RC56.setText(hc.formatPrice(TotalPigDrugCostWeek));
+        RD56.setText(hc.formatPrice(TotalPigDrugCost));
+        rb57.setText(hc.formatPrice(TotalPigDrugHead));
 
-        RC63.setText(hc.df2((TotalCost)+(TotalPigDrugCostWeek)));
-        RD63.setText(hc.df2((TotalCostMonth)+(TotalPigDrugCost)));
+        RC63.setText(hc.formatPrice((TotalCost)+(TotalPigDrugCostWeek)));
+        RD63.setText(hc.formatPrice((TotalCostMonth)+(TotalPigDrugCost)));
     }
     public void getPopB(){
         ArrayList ar = pop.getB(this.db);

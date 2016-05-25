@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -32,6 +33,8 @@ public class AddInjectionActivity extends Activity {
     ArrayList Drug_value;
     TextView tvEmpty;
     String title;
+    Boolean flag = false;
+
     public class medicineChapter {
         Integer chapterID;
         String chapterName;
@@ -79,6 +82,16 @@ public class AddInjectionActivity extends Activity {
         }
 
         Medicine.setAdapter(chapterListAdapter);
+
+        CheckBox chkBoxAll = (CheckBox)this.findViewById(R.id.checkBox_Select_All);
+        chkBoxAll.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                flag = !flag;
+                chapterListAdapter.notifyDataSetChanged();
+            }
+        });
+
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -226,13 +239,17 @@ public class AddInjectionActivity extends Activity {
                 convertView.setBackgroundColor(Color.parseColor("#ebebeb"));
 
             holder = new ViewHolder();
-            holder.chkBox = (CheckBox) convertView.findViewById(R.id.checkBox);
+            holder.chkBox = (CheckBox) convertView.findViewById(R.id.checkBoxAll);
             holder.layout = (LinearLayout)convertView.findViewById(R.id.layout_list_2);
             convertView.setTag(holder);
 
             final checkBoxChapter chkChapter = chkList.get(position);
 
             final ViewHolder finalHolder = holder;
+
+            holder.chkBox.setChecked(flag);
+            chkChapter.setSelected(flag);
+
             holder.layout.setOnClickListener(new View.OnClickListener() {
 
                 @Override

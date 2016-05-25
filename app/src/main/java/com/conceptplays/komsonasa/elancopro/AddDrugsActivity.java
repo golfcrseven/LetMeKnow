@@ -15,9 +15,11 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.conceptplays.komsonasa.elancopro.DB.DataBaseAdapter;
@@ -32,6 +34,7 @@ public class AddDrugsActivity extends Activity {
     ArrayList Drug_value;
     TextView tvEmpty;
     String title;
+    Boolean flag = false;
     public class medicineChapter {
         Integer chapterID;
         String chapterName;
@@ -90,7 +93,19 @@ public class AddDrugsActivity extends Activity {
         });
 
 
+        CheckBox chkBoxAll = (CheckBox)this.findViewById(R.id.checkBox_Select_All);
+        chkBoxAll.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                flag = !flag;
+                chapterListAdapter.notifyDataSetChanged();
+            }
+        });
+
+
     }
+
+
     private  void chkData(){
         AlertDialog.Builder dialog = new AlertDialog.Builder(this);
         dialog.setMessage("Are you confirm to add drugs?");
@@ -226,7 +241,7 @@ public class AddDrugsActivity extends Activity {
                 convertView.setBackgroundColor(Color.parseColor("#ebebeb"));
 
             holder = new ViewHolder();
-            holder.chkBox = (CheckBox) convertView.findViewById(R.id.checkBox);
+            holder.chkBox = (CheckBox) convertView.findViewById(R.id.checkBoxAll);
             holder.layout = (LinearLayout)convertView.findViewById(R.id.layout_list_2);
             convertView.setTag(holder);
 
@@ -246,6 +261,8 @@ public class AddDrugsActivity extends Activity {
                     }
                 }
             });
+            holder.chkBox.setChecked(flag);
+            chkChapter.setSelected(flag);
             holder.chkBox.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
