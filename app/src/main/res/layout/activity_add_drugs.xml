@@ -5,6 +5,47 @@
     android:orientation="vertical"
     android:background="@android:color/white">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingRight="95dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:layout_width="26dp"
+                android:layout_height="match_parent"
+                android:text=""
+                android:id="@+id/checkBox_Select_All"
+                android:shadowColor="@android:color/black"
+                android:theme="@android:style/Theme.Holo.Light"
+                android:checked="false"
+                android:layout_weight="0.05"
+                android:clickable="true"
+                android:enabled="true"
+                android:singleLine="false"
+                android:button="@drawable/custom_chkbox"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Select All"
+                android:id="@+id/textView364"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/checkBox_Select_All"
+                android:layout_toLeftOf="@+id/checkBox_Select_All"
+                android:paddingRight="10dp"
+                android:textColor="#000000" />
+        </RelativeLayout>
+    </LinearLayout>
+
     <ListView
         android:id="@+id/listView2"
         android:layout_width="match_parent"
@@ -21,6 +62,8 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000"
         android:text="!Empty Data."
-        android:textSize="16dp" />"
+        android:textSize="16dp" />
+
+    "
 
 </LinearLayout>

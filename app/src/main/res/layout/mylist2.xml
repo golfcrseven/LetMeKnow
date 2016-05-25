@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     android:weightSum="1"
     android:background="@android:color/white"
-    android:id="@+id/layout_list_2">
+    android:id="@+id/layout_list_2"
+    android:paddingRight="60dp">
 
     <TextView
         android:layout_width="50dp"
@@ -38,7 +39,7 @@
         android:layout_width="26dp"
         android:layout_height="match_parent"
         android:text=""
-        android:id="@+id/checkBox"
+        android:id="@+id/checkBoxAll"
         android:shadowColor="@android:color/black"
         android:theme="@android:style/Theme.Holo.Light"
         android:checked="false"

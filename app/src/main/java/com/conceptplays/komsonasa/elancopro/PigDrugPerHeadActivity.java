@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -93,6 +94,24 @@ public class PigDrugPerHeadActivity extends Activity {
 
         //assign the view to the actionbar
         this.getActionBar().setCustomView(v);
+
+        CheckBox chkAll = (CheckBox)this.findViewById(R.id.checkBox_Select_All);
+        chkAll.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(b) {
+                    for (int i = 1; i <= Option.length(); i++) {
+                        checked.set(i-1, true);
+                    }
+                }else{
+                    for (int i = 1; i <= Option.length(); i++) {
+                        checked.set(i-1, false);
+                    }
+
+                }
+                setData();
+            }
+        });
 
         chkD5 = (CheckBox)findViewById(R.id.chkD5);
         chkD6 = (CheckBox)findViewById(R.id.chkD6);
