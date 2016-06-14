@@ -370,29 +370,29 @@ public class FeedPigsFragment extends  android.support.v4.app.Fragment {
         S31 = S21+S22+S23+S24+S25; S31 = Float.valueOf((float) Math.round(S31));
         S32 = S28+S29+S30+S31; S32 = Float.valueOf((float) Math.round(S32));
 
-        m26.setText(df2.format(M26)+"");
-        m27.setText(df2.format(M27)+"");
-        m28.setText(df2.format(M28)+"");
-        m29.setText(df2.format(M29)+"");
-        m30.setText(df2.format(M30)+"");
-        m31.setText(df2.format(M31)+"");
-        m32.setText(df2.format(M32)+"");
+        m26.setText(df.format(M26)+"");
+        m27.setText(df.format(M27)+"");
+        m28.setText(df.format(M28)+"");
+        m29.setText(df.format(M29)+"");
+        m30.setText(df.format(M30)+"");
+        m31.setText(df.format(M31)+"");
+        m32.setText(df.format(M32)+"");
 
-        n26.setText(df2.format(N26)+"");
-        n27.setText(df2.format(N27)+"");
-        n28.setText(df2.format(N28)+"");
-        n29.setText(df2.format(N29)+"");
-        n30.setText(df2.format(N30)+"");
-        n31.setText(df2.format(N31)+"");
-        n32.setText(df2.format(N32)+"");
+        n26.setText(df.format(N26)+"");
+        n27.setText(df.format(N27)+"");
+        n28.setText(df.format(N28)+"");
+        n29.setText(df.format(N29)+"");
+        n30.setText(df.format(N30)+"");
+        n31.setText(df.format(N31)+"");
+        n32.setText(df.format(N32)+"");
 
-        o26.setText(df2.format(O26)+"");
-        o27.setText(df2.format(O27)+"");
-        o28.setText(df2.format(O28)+"");
-        o29.setText(df2.format(O29)+"");
-        o30.setText(df2.format(O30)+"");
-        o31.setText(df2.format(O31)+"");
-        o32.setText(df2.format(O32)+"");
+        o26.setText(df.format(O26)+"");
+        o27.setText(df.format(O27)+"");
+        o28.setText(df.format(O28)+"");
+        o29.setText(df.format(O29)+"");
+        o30.setText(df.format(O30)+"");
+        o31.setText(df.format(O31)+"");
+        o32.setText(df.format(O32)+"");
 
         q26.setText(df0.format(Q26)+"");
         q27.setText(df0.format(Q27)+"");

@@ -58,7 +58,7 @@ public class DataFragment extends DialogFragment {
 
         final Button btnAdd = (Button) getActivity().findViewById(R.id.btnAddMedicine);
         btnAdd.setVisibility(View.VISIBLE);
-        btnAdd.setText("Done");
+        btnAdd.setText("Done ");
         btnAdd.setTextSize(15);
 
         //Hide keyboard on lunch
@@ -106,17 +106,24 @@ public class DataFragment extends DialogFragment {
 
         String errorTxt = "Data is not complete!";
         Integer value = Integer.parseInt(farrowSow);
-        if(value<75){
+        Integer valuePig = Integer.parseInt(pigsWeanedListter);
+        if(value<70){
             error = true;
-            errorTxt = "Farrowing Rate Minimum 75% ";
+            errorTxt = "Farrowing Rate Minimum 70% ";
             clearFocus();
             edtFarrowSow.requestFocus();
         }
-        if(value>90){
+        if(value>95){
             error = true;
-            errorTxt = "Farrowing Rate Maximum 90% ";
+            errorTxt = "Farrowing Rate Maximum 95% ";
             clearFocus();
             edtFarrowSow.requestFocus();
+        }
+        if(valuePig>20){
+            error = true;
+            errorTxt = "Pigs born alive per litter Maximum 20 ";
+            clearFocus();
+            edtPigsWeanedLitter.requestFocus();
         }
 
         if(error == false && numSow.isEmpty()){

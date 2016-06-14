@@ -235,12 +235,10 @@ public class PigDrugPerHeadActivity extends Activity {
             }
 
         }
-        String total = hc.df9(sum);
-        sum = hc.string2double9df(total);
+        //String total = hc.df9(sum);
+        //sum = hc.string2double9df(sum.toString());
         price = hc.string2double9df(drugPrice);
         cost = sum*price;
-        String Cost = hc.df9(cost);
-        cost = hc.string2double9df(Cost);
 
         ContentValues cv = new ContentValues();
         cv.clear();

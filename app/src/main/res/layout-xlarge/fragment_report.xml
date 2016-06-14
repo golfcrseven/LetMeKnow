@@ -11,6 +11,24 @@
     android:paddingTop="15dp"
     android:paddingRight="15dp">
 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5">
+
+            <ImageView
+                android:layout_width="1131dp"
+                android:layout_height="579dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/bg_report"
+                android:layout_gravity="center"
+                android:alpha="0.5" />
+        </FrameLayout>
 
     <LinearLayout
         android:orientation="vertical"
@@ -523,7 +541,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Breeder Predict Value"
+                    android:text="Predict breeder information"
                     android:id="@+id/textView356"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -648,7 +666,7 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:id="@+id/textView363"
+                    android:id="@+id/RD15"
                     android:layout_alignParentTop="true"
                     android:layout_toLeftOf="@+id/textView362"
                     android:layout_toStartOf="@+id/textView362"
@@ -670,8 +688,8 @@
                     android:textColor="#000000"
                     android:text="-"
                     android:layout_alignParentTop="true"
-                    android:layout_toLeftOf="@+id/textView363"
-                    android:layout_toStartOf="@+id/textView363"
+                    android:layout_toLeftOf="@+id/RD15"
+                    android:layout_toStartOf="@+id/RD15"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp" />
@@ -741,7 +759,7 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:id="@+id/textView368"
+                    android:id="@+id/RD16"
                     android:layout_alignParentTop="true"
                     android:layout_toLeftOf="@+id/textView367"
                     android:layout_toStartOf="@+id/textView367"
@@ -763,8 +781,8 @@
                     android:textColor="#000000"
                     android:text="-"
                     android:layout_alignParentTop="true"
-                    android:layout_toLeftOf="@+id/textView368"
-                    android:layout_toStartOf="@+id/textView368"
+                    android:layout_toLeftOf="@+id/RD16"
+                    android:layout_toStartOf="@+id/RD16"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp" />
@@ -834,7 +852,7 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:id="@+id/textView373"
+                    android:id="@+id/RD17"
                     android:layout_alignParentTop="true"
                     android:layout_toLeftOf="@+id/textView372"
                     android:layout_toStartOf="@+id/textView372"
@@ -856,8 +874,8 @@
                     android:textColor="#000000"
                     android:text="-"
                     android:layout_alignParentTop="true"
-                    android:layout_toLeftOf="@+id/textView373"
-                    android:layout_toStartOf="@+id/textView373"
+                    android:layout_toLeftOf="@+id/RD17"
+                    android:layout_toStartOf="@+id/RD17"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp" />
@@ -927,7 +945,7 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:id="@+id/textView378"
+                    android:id="@+id/RD18"
                     android:gravity="right"
                     android:textSize="16dp"
                     android:fontFamily="sans-serif-light"
@@ -950,8 +968,8 @@
                     android:text="-"
                     android:textStyle="bold"
                     android:layout_alignParentTop="true"
-                    android:layout_toLeftOf="@+id/textView378"
-                    android:layout_toStartOf="@+id/textView378"
+                    android:layout_toLeftOf="@+id/RD18"
+                    android:layout_toStartOf="@+id/RD18"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp" />
 
@@ -1020,7 +1038,7 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:id="@+id/textView383"
+                    android:id="@+id/RD19"
                     android:gravity="right"
                     android:textSize="16dp"
                     android:fontFamily="sans-serif-light"
@@ -1042,8 +1060,8 @@
                     android:textColor="#000000"
                     android:text="-"
                     android:layout_alignParentBottom="true"
-                    android:layout_toLeftOf="@+id/textView383"
-                    android:layout_toStartOf="@+id/textView383"
+                    android:layout_toLeftOf="@+id/RD19"
+                    android:layout_toStartOf="@+id/RD19"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp" />
@@ -1069,7 +1087,8 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp" >
+            android:layout_marginTop="5dp"
+            android:visibility="gone">
 
             <RelativeLayout
                 android:layout_width="fill_parent"
@@ -2542,7 +2561,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Pigs Predict Value"
+                    android:text="Predict pigs information"
                     android:id="@+id/textView466"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -2623,7 +2642,8 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp" >
+            android:layout_marginTop="5dp"
+            android:visibility="visible">
 
             <RelativeLayout
                 android:layout_width="fill_parent"
@@ -2668,7 +2688,7 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:id="@+id/textView473"
+                    android:id="@+id/RD37"
                     android:gravity="right"
                     android:textSize="16dp"
                     android:fontFamily="sans-serif-light"
@@ -2691,8 +2711,8 @@
                     android:text="-"
                     android:textStyle="bold"
                     android:layout_alignParentTop="true"
-                    android:layout_toLeftOf="@+id/textView473"
-                    android:layout_toStartOf="@+id/textView473"
+                    android:layout_toLeftOf="@+id/RD37"
+                    android:layout_toStartOf="@+id/RD37"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp" />
 
@@ -2761,7 +2781,7 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:id="@+id/textView478"
+                    android:id="@+id/RD38"
                     android:gravity="right"
                     android:textSize="16dp"
                     android:fontFamily="sans-serif-light"
@@ -2784,8 +2804,8 @@
                     android:text="-"
                     android:textStyle="bold"
                     android:layout_alignParentBottom="true"
-                    android:layout_toLeftOf="@+id/textView478"
-                    android:layout_toStartOf="@+id/textView478"
+                    android:layout_toLeftOf="@+id/RD38"
+                    android:layout_toStartOf="@+id/RD38"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp" />
 
@@ -2854,7 +2874,7 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:id="@+id/textView483"
+                    android:id="@+id/RD39"
                     android:gravity="right"
                     android:textSize="16dp"
                     android:fontFamily="sans-serif-light"
@@ -2876,8 +2896,8 @@
                     android:textColor="#000000"
                     android:text="-"
                     android:layout_alignParentBottom="true"
-                    android:layout_toLeftOf="@+id/textView483"
-                    android:layout_toStartOf="@+id/textView483"
+                    android:layout_toLeftOf="@+id/RD39"
+                    android:layout_toStartOf="@+id/RD39"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp" />
@@ -2947,7 +2967,7 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:id="@+id/textView488"
+                    android:id="@+id/RD40"
                     android:gravity="right"
                     android:textSize="16dp"
                     android:fontFamily="sans-serif-light"
@@ -2969,8 +2989,8 @@
                     android:textColor="#000000"
                     android:text="-"
                     android:layout_alignParentBottom="true"
-                    android:layout_toLeftOf="@+id/textView488"
-                    android:layout_toStartOf="@+id/textView488"
+                    android:layout_toLeftOf="@+id/RD40"
+                    android:layout_toStartOf="@+id/RD40"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp" />
@@ -3040,7 +3060,7 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:id="@+id/textView493"
+                    android:id="@+id/RD41"
                     android:gravity="right"
                     android:textSize="16dp"
                     android:fontFamily="sans-serif-light"
@@ -3062,8 +3082,8 @@
                     android:textColor="#000000"
                     android:text="-"
                     android:layout_alignParentBottom="true"
-                    android:layout_toLeftOf="@+id/textView493"
-                    android:layout_toStartOf="@+id/textView493"
+                    android:layout_toLeftOf="@+id/RD41"
+                    android:layout_toStartOf="@+id/RD41"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp" />
@@ -3133,7 +3153,7 @@
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:id="@+id/textView498"
+                    android:id="@+id/RD42"
                     android:gravity="right"
                     android:textSize="16dp"
                     android:fontFamily="sans-serif-light"
@@ -3155,8 +3175,8 @@
                     android:textColor="#000000"
                     android:text="-"
                     android:layout_alignParentBottom="true"
-                    android:layout_toLeftOf="@+id/textView498"
-                    android:layout_toStartOf="@+id/textView498"
+                    android:layout_toLeftOf="@+id/RD42"
+                    android:layout_toStartOf="@+id/RD42"
                     android:textStyle="bold"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp" />
@@ -3287,7 +3307,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Total feed for weanling pig"
+                    android:text="Total feed for nursing pig"
                     android:id="@+id/textView506"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -3379,7 +3399,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Average feed for weanling pigs"
+                    android:text="Average feed for nursing pigs"
                     android:id="@+id/textView511"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -3467,7 +3487,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Total feed for weanling pig 1"
+                    android:text="Total feed for nursing pig 1"
                     android:id="@+id/textView516"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -3646,7 +3666,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Total feed for weanling pig 2"
+                    android:text="Total feed for nursing pig 2"
                     android:id="@+id/textView526"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -4374,7 +4394,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Total drug cost"
+                    android:text="Total medicine cost"
                     android:id="@+id/textView566"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -4466,7 +4486,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Average drug cost per head"
+                    android:text="Average medicine cost per head"
                     android:id="@+id/textView571"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -5019,7 +5039,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Total drug cost"
+                    android:text="Total medicine cost"
                     android:id="@+id/textView601"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
@@ -5285,4 +5305,5 @@
         </LinearLayout>
 
     </LinearLayout>
+    </RelativeLayout>
 </ScrollView>

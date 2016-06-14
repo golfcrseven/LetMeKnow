@@ -6,6 +6,7 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.conceptplays.komsonasa.elancopro.adapter.ViewPagerAdapter;
 import com.conceptplays.komsonasa.letmeknow.R;
@@ -31,6 +32,11 @@ public class FeedConsumptionFragment extends android.support.v4.app.Fragment {
         ViewPager mViewPager = (ViewPager) v.findViewById(R.id.viewPager);
         mViewPager.setAdapter(new ViewPagerAdapter(getChildFragmentManager()));
 
+
+        Button btnAdd = (Button) getActivity().findViewById(R.id.btnAddMedicine);
+        btnAdd.setVisibility(View.VISIBLE);
+        btnAdd.setText("Elanco    ");
+        btnAdd.setTextSize(19);
 
         return  v;
     }

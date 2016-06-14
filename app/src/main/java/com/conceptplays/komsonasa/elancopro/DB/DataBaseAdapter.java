@@ -15,7 +15,7 @@ public class DataBaseAdapter {
     private static final String TAG = "DabtabaseAdapter";
     //Database
     private  static final String DB_NAME = "lmk_db"; //Database Name
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 5;
 
     //Table Name
     public static final String INDEX_TABLE = "data_index";
@@ -236,34 +236,31 @@ public class DataBaseAdapter {
             db.execSQL(DB_VACCINE_COST_TABLE_CREATE);
 
             db.execSQL("insert into " +INDEX_TABLE+" (_id,data_g5,data_g6,data_g7,data_g8,data_g9,data_g10,data_g11) values ("+
-            "1,800,85,20,10,5,3,2)");
+            "1,1000,85,40,11,5,5,5)");
 
             db.execSQL("insert into " +FDSOW_TABLE+" (_id,fd_c4,fd_c5,fd_c6,fd_c7,fd_c8,fd_c9,fd_c10,fd_c11,fd_c12,fd_c13,fd_c14,fd_c15,"+
             "fd_c16,fd_c17,fd_c18,fd_c19,fd_c20,fd_c21,fd_c22,fd_c23,fd_c24,fd_c25) values ("+
-            "1,3,3,2,1.80,1.80,1.80,1.80,1.80,2.00,2.20,2.40,2.60,2.80,3.00,3.20,3.40,3.40,3.40,3.40,4.7,6,6)");
+            "1,4.00,4.00,3.50,2.00,2.00,2.00,2.30,2.30,2.30,2.50,2.50,2.50,2.80,2.80,2.80,3.5,3.5,3.5,3.0,4.7,6,6)");
 
             db.execSQL("insert into " +FDPIG_TABLE+" (_id,fd_m4,fd_m5,fd_m6,fd_m7,fd_m8,fd_m9,fd_m10,fd_m11,fd_m12,fd_m13,fd_m14,fd_m15,"+
                     "fd_m16,fd_m17,fd_m18,fd_m19,fd_m20,fd_m21,fd_m22,fd_m23,fd_m24,fd_m25) values ("+
-                    "1,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0,1.1,1.2,1.3,1.4,1.6,1.8,2.0,2.0,2.2,2.2,2.2,2.2,2.2,2.2)");
+                    "1,0.15,0.32,0.50,0.67,0.84,1.01,1.33,1.48,1.63,1.78,1.93,2.08,2.23,2.38,2.40,2.40,2.40,2.40,2.40,2.40,2.40,2.40)");
 
-            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (1,'Tiamulin 10%',800)");
-            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (2,'Tylosin+Sulfa',350)");
+            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (1,'Denagard 10%',450)");
+            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (2,'Tylan',350)");
             db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (3,'Linco 10%',1100)");
-            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (4,'Pleumotil 10%',1900)");
+            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (4,'Pleumotil 10%',1500)");
             db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (5,'Aivolosin 5%',900)");
-            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (6,'Amoxy 100%',1550)");
+            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (6,'Amoxcil 50%',600)");
             db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (7,'CTC 15%',60)");
-            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (8,'Quixalud 60%',920)");
+            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (8,'Quixalud 60%',900)");
             db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (9,'Toxin Binder',280)");
-            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (10,'Denagard  10% Non Coated ',340)");
-            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (11,'Amoxy 50%',620)");
-            db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (12,'CotinGard 40%',350)");
 
-            db.execSQL("insert into " +INJECTION_TABLE+" (injection_name,injection_price) values ('Tiamutin 10 c.c.',65)");
+            db.execSQL("insert into " +INJECTION_TABLE+" (injection_name,injection_price) values ('Denagard 10 c.c.',65)");
             db.execSQL("insert into " +INJECTION_TABLE+" (injection_name,injection_price) values ('OTC 10 c.c.',40)");
-            db.execSQL("insert into " +INJECTION_TABLE+" (injection_name,injection_price) values ('Ivermec 8 c.c.',16)");
-            db.execSQL("insert into " +INJECTION_TABLE+" (injection_name,injection_price) values ('Ivermec 0.5 c.c.',1)");
-            db.execSQL("insert into " +INJECTION_TABLE+" (injection_name,injection_price) values ('Tiamulin 0.5 c.c.',4)");
+            db.execSQL("insert into " +INJECTION_TABLE+" (injection_name,injection_price) values ('Vertingard 8 c.c.',16)");
+            db.execSQL("insert into " +INJECTION_TABLE+" (injection_name,injection_price) values ('Vertingard 0.5 c.c.',1)");
+            db.execSQL("insert into " +INJECTION_TABLE+" (injection_name,injection_price) values ('Denagard 0.5 c.c.',4)");
 
             db.execSQL("insert into " +VACCINE_TABLE+" (vaccine_name,vaccine_price) values ('Swine fever',5)");
             db.execSQL("insert into " +VACCINE_TABLE+" (vaccine_name,vaccine_price) values ('FMD',30)");
@@ -275,44 +272,48 @@ public class DataBaseAdapter {
             db.execSQL("insert into " +VACCINE_TABLE+" (vaccine_name,vaccine_price) values ('PRRS',30)");
 
             db.execSQL("insert into " +DRUG_SOW_PERSOW_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
-                    "persow_cost,persow_total) values (10,1.50,'1100000000000000000111',81.04,0.238)");
+                    "persow_cost,persow_total) values (1,1.00,'1111111111111111111111',222.0750,0.4935)");
             db.execSQL("insert into " +DRUG_SOW_PERSOW_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
-                    "persow_cost,persow_total) values (11,0.5,'0000000000000000000111',36.24,0.058)");
+                    "persow_cost,persow_total) values (6,0.25,'1100000000000000001111',29.0850,0.048745)");
+            db.execSQL("insert into " +DRUG_SOW_PERSOW_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
+                    "persow_cost,persow_total) values (7,2.00,'1111111111111111111111',59.2200,0.9870)");
+            db.execSQL("insert into " +DRUG_SOW_PERSOW_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
+                    "persow_cost,persow_total) values (8,0.40,'1100000000000000001111',69.8040,0.07756)");
 
             db.execSQL("insert into " +DRUG_PIG_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
-                    "persow_total) values (10,1.50,'1111111000000000000000',0.044)");
+                    "persow_total) values (1,1.50,'1111111000000000000000',0.05056)");
             db.execSQL("insert into " +DRUG_PIG_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
-                    "persow_total) values (11,0.50,'1111111000000000000000',0.015)");
+                    "persow_total) values (6,0.60,'1111111000000000000000',0.02022)");
             db.execSQL("insert into " +DRUG_PIG_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
-                    "persow_total) values (8,0.40,'1111111000000000000000',0.012)");
+                    "persow_total) values (8,0.40,'1111111000000000000000',0.01348)");
 
             db.execSQL("insert into " +INJECTION_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (1,'1100000000000000000000000000000000000000000000000000000',6.461538462,6.461538462)");
+                    "persow_total,piglet_total) values (1,'1100000000000000000000000000000000000000000000000000000',15.384615385,0)");
             db.execSQL("insert into " +INJECTION_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (2,'0000000000000000000000001000000000000000000000000000000',15.85903084,15.85903084)");
+                    "persow_total,piglet_total) values (2,'0000000000000000000000001000000000000000000000000000000',45.822102426,0)");
             db.execSQL("insert into " +INJECTION_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (3,'1000000000000000000000100000000000000000000000000000000',19.08980007,19.08980007)");
+                    "persow_total,piglet_total) values (3,'1000000000000000000000100000000000000000000000000000000',53.514410118,0)");
             db.execSQL("insert into " +INJECTION_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (4,'0000000000000000000000000000000001000000000000000000000',158.7488987,0)");
+                    "persow_total,piglet_total) values (4,'0000000000000000000000000000000001000000000000000000000',0,478.840970350)");
             db.execSQL("insert into " +INJECTION_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (5,'0000000000000000000000000000000001100000000000000000000',316.8542207,0)");
+                    "persow_total,piglet_total) values (5,'0000000000000000000000000000000001000000000000000000000',0,478.840970350)");
 
             db.execSQL("insert into " +VACCINE_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (1,'0100000000000000000001000000000010100000000000000000000',335.9440208,19.08980007)");
+                    "persow_total,piglet_total) values (1,'0100000000000000000001000000000010100000000000000000000',53.514410118,954.446528739)");
             db.execSQL("insert into " +VACCINE_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (2,'0010000000000000000000000001000000001000000000000000000',175.1928838,19.08980007)");
+                    "persow_total,piglet_total) values (2,'0010000000000000000000000001000000001000000000000000000',53.514410118,465.539832285)");
             db.execSQL("insert into " +VACCINE_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (3,'0001000000000000000000100000000001000100000000000000000',330.5379772,19.08980007)");
+                    "persow_total,piglet_total) values (3,'0001000000000000000000100000000000010100000000000000000',53.514410118,927.269068260)");
             db.execSQL("insert into " +VACCINE_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (4,'0000101000000000000000000010000000000000000000000000000',22.3205693,22.3205693)");
+                    "persow_total,piglet_total) values (4,'0000101000000000000000000010000000000000000000000000000',61.206717810,0)");
             db.execSQL("insert into " +VACCINE_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (5,'0000000000000000000010000000000000000000000000000000000',15.85903084,15.85903084)");
+                    "persow_total,piglet_total) values (5,'0000000000000000000010000000000000000000000000000000000',45.822102426,0)");
             db.execSQL("insert into " +VACCINE_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (6,'0000000000000000000000000000000000100000000000000000000',158.1053221,0)");
+                    "persow_total,piglet_total) values (6,'0000000000000000000000000000000000100000000000000000000',0,475.605558389)");
             db.execSQL("insert into " +VACCINE_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (7,'0000000000000000000000000000000000000010100000000000000',307.7162194,0)");
+                    "persow_total,piglet_total) values (7,'0000000000000000000000000000000000000010100000000000000',0,909.039678796)");
             db.execSQL("insert into " +VACCINE_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
-                    "persow_total,piglet_total) values (8,'0000010100000000000000000000000000000000000000000000000',6.461538462,6.461538462)");
+                    "persow_total,piglet_total) values (8,'0000010100000000000000000000000000000000000000000000000',15.384615385,0)");
 
         }
 

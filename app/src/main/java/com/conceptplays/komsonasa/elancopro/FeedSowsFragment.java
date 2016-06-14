@@ -413,7 +413,7 @@ public class FeedSowsFragment extends  android.support.v4.app.Fragment {
         B4 = (float) (B5/(dataB6/100));
         B6 = (float) (B3*(dataB7/100)/52);
         B7 = B5*3;
-        B8 = B3-B6-B7;
+        B8 = B3-B7;
 
         B11 = B4;
         B12 = (dataB6>89?B5:B11);

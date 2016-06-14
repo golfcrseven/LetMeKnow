@@ -9,6 +9,7 @@ import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
@@ -36,6 +37,12 @@ public class PopulationFragment extends Fragment {
         ContextThemeWrapper contextThemeWrapper = new ContextThemeWrapper(getActivity(), R.style.Theme_AppCompat_Light);
         inflater = getActivity().getLayoutInflater().cloneInContext(contextThemeWrapper);
         View v = inflater.inflate(R.layout.fragment_population, container, false);
+
+        Button btnAdd = (Button) getActivity().findViewById(R.id.btnAddMedicine);
+        btnAdd.setVisibility(View.VISIBLE);
+        btnAdd.setText("Elanco    ");
+        btnAdd.setTextSize(19);
+
 
         //Hide Scrollview Bar
         final ScrollView sView = (ScrollView)v.findViewById(R.id.scrollViewID);
@@ -158,7 +165,7 @@ public class PopulationFragment extends Fragment {
          B4 = (float) (B5/(dataB6/100.0));
          B6 = (float) (B3*(dataB7/100.0)/52);
          B7 = B5*3;
-         B8 = B3-B6-B7;
+         B8 = B3-B7;
 
         B11 = B4;
         B12 = (dataB6>89?B5:B11);

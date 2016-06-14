@@ -363,7 +363,7 @@ public class SowDrugPerSowActivity extends Activity {
     }
 
     private void setData(){
-        final DecimalFormat df2 = new DecimalFormat("#,###,###.####");
+        final DecimalFormat df2 = new DecimalFormat("#,###,###.###");
 
         chkD5.setChecked(checked.get(0));
         edtD5.setText((chkD5.isChecked()?df2.format(PSD5):"0.000"));

@@ -129,7 +129,7 @@ public class PigDrugCostPerHeadFragment extends android.support.v4.app.Fragment 
             tvDrugPrice.setText(drugList.get(1).toString()+" ฿");
             tvUsage.setText(Usage.get(position).toString());
             tvTotal.setText(hc.df3(hc.string2double(Total.get(position))));
-            Double cost = (hc.string2double9df(Total.get(position))*hc.string2double(drugList.get(1)));//total*price
+            Double cost = (hc.string2double9df(Total.get(position))*hc.string2double9df(drugList.get(1)));//total*price
             TotalCost = TotalCost+cost;
             tvCost.setText(hc.df2(cost));
 

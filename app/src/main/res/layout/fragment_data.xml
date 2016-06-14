@@ -286,6 +286,19 @@
             android:layout_toRightOf="@+id/textView9"
             android:layout_toEndOf="@+id/textView9" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="- Max 20 (pigs)"
+            android:id="@+id/textView369"
+            android:fontFamily="sans-serif-light"
+            android:textSize="13dp"
+            android:textColor="#ff0000"
+            android:layout_above="@+id/edtPigsWeanedLitter"
+            android:layout_toRightOf="@+id/textView2_star"
+            android:layout_toEndOf="@+id/textView2_star" />
+
     </RelativeLayout>
 
 </ScrollView>

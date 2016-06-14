@@ -9,6 +9,7 @@ import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
@@ -41,6 +42,7 @@ public class ReportFragment extends Fragment {
     TextView RC41,RC42,RC43,RC44,RC45,RC46,RC47,RC48,RC49,RC50,RC51,RC52,RC53,RC54,RC55,RC56,RC57,RC58,RC59,RC60;
     TextView RC61,RC62,RC63,RC64,RC65;
 
+    TextView RD15,RD16,RD17,RD18,RD19;
     TextView RD21,RD22,RD23,RD24,RD25,RD26,RD27,RD28,RD29,RD30,RD31,RD32,RD33,RD34,RD35,RD36,RD37,RD38,RD39,RD40;
     TextView RD41,RD42,RD43,RD44,RD45,RD46,RD47,RD48,RD49,RD50,RD51,RD52,RD53,RD54,RD55,RD56,RD57,RD58,RD59,RD60;
     TextView RD61,RD62,RD63,RD64,RD65;
@@ -91,6 +93,11 @@ public class ReportFragment extends Fragment {
         ContextThemeWrapper contextThemeWrapper = new ContextThemeWrapper(getActivity(), R.style.Theme_AppCompat_Light);
         inflater = getActivity().getLayoutInflater().cloneInContext(contextThemeWrapper);
         View v = inflater.inflate(R.layout.fragment_report, container, false);
+
+        Button btnAdd = (Button) getActivity().findViewById(R.id.btnAddMedicine);
+        btnAdd.setVisibility(View.VISIBLE);
+        btnAdd.setText("Elanco    ");
+        btnAdd.setTextSize(19);
 
         //Hide Scrollview Bar
         final ScrollView sView = (ScrollView)v.findViewById(R.id.scrollViewID);
@@ -190,6 +197,11 @@ public class ReportFragment extends Fragment {
         RC64 = (TextView)v.findViewById(R.id.RC64);
         RC65 = (TextView)v.findViewById(R.id.RC65);
 
+        RD15 = (TextView)v.findViewById(R.id.RD15);
+        RD16 = (TextView)v.findViewById(R.id.RD16);
+        RD17 = (TextView)v.findViewById(R.id.RD17);
+        RD18 = (TextView)v.findViewById(R.id.RD18);
+        RD19 = (TextView)v.findViewById(R.id.RD19);
         RD21 = (TextView)v.findViewById(R.id.RD21);
         RD22 = (TextView)v.findViewById(R.id.RD22);
         RD23 = (TextView)v.findViewById(R.id.RD23);
@@ -205,6 +217,13 @@ public class ReportFragment extends Fragment {
         RD33 = (TextView)v.findViewById(R.id.RD33);
         RD34 = (TextView)v.findViewById(R.id.RD34);
         RD35 = (TextView)v.findViewById(R.id.RD35);
+
+        RD37 = (TextView)v.findViewById(R.id.RD37);
+        RD38 = (TextView)v.findViewById(R.id.RD38);
+        RD39 = (TextView)v.findViewById(R.id.RD39);
+        RD40 = (TextView)v.findViewById(R.id.RD40);
+        RD41 = (TextView)v.findViewById(R.id.RD41);
+        RD42 = (TextView)v.findViewById(R.id.RD42);
 
         RD43 = (TextView)v.findViewById(R.id.RD43);
         RD44 = (TextView)v.findViewById(R.id.RD44);
@@ -289,6 +308,12 @@ public class ReportFragment extends Fragment {
         RC18.setText(hc.df1(pB7));
         RC19.setText(hc.df1(pB8));
         RC20.setText(hc.df1(pB4));
+
+        RD15.setText(hc.df1(pB4*4.285));
+        RD16.setText(hc.df1(pB5*4.285));
+        RD17.setText(hc.df1(pB6*4.285));
+        RD18.setText(hc.df1(pB7*4.285));
+        RD19.setText(hc.df1(pB8*4.285));
 
 
 
@@ -424,7 +449,7 @@ public class ReportFragment extends Fragment {
 
         //Injection
         totalInjectionCost();
-        Double TotalInjectionCost = 0.0, TotalInjectionPigletCost = 0.0;
+        Double TotalInjectionCost = 0.00, TotalInjectionPigletCost = 0.00;
         for (int i=1; i<=InjectionIdList.size();i++) {
             final int position = i-1;
             InjectionCostPerWeekFragment  PerWeek = new InjectionCostPerWeekFragment();
@@ -440,19 +465,19 @@ public class ReportFragment extends Fragment {
 
         }
 
-
-        RC64.setText(hc.formatPrice((TotalInjectionCost)));
-        Double rd64 = (TotalInjectionCost)/7*30;
+        Double valrc64 = (TotalInjectionCost) + (TotalInjectionPigletCost);
+        RC64.setText(hc.formatPrice((valrc64)));
+        Double rd64 = (valrc64)*4.285;
         RD64.setText(hc.formatPrice(rd64));
 
-        RC32.setText(hc.formatPrice((TotalInjectionPigletCost)));
-        RD32.setText(hc.formatPrice((TotalInjectionPigletCost)/7*30));
-        rb33.setText(hc.formatPrice((TotalInjectionPigletCost/1000)*22*1000/pB3));
+        RC32.setText(hc.formatPrice((TotalInjectionCost)));
+        RD32.setText(hc.formatPrice((TotalInjectionCost)*4.285));
+        rb33.setText(hc.formatPrice((TotalInjectionCost/1000)*22*1000/pB3));
 
-        Double valrc58 = (TotalInjectionCost) - (TotalInjectionPigletCost);
+        Double valrc58 = TotalInjectionPigletCost;
         RC58.setText(hc.formatPrice(valrc58));
-        RD58.setText(hc.formatPrice(valrc58/7*30));
-        rb59.setText(hc.formatPrice(valrc58*22*1000/(pB30+pB36+pB44)));
+        RD58.setText(hc.formatPrice(valrc58*4.285));
+        rb59.setText(hc.formatPrice(valrc58*25/(pB30+pB36+pB44)));
 
         //Vaccine
         //Injection
@@ -471,19 +496,20 @@ public class ReportFragment extends Fragment {
             TotalVaccienPiglet = TotalVaccienPiglet+costPiglet;
         }
 
-        RC65.setText(hc.formatPrice((TotalVaccineCost)));
-        Double rd65 = (TotalVaccineCost)/7*30;
+        Double valrc65 = (TotalVaccineCost) + (TotalVaccienPiglet);
+        RC65.setText(hc.formatPrice(valrc65));
+        Double rd65 = valrc65*4.285;
         RD65.setText(hc.formatPrice(rd65));
 
-        RC34.setText(hc.formatPrice((TotalVaccienPiglet)));
-        Double valrd34 = (TotalVaccienPiglet)/7*30;
+        RC34.setText(hc.formatPrice((TotalVaccineCost)));
+        Double valrd34 = (TotalVaccineCost)*4.285;
         RD34.setText(hc.formatPrice(valrd34));
-        rb35.setText(hc.formatPrice((TotalVaccienPiglet/1000)*22*1000/pB3));
+        rb35.setText(hc.formatPrice((TotalVaccineCost/1000)*22*1000/pB3));
 
-        Double valrc60 = (TotalVaccineCost)-(TotalVaccienPiglet);
+        Double valrc60 = TotalVaccienPiglet;
         RC60.setText(hc.formatPrice(valrc60));
-        RD60.setText(hc.formatPrice(valrc60/7*30));
-        rb61.setText(hc.formatPrice(valrc60*22*1000/(pB30+pB36+pB44)));
+        RD60.setText(hc.formatPrice(valrc60*4.285));
+        rb61.setText(hc.formatPrice(valrc60*25/(pB30+pB36+pB44)));
 
 
         RC37.setText(hc.df1(pB28));
@@ -492,6 +518,14 @@ public class ReportFragment extends Fragment {
         RC40.setText(hc.df1(pB34));
         RC41.setText(hc.df1(pB36));
         RC42.setText(hc.df1(pB44));
+
+        RD37.setText(hc.df1(pB28*4.285));
+        RD38.setText(hc.df1(pB29*4.285));
+        RD39.setText(hc.df1(pB30*4.285));
+        RD40.setText(hc.df1(pB34*4.285));
+        RD41.setText(hc.df1(pB36*4.285));
+        RD42.setText(hc.df1(pB44*4.285));
+
 
 
 
@@ -837,6 +871,7 @@ public class ReportFragment extends Fragment {
         }
         cursor.close();
         db.close();
+
     }
 
     public  void totalVaccineCost() {
@@ -1138,53 +1173,53 @@ public class ReportFragment extends Fragment {
         S31 = S21+S22+S23+S24+S25;
         S32 = S28+S29+S30+S31;
 
-        rb43.setText(hc.df1((Q32)));
-        RC43.setText(hc.df1((R32)));
-        RD43.setText(hc.df1((S32)));
+        rb43.setText(hc.df1((Q32/1000)));
+        RC43.setText(hc.df1((R32/1000)));
+        RD43.setText(hc.df1((S32/1000)));
 
-        rb44.setText(hc.df1((Q28)));
-        RC44.setText(hc.df1((R28)));
-        RD44.setText(hc.df1((S28)));
+        rb44.setText(hc.df1((Q28/1000)));
+        RC44.setText(hc.df1((R28/1000)));
+        RD44.setText(hc.df1((S28/1000)));
 
         rb45.setText(hc.df1(M28));
         RC45.setText(hc.df1(N28));
         RD45.setText(hc.df1(O28));
 
-        rb46.setText(hc.df1((Q26)));
-        RC46.setText(hc.df1((R26)));
-        RD46.setText(hc.df1((S26)));
+        rb46.setText(hc.df1((Q26/1000)));
+        RC46.setText(hc.df1((R26/1000)));
+        RD46.setText(hc.df1((S26/1000)));
 
         rb47.setText(hc.df1(M26));
         RC47.setText(hc.df1(N26));
         RD47.setText(hc.df1(O26));
 
-        rb48.setText(hc.df1((Q27)));
-        RC48.setText(hc.df1((R27)));
-        RD48.setText(hc.df1((S27)));
+        rb48.setText(hc.df1((Q27/1000)));
+        RC48.setText(hc.df1((R27/1000)));
+        RD48.setText(hc.df1((S27/1000)));
 
         rb49.setText(hc.df1(M27));
         RC49.setText(hc.df1(N27));
         RD49.setText(hc.df1(O27));
 
-        rb50.setText(hc.df1((Q29)));
-        RC50.setText(hc.df1((R29)));
-        RD50.setText(hc.df1((S29)));
+        rb50.setText(hc.df1((Q29/1000)));
+        RC50.setText(hc.df1((R29/1000)));
+        RD50.setText(hc.df1((S29/1000)));
 
         rb51.setText(hc.df1(M29));
         RC51.setText(hc.df1(N29));
         RD51.setText(hc.df1(O29));
 
-        rb52.setText(hc.df1((Q30)));
-        RC52.setText(hc.df1((R30)));
-        RD52.setText(hc.df1((S30)));
+        rb52.setText(hc.df1((Q30/1000)));
+        RC52.setText(hc.df1((R30/1000)));
+        RD52.setText(hc.df1((S30/1000)));
 
         rb53.setText(hc.df1(M30));
         RC53.setText(hc.df1(N30));
         RD53.setText(hc.df1(O30));
 
-        rb54.setText(hc.df1((Q31)));
-        RC54.setText(hc.df1((R31)));
-        RD54.setText(hc.df1((S31)));
+        rb54.setText(hc.df1((Q31/1000)));
+        RC54.setText(hc.df1((R31/1000)));
+        RD54.setText(hc.df1((S31/1000)));
 
         rb55.setText(hc.df1(M31));
         RC55.setText(hc.df1(N31));
