@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -134,10 +135,18 @@ public class SowDrugCostPerSowFragment extends android.support.v4.app.Fragment {
             tvDrugName.setText(drugList.get(0).toString());
             tvDrugPrice.setText(drugList.get(1).toString()+" ฿");
             tvUsage.setText(Usage.get(position).toString());
-            tvTotal.setText(hc.df3(hc.string2double(Total.get(position))));
-            Double cost = (hc.string2double9df(Total.get(position))*hc.string2double(drugList.get(1)));//total*price
+
+            Double total = hc.string2double(Total.get(position));
+            Double drugPrice = hc.string2double(drugList.get(1));
+
+            tvTotal.setText(String.format("%.3f", total ));
+            Double cost = (total*drugPrice);//total*price
+            Double new_cost = Double.parseDouble(String.format("%.3f", cost ));
+            Double cost_final = Double.parseDouble(String.format("%.2f", new_cost ));
             TotalCost = TotalCost+cost;
-            tvCost.setText(hc.df2(cost));
+            //tvCost.setText(hc.df3(cost));
+            //tvCost.setText( String.format("%.2f", 29.085 ));
+            tvCost.setText(cost_final+"");
 
             Button btnEdt = (Button)custom.findViewById(R.id.edtBtnPerSow);
             btnEdt.setOnClickListener(new View.OnClickListener() {

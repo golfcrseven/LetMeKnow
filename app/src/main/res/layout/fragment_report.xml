@@ -988,7 +988,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="No. of gestating sows"
+                    android:text="No. of  non-lactatings sows"
                     android:id="@+id/textView381"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"

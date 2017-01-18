@@ -70,7 +70,7 @@ public class HelperClass {
     }
 
     public String df1(Double val){
-        DecimalFormat f2 = new DecimalFormat("#,###,###.#");
+        DecimalFormat f2 = new DecimalFormat("#,###,###.0");
         String data = f2.format(val);
         return  data;
     }

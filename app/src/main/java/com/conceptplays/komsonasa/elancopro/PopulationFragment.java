@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -270,6 +271,7 @@ public class PopulationFragment extends Fragment {
         B54 = B53;
         B55 = B45*(1-(dataB11/100));
         B56 = B45*(1-(dataB11/100));
+        Log.d("PB56", "PB56--->"+B56);
         B57 = B56;
         B58 = B56;
         B59 = B56;

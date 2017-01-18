@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -122,10 +123,25 @@ public class SowDrugCostPerMonthFragment extends android.support.v4.app.Fragment
             tvDrugName.setText(drugList.get(0).toString());
             tvDrugPrice.setText(drugList.get(1).toString()+" ฿");
             tvUsage.setText(Usage.get(position).toString());
-            tvTotal.setText(hc.df3(hc.string2double(Total.get(position))));
-            Double cost = (hc.string2double9df(Total.get(position))*hc.string2double(drugList.get(1)));//total*price
+
+            Double total = hc.string2double(Total.get(position));
+            Double drugPrice = hc.string2double(drugList.get(1));
+
+            //tvTotal.setText(String.format("%.9f", total ));
+            tvTotal.setText(Total.get(position));
+//
+//            tvTotal.setText(hc.df3(hc.string2double(Total.get(position))));
+//            Double cost = (hc.string2double9df(Total.get(position))*hc.string2double(drugList.get(1)));//total*price
+//            TotalCost = TotalCost+cost;
+//            tvCost.setText(hc.df2(cost));
+
+            Double cost = (total*drugPrice);//total*price
+            Double new_cost = Double.parseDouble(String.format("%.3f", cost ));
+            Double cost_final = Double.parseDouble(String.format("%.2f", new_cost ));
             TotalCost = TotalCost+cost;
-            tvCost.setText(hc.df2(cost));
+            //tvCost.setText(hc.df3(cost));
+            //tvCost.setText( String.format("%.2f", 29.085 ));
+            tvCost.setText(cost_final+"");
 
             Button btnEdt = (Button)custom.findViewById(R.id.edtBtnPerSow);
             ViewGroup.LayoutParams params = btnEdt.getLayoutParams();
@@ -142,7 +158,12 @@ public class SowDrugCostPerMonthFragment extends android.support.v4.app.Fragment
     public void getPopB(){
         ArrayList ar = pop.getB(this.db);
         P4 = Double.valueOf(ar.get(8).toString());
+        Log.d("PopB9", "--->"+P4);
+
         P5 = Double.valueOf(ar.get(9).toString());
+
+        Log.d("PopB10", "--->"+P5);
+
         P6 = Double.valueOf(ar.get(10).toString());
         P7 = Double.valueOf(ar.get(11).toString());
         P8 = Double.valueOf(ar.get(12).toString());
@@ -229,7 +250,7 @@ public class SowDrugCostPerMonthFragment extends android.support.v4.app.Fragment
     }
 
     private Double getTotal(String string, Double usage) {
-        Double sum = 0.00000000000;
+        Double sum = 0.000000000;
         sumVal.clear();
 
         for (int i=1; i<=string.length(); i++){
@@ -242,13 +263,14 @@ public class SowDrugCostPerMonthFragment extends android.support.v4.app.Fragment
             if(data.equals("1")){
                 sum = sum+hc.string2double9df(hc.df9(sumVal.get(i-1)));
                 //opt.append(sumVal.get(i-1).toString()+"|");
+                //Log.d("Total", "total"+sumVal.get(i-1));
             }else{
                 sum = sum+0;
             }
         }
         //Toast.makeText(getActivity(), P4.toString(), Toast.LENGTH_LONG).show();
-        String total = hc.df9(sum);
-        sum = hc.string2double9df(total);
+        String total = String.format("%.9f", sum );
+        sum = Double.parseDouble(total);
         sumVal.clear();
         return sum;
 

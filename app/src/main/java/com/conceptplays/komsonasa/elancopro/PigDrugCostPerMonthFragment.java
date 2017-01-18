@@ -148,21 +148,21 @@ public class PigDrugCostPerMonthFragment extends android.support.v4.app.Fragment
         P8 = Double.valueOf(ar.get(12 + 28).toString());
         P9 = Double.valueOf(ar.get(13 + 28).toString());
         P10 = Double.valueOf(ar.get(14 + 28).toString());
-        P11 = Double.valueOf(ar.get(15 + 28).toString());
-        P12 = Double.valueOf(ar.get(16 + 28).toString());
-        P13 = Double.valueOf(ar.get(17 + 28).toString());
-        P14 = Double.valueOf(ar.get(18 + 28).toString());
-        P15 = Double.valueOf(ar.get(19 + 28).toString());
-        P16 = Double.valueOf(ar.get(20 + 28).toString());
-        P17 = Double.valueOf(ar.get(21 + 28).toString());
-        P18 = Double.valueOf(ar.get(22 + 28).toString());
-        P19 = Double.valueOf(ar.get(23 + 28).toString());
-        P20 = Double.valueOf(ar.get(24 + 28).toString());
-        P21 = Double.valueOf(ar.get(25 + 28).toString());
-        P22 = Double.valueOf(ar.get(26 + 28).toString());
-        P23 = Double.valueOf(ar.get(27 + 28).toString());
-        P24 = Double.valueOf(ar.get(28 + 28).toString());
-        P25 = Double.valueOf(ar.get(29 + 28).toString());
+        P11 = Double.valueOf(ar.get(17 + 28).toString());
+        P12 = Double.valueOf(ar.get(18 + 28).toString());
+        P13 = Double.valueOf(ar.get(19 + 28).toString());
+        P14 = Double.valueOf(ar.get(20 + 28).toString());
+        P15 = Double.valueOf(ar.get(21 + 28).toString());
+        P16 = Double.valueOf(ar.get(22 + 28).toString());
+        P17 = Double.valueOf(ar.get(23 + 28).toString());
+        P18 = Double.valueOf(ar.get(24 + 28).toString());
+        P19 = Double.valueOf(ar.get(25 + 28).toString());
+        P20 = Double.valueOf(ar.get(26 + 28).toString());
+        P21 = Double.valueOf(ar.get(27 + 28).toString());
+        P22 = Double.valueOf(ar.get(28 + 28).toString());
+        P23 = Double.valueOf(ar.get(29 + 28).toString());
+        P24 = Double.valueOf(ar.get(30 + 28).toString());
+        P25 = Double.valueOf(ar.get(31 + 28).toString());
     }
 
 

@@ -244,7 +244,7 @@ public class DataBaseAdapter {
 
             db.execSQL("insert into " +FDPIG_TABLE+" (_id,fd_m4,fd_m5,fd_m6,fd_m7,fd_m8,fd_m9,fd_m10,fd_m11,fd_m12,fd_m13,fd_m14,fd_m15,"+
                     "fd_m16,fd_m17,fd_m18,fd_m19,fd_m20,fd_m21,fd_m22,fd_m23,fd_m24,fd_m25) values ("+
-                    "1,0.15,0.32,0.50,0.67,0.84,1.01,1.33,1.48,1.63,1.78,1.93,2.08,2.23,2.38,2.40,2.40,2.40,2.40,2.40,2.40,2.40,2.40)");
+                    "1,0.15,0.32,0.495,0.67,0.84,1.01,1.33,1.48,1.63,1.78,1.93,2.08,2.23,2.38,2.40,2.40,2.40,2.40,2.40,2.40,2.40,2.40)");
 
             db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (1,'Denagard 10%',450)");
             db.execSQL("insert into " +DRUG_TABLE+" (_id,drug_name,drug_price) values (2,'Tylan',350)");
@@ -274,7 +274,7 @@ public class DataBaseAdapter {
             db.execSQL("insert into " +DRUG_SOW_PERSOW_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
                     "persow_cost,persow_total) values (1,1.00,'1111111111111111111111',222.0750,0.4935)");
             db.execSQL("insert into " +DRUG_SOW_PERSOW_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
-                    "persow_cost,persow_total) values (6,0.25,'1100000000000000001111',29.0850,0.048745)");
+                    "persow_cost,persow_total) values (6,0.25,'1100000000000000001111',29.085,0.048475)");
             db.execSQL("insert into " +DRUG_SOW_PERSOW_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
                     "persow_cost,persow_total) values (7,2.00,'1111111111111111111111',59.2200,0.9870)");
             db.execSQL("insert into " +DRUG_SOW_PERSOW_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+

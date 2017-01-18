@@ -9,6 +9,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
@@ -237,6 +238,8 @@ public class PigDrugPerHeadActivity extends Activity {
         }
         //String total = hc.df9(sum);
         //sum = hc.string2double9df(sum.toString());
+        Log.v("sum=>", sum+"");
+
         price = hc.string2double9df(drugPrice);
         cost = sum*price;
 

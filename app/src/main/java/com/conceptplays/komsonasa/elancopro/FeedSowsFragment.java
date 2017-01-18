@@ -425,16 +425,21 @@ public class FeedSowsFragment extends  android.support.v4.app.Fragment {
         B18 = B17; B19 = B17; B20 = B17; B21 = B17; B22 = B17; B23 = B17; B24 = B17; B25 = B17; B26 = B17; B27 = B17;
         SUM_B11_B27 = (B11+B12+B13+B14+B15+B16+B17+B18+B19+B20+B21+B22+B23+B24+B25+B26+B27);
 
+//        if((B3-(SUM_B11_B27+B7))<B11){
+//            B10 = B3-(SUM_B11_B27+B7);
+//        }else{
+//            B10 = B11-(B3-(SUM_B11_B27+B7));
+//        }
+
         if((B3-(SUM_B11_B27+B7))<B11){
             B10 = B3-(SUM_B11_B27+B7);
-            SUMB10_B27 = SUM_B11_B27+B10;
-            B9 = B3-B7-SUMB10_B27;
         }else{
             B10 = B11;
-            SUMB10_B27 = SUM_B11_B27+B10;
-            B9 = B3-B7-SUMB10_B27;
         }
 
+
+        SUMB10_B27 = SUM_B11_B27+B10;
+        B9 = B3-B7-SUMB10_B27;
         B28 = B5;
         B29 = B28*dataB8;
         B30 = (float) (B29*3*(1-dataB9/2/100));

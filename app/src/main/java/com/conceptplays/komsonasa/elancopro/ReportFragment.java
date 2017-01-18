@@ -746,21 +746,21 @@ public class ReportFragment extends Fragment {
         sumValPigDrug.set(4,usage*((M8*7)*pB41)/1000);
         sumValPigDrug.set(5,usage*((M9*7)*pB42)/1000);
         sumValPigDrug.set(6,usage*((M10*7)*pB43)/1000);
-        sumValPigDrug.set(7,usage*((M11*7)*pB44)/1000);
-        sumValPigDrug.set(8,usage*((M12*7)*pB45)/1000);
-        sumValPigDrug.set(9,usage*((M13*7)*pB46)/1000);
-        sumValPigDrug.set(10,usage*((M14*7)*pB47)/1000);
-        sumValPigDrug.set(11,usage*((M15*7)*pB48)/1000);
-        sumValPigDrug.set(12,usage*((M16*7)*pB49)/1000);
-        sumValPigDrug.set(13,usage*((M17*7)*pB50)/1000);
-        sumValPigDrug.set(14,usage*((M18*7)*pB51)/1000);
-        sumValPigDrug.set(15,usage*((M19*7)*pB52)/1000);
-        sumValPigDrug.set(16,usage*((M20*7)*pB53)/1000);
-        sumValPigDrug.set(17,usage*((M21*7)*pB54)/1000);
-        sumValPigDrug.set(18,usage*((M22*7)*pB55)/1000);
-        sumValPigDrug.set(19,usage*((M23*7)*pB56)/1000);
-        sumValPigDrug.set(20,usage*((M24*7)*pB57)/1000);
-        sumValPigDrug.set(21,usage*((M25*7)*pB58)/1000);
+        sumValPigDrug.set(7,usage*((M11*7)*pB46)/1000);
+        sumValPigDrug.set(8,usage*((M12*7)*pB47)/1000);
+        sumValPigDrug.set(9,usage*((M13*7)*pB48)/1000);
+        sumValPigDrug.set(10,usage*((M14*7)*pB49)/1000);
+        sumValPigDrug.set(11,usage*((M15*7)*pB50)/1000);
+        sumValPigDrug.set(12,usage*((M16*7)*pB51)/1000);
+        sumValPigDrug.set(13,usage*((M17*7)*pB52)/1000);
+        sumValPigDrug.set(14,usage*((M18*7)*pB53)/1000);
+        sumValPigDrug.set(15,usage*((M19*7)*pB54)/1000);
+        sumValPigDrug.set(16,usage*((M20*7)*pB55)/1000);
+        sumValPigDrug.set(17,usage*((M21*7)*pB56)/1000);
+        sumValPigDrug.set(18,usage*((M22*7)*pB57)/1000);
+        sumValPigDrug.set(19,usage*((M23*7)*pB58)/1000);
+        sumValPigDrug.set(20,usage*((M24*7)*pB59)/1000);
+        sumValPigDrug.set(21,usage*((M25*7)*pB60)/1000);
     }
 
     public void getFCHPIGDRUG(Double usage){
@@ -772,21 +772,21 @@ public class ReportFragment extends Fragment {
         sumValPigDrug.set(4,usage*((M8*30)*pB41)/1000);
         sumValPigDrug.set(5,usage*((M9*30)*pB42)/1000);
         sumValPigDrug.set(6,usage*((M10*30)*pB43)/1000);
-        sumValPigDrug.set(7,usage*((M11*30)*pB44)/1000);
-        sumValPigDrug.set(8,usage*((M12*30)*pB45)/1000);
-        sumValPigDrug.set(9,usage*((M13*30)*pB46)/1000);
-        sumValPigDrug.set(10,usage*((M14*30)*pB47)/1000);
-        sumValPigDrug.set(11,usage*((M15*30)*pB48)/1000);
-        sumValPigDrug.set(12,usage*((M16*30)*pB49)/1000);
-        sumValPigDrug.set(13,usage*((M17*30)*pB50)/1000);
-        sumValPigDrug.set(14,usage*((M18*30)*pB51)/1000);
-        sumValPigDrug.set(15,usage*((M19*30)*pB52)/1000);
-        sumValPigDrug.set(16,usage*((M20*30)*pB53)/1000);
-        sumValPigDrug.set(17,usage*((M21*30)*pB54)/1000);
-        sumValPigDrug.set(18,usage*((M22*30)*pB55)/1000);
-        sumValPigDrug.set(19,usage*((M23*30)*pB56)/1000);
-        sumValPigDrug.set(20,usage*((M24*30)*pB57)/1000);
-        sumValPigDrug.set(21,usage*((M25*30)*pB58)/1000);
+        sumValPigDrug.set(7,usage*((M11*30)*pB46)/1000);
+        sumValPigDrug.set(8,usage*((M12*30)*pB47)/1000);
+        sumValPigDrug.set(9,usage*((M13*30)*pB48)/1000);
+        sumValPigDrug.set(10,usage*((M14*30)*pB49)/1000);
+        sumValPigDrug.set(11,usage*((M15*30)*pB50)/1000);
+        sumValPigDrug.set(12,usage*((M16*30)*pB51)/1000);
+        sumValPigDrug.set(13,usage*((M17*30)*pB52)/1000);
+        sumValPigDrug.set(14,usage*((M18*30)*pB53)/1000);
+        sumValPigDrug.set(15,usage*((M19*30)*pB54)/1000);
+        sumValPigDrug.set(16,usage*((M20*30)*pB55)/1000);
+        sumValPigDrug.set(17,usage*((M21*30)*pB56)/1000);
+        sumValPigDrug.set(18,usage*((M22*30)*pB57)/1000);
+        sumValPigDrug.set(19,usage*((M23*30)*pB58)/1000);
+        sumValPigDrug.set(20,usage*((M24*30)*pB59)/1000);
+        sumValPigDrug.set(21,usage*((M25*30)*pB60)/1000);
     }
 
 

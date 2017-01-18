@@ -364,6 +364,7 @@ public class SowDrugPerSowActivity extends Activity {
 
     private void setData(){
         final DecimalFormat df2 = new DecimalFormat("#,###,###.###");
+        final DecimalFormat df4 = new DecimalFormat("#,###,###.####");
 
         chkD5.setChecked(checked.get(0));
         edtD5.setText((chkD5.isChecked()?df2.format(PSD5):"0.000"));
@@ -651,12 +652,12 @@ public class SowDrugPerSowActivity extends Activity {
             }
         });
         chkD25.setChecked(checked.get(20));
-        edtD25.setText((chkD25.isChecked()?df2.format(PSD25):"0.000"));
+        edtD25.setText((chkD25.isChecked()?df4.format(PSD25):"0.000"));
         chkD25.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(chkD25.isChecked()){
-                    edtD25.setText(df2.format(PSD25));
+                    edtD25.setText(df4.format(PSD25));
                     checked.set(20,true);
                 }else{
                     edtD25.setText("0.000");
@@ -665,12 +666,12 @@ public class SowDrugPerSowActivity extends Activity {
             }
         });
         chkD26.setChecked(checked.get(21));
-        edtD26.setText((chkD26.isChecked()?df2.format(PSD26):"0.000"));
+        edtD26.setText((chkD26.isChecked()?df4.format(PSD26):"0.000"));
         chkD26.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(chkD26.isChecked()){
-                    edtD26.setText(df2.format(PSD26));
+                    edtD26.setText(df4.format(PSD26));
                     checked.set(21,true);
                 }else{
                     edtD26.setText("0.000");
