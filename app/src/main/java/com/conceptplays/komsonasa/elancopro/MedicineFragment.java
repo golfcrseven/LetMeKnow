@@ -20,6 +20,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.conceptplays.komsonasa.elancopro.Class.HelperClass;
 import com.conceptplays.komsonasa.elancopro.DB.DataBaseAdapter;
 import com.conceptplays.komsonasa.letmeknow.R;
 
@@ -32,6 +33,7 @@ import java.util.List;
  */
 public class MedicineFragment extends android.support.v4.app.Fragment {
     DataBaseAdapter db;
+    HelperClass hc;
     ListView Medicine;
     public class medicineChapter {
         Integer chapterID;
@@ -52,6 +54,7 @@ public class MedicineFragment extends android.support.v4.app.Fragment {
         ContextThemeWrapper contextThemeWrapper = new ContextThemeWrapper(getActivity(), R.style.Theme_AppCompat_Light);
         inflater = getActivity().getLayoutInflater().cloneInContext(contextThemeWrapper);
         View v =  inflater.inflate(R.layout.fragment_medicine, container, false);
+        hc = new HelperClass();
 
         db = new DataBaseAdapter(getActivity());
 
@@ -121,7 +124,7 @@ public class MedicineFragment extends android.support.v4.app.Fragment {
             medicineChapter chapter = medicineChapterList.get(position);
 
             chapterName.setText((position+1)+")  "+chapter.chapterName);
-            chapterDesc.setText(chapter.chapterPrice);
+            chapterDesc.setText(hc.df2(hc.string2double9df(chapter.chapterPrice)));
 
 
             convertView.setOnClickListener(new View.OnClickListener() {

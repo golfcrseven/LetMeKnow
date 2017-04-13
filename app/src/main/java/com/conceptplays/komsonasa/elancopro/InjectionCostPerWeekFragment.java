@@ -128,7 +128,7 @@ public class InjectionCostPerWeekFragment extends android.support.v4.app.Fragmen
             drugList = getDrug(Long.valueOf(DrugIdList.get(position)), db);
             txtNo.setText((position+1)+")");
             tvDrugName.setText(drugList.get(0).toString());
-            tvDrugPrice.setText(drugList.get(1).toString()+" ฿");
+            tvDrugPrice.setText(hc.df2(hc.string2double9df(drugList.get(1).toString()))+" ฿");
             tvTotal.setText(hc.df1(hc.string2double(Total.get(position))));
             Double cost = (hc.string2double3df(Total.get(position))*hc.string2double1df(drugList.get(1)));//total*price
             TotalCost = TotalCost+cost;

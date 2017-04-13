@@ -133,7 +133,7 @@ public class SowDrugCostPerSowFragment extends android.support.v4.app.Fragment {
             drugList = getDrug(Long.valueOf(DrugIdList.get(position)), db);
             txtNo.setText((position+1)+")");
             tvDrugName.setText(drugList.get(0).toString());
-            tvDrugPrice.setText(drugList.get(1).toString()+" ฿");
+            tvDrugPrice.setText(hc.df2(hc.string2double9df(drugList.get(1).toString()))+" ฿");
             tvUsage.setText(Usage.get(position).toString());
 
             Double total = hc.string2double(Total.get(position));
@@ -146,7 +146,7 @@ public class SowDrugCostPerSowFragment extends android.support.v4.app.Fragment {
             TotalCost = TotalCost+cost;
             //tvCost.setText(hc.df3(cost));
             //tvCost.setText( String.format("%.2f", 29.085 ));
-            tvCost.setText(cost_final+"");
+            tvCost.setText(hc.df2(new_cost));
 
             Button btnEdt = (Button)custom.findViewById(R.id.edtBtnPerSow);
             btnEdt.setOnClickListener(new View.OnClickListener() {

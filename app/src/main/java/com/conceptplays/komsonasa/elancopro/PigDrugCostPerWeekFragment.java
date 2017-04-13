@@ -122,7 +122,7 @@ public class PigDrugCostPerWeekFragment extends android.support.v4.app.Fragment 
             drugList = PerSow.getDrug(Long.valueOf(DrugIdList.get(position)), this.db);
             txtNo.setText((position+1)+")");
             tvDrugName.setText(drugList.get(0).toString());
-            tvDrugPrice.setText(drugList.get(1).toString() + " ฿");
+            tvDrugPrice.setText(hc.df2(hc.string2double9df(drugList.get(1).toString())) + " ฿");
             tvUsage.setText(Usage.get(position).toString());
             tvTotal.setText(hc.df3(hc.string2double(Total.get(position))));
 //            Log.v("Total==>", Total.get(position)+"");

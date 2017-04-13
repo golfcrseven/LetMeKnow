@@ -14,7 +14,7 @@ import com.conceptplays.komsonasa.elancopro.FeedSowsFragment;
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {
     final int PAGE_COUNT = 2;
-    private String titles[] = new String[]{"Feed Consumption of Sows", "Feed Consumption of Pigs"};
+    private String titles[] = new String[]{"Feeding program of Sows", "Feeding program of Pigs"};
 
     public ViewPagerAdapter(FragmentManager fm) {
         super(fm);

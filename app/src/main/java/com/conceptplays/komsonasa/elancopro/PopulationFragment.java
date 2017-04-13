@@ -150,7 +150,7 @@ public class PopulationFragment extends Fragment {
     }
 
     public void setData(){
-        DecimalFormat df = new DecimalFormat("#,###,###.#");
+        DecimalFormat df = new DecimalFormat("#,###,###.0");
         DecimalFormat df0 = new DecimalFormat("#,###,###");
 
         float dataB5 = num1;

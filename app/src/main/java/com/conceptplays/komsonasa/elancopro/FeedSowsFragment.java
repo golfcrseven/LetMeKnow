@@ -172,8 +172,8 @@ public class FeedSowsFragment extends  android.support.v4.app.Fragment {
     }
 
     public void setData() {
-        DecimalFormat df = new DecimalFormat("#,###,###.#");
-        DecimalFormat df0 = new DecimalFormat("#,###,###");
+        DecimalFormat df = new DecimalFormat("#,###,##0.0");
+        DecimalFormat df0 = new DecimalFormat("#,###,##0.0");
 
         C26 = (Float) ((C4+C5)/2);
         Float sumC6_C22 = (C6+C7+C8+C9+C10+C11+C12+C13+C14+C15+C16+C17+C18+C19+C20+C21+C22);
@@ -479,7 +479,7 @@ public class FeedSowsFragment extends  android.support.v4.app.Fragment {
         B60 = B56;
         B61 = B43*(1-dataB11/100);
 
-        DecimalFormat df = new DecimalFormat("#,###,###.#########");
+        DecimalFormat df = new DecimalFormat("#,###,###.000000000");
 
         ArrayList<Float> arrayList = new ArrayList<Float>();
         arrayList.add((float) 1);

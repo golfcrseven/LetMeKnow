@@ -402,7 +402,7 @@ public class InjectionPerWeekActivity extends Activity {
     }
 
     private void setData(){
-        final DecimalFormat df2 = new DecimalFormat("#,###,###.###");
+        final DecimalFormat df2 = new DecimalFormat("#,###,###.000");
 
         chkD5.setChecked(checked.get(0));
         chkD5.setOnClickListener(new View.OnClickListener() {

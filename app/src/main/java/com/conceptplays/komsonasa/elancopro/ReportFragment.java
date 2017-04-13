@@ -279,7 +279,7 @@ public class ReportFragment extends Fragment {
     }
 
     public  void setData(){
-        DecimalFormat df = new DecimalFormat("#,###,###.#");
+        DecimalFormat df = new DecimalFormat("#,###,###.0");
         DecimalFormat df0 = new DecimalFormat("#,###,###");
 
         double dataB5 = num1;

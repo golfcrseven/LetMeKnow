@@ -121,14 +121,14 @@ public class SowDrugCostPerMonthFragment extends android.support.v4.app.Fragment
             drugList = PerSow.getDrug(Long.valueOf(DrugIdList.get(position)), this.db);
             txtNo.setText((position+1)+")");
             tvDrugName.setText(drugList.get(0).toString());
-            tvDrugPrice.setText(drugList.get(1).toString()+" ฿");
+            tvDrugPrice.setText(hc.df2(hc.string2double9df(drugList.get(1).toString()))+" ฿");
             tvUsage.setText(Usage.get(position).toString());
 
             Double total = hc.string2double(Total.get(position));
             Double drugPrice = hc.string2double(drugList.get(1));
 
             //tvTotal.setText(String.format("%.9f", total ));
-            tvTotal.setText(Total.get(position));
+            tvTotal.setText(hc.df3(hc.string2double9df(Total.get(position))));
 //
 //            tvTotal.setText(hc.df3(hc.string2double(Total.get(position))));
 //            Double cost = (hc.string2double9df(Total.get(position))*hc.string2double(drugList.get(1)));//total*price

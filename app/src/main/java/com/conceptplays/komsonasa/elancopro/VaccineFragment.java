@@ -19,6 +19,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.conceptplays.komsonasa.elancopro.Class.HelperClass;
 import com.conceptplays.komsonasa.elancopro.DB.DataBaseAdapter;
 import com.conceptplays.komsonasa.letmeknow.R;
 
@@ -31,6 +32,7 @@ import java.util.List;
  */
 public class VaccineFragment extends android.support.v4.app.Fragment {
     DataBaseAdapter db;
+    HelperClass hc;
     ListView Medicine;
     public class medicineChapter {
         Integer chapterID;
@@ -53,6 +55,7 @@ public class VaccineFragment extends android.support.v4.app.Fragment {
         View v =  inflater.inflate(R.layout.fragment_medicine, container, false);
 
         db = new DataBaseAdapter(getActivity());
+        hc = new HelperClass();
 
         Button btnAdd = (Button) getActivity().findViewById(R.id.btnAddMedicine);
         btnAdd.setVisibility(View.VISIBLE);
@@ -120,7 +123,7 @@ public class VaccineFragment extends android.support.v4.app.Fragment {
             medicineChapter chapter = medicineChapterList.get(position);
 
             chapterName.setText((position+1)+")  "+chapter.chapterName);
-            chapterDesc.setText(chapter.chapterPrice);
+            chapterDesc.setText(hc.df2(hc.string2double9df(chapter.chapterPrice)));
 
 
             convertView.setOnClickListener(new View.OnClickListener() {

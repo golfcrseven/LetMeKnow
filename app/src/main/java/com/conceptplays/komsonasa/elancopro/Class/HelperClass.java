@@ -18,7 +18,7 @@ public class HelperClass {
     public Double string2double(String str){
         Double doub;
         try{
-            DecimalFormat df = new DecimalFormat("0.00");
+            DecimalFormat df = new DecimalFormat("#,###,##0.00");
             Number num = df.parse(str);
             doub = num.doubleValue();
         } catch (ParseException e) {
@@ -30,7 +30,7 @@ public class HelperClass {
     public Double string2double9df(String str){
         Double doub;
         try{
-            DecimalFormat df = new DecimalFormat("0.000000000");
+            DecimalFormat df = new DecimalFormat("#,###,##0.00000000");
             Number num = df.parse(str);
             doub = num.doubleValue();
         } catch (ParseException e) {
@@ -42,7 +42,7 @@ public class HelperClass {
     public Double string2double3df(String str){
         Double doub;
         try{
-            DecimalFormat df = new DecimalFormat("0.000");
+            DecimalFormat df = new DecimalFormat("#,###,##0.000");
             Number num = df.parse(str);
             doub = num.doubleValue();
         } catch (ParseException e) {
@@ -64,35 +64,35 @@ public class HelperClass {
         return doub;
     }
     public String df0(Double val){
-        DecimalFormat f2 = new DecimalFormat("#,###,###");
+        DecimalFormat f2 = new DecimalFormat("#,###,##0.0");
         String data = f2.format(val);
         return  data;
     }
 
     public String df1(Double val){
-        DecimalFormat f2 = new DecimalFormat("#,###,###.0");
+        DecimalFormat f2 = new DecimalFormat("#,###,##0.0");
         String data = f2.format(val);
         return  data;
     }
     public String df2(Double val){
-        DecimalFormat f2 = new DecimalFormat("#,###,###.##");
+        DecimalFormat f2 = new DecimalFormat("#,###,##0.00");
         String data = f2.format(val);
         return  data;
     }
 
 
     public String df3(Double val){
-        DecimalFormat f2 = new DecimalFormat("#,###,###.###");
+        DecimalFormat f2 = new DecimalFormat("#,###,##0.000");
         String data = f2.format(val);
         return  data;
     }
     public String df4(Double val){
-        DecimalFormat f2 = new DecimalFormat("#,###,###.####");
+        DecimalFormat f2 = new DecimalFormat("#,###,##0.0000");
         String data = f2.format(val);
         return  data;
     }
     public String df9(Double val){
-        DecimalFormat f2 = new DecimalFormat("#,###,###.#########");
+        DecimalFormat f2 = new DecimalFormat("#,###,##0.000000000");
         String data = f2.format(val);
         return  data;
     }

@@ -178,9 +178,9 @@ public class FeedPigsFragment extends  android.support.v4.app.Fragment {
     }
 
     public void setData() {
-        DecimalFormat df = new DecimalFormat("#,###,###.#");
-        DecimalFormat df2 = new DecimalFormat("#,###,###.##");
-        DecimalFormat df0 = new DecimalFormat("#,###,###");
+        DecimalFormat df = new DecimalFormat("#,###,##0.0");
+        DecimalFormat df2 = new DecimalFormat("#,###,##0.00");
+        DecimalFormat df0 = new DecimalFormat("#,###,##0.0");
 
         M26 =  (M4+M5+M6)/3;
         float sumM6_M22 = (M6+M7+M8+M9+M10+M11+M12+M13+M14+M15+M16+M17+M18+M19+M20+M21+M22);
