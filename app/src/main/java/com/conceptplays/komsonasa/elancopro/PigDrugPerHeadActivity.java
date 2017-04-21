@@ -179,7 +179,13 @@ public class PigDrugPerHeadActivity extends Activity {
                if(charSequence.toString().equals("")){
                    usage = 0.0;
                }else{
-                   usage = Double.valueOf(charSequence.toString());
+                   if(charSequence.toString().equals(".")) {
+                       usage = 0.0;
+                   }else{
+                       usage = Double.valueOf(String.valueOf(charSequence.toString()));
+                   }
+
+                   usage = usage*1.0;
                }
                 getFeedM();
                 getPSD();

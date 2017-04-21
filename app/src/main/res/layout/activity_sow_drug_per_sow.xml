@@ -50,17 +50,20 @@
                 <EditText
                     android:layout_width="100dp"
                     android:layout_height="35dp"
-                    android:inputType="numberDecimal"
                     android:ems="10"
-                    android:id="@+id/edtUsage"
+                    android:id="@+id/edtUsage2"
                     android:layout_weight="1"
-                    style="Theme.DeviceDefault"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
-                    android:textColor="#ffff1529"
+                    android:textStyle="bold"
                     android:textSize="18dp"
-                    android:textStyle="bold" />
+                    android:textColor="@android:color/black"
+                    style="Theme.DeviceDefault"
+                    android:editable="false"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:inputType="number|numberDecimal" />
 
             </RelativeLayout>
 

@@ -15,7 +15,7 @@ public class DataBaseAdapter {
     private static final String TAG = "DabtabaseAdapter";
     //Database
     private  static final String DB_NAME = "lmk_db"; //Database Name
-    private static final int DATABASE_VERSION = 5;
+    private static final int DATABASE_VERSION = 8;
 
     //Table Name
     public static final String INDEX_TABLE = "data_index";
@@ -281,11 +281,13 @@ public class DataBaseAdapter {
                     "persow_cost,persow_total) values (8,0.40,'1100000000000000001111',69.8040,0.07756)");
 
             db.execSQL("insert into " +DRUG_PIG_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
-                    "persow_total) values (1,1.50,'1111111000000000000000',0.05056)");
+                    "persow_total) values (1,1.50,'1111110000000000000000',0.03659)");
             db.execSQL("insert into " +DRUG_PIG_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
-                    "persow_total) values (6,0.60,'1111111000000000000000',0.02022)");
+                    "persow_total) values (1,1.0,'0000001111110000000000',0.07161)");
             db.execSQL("insert into " +DRUG_PIG_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
-                    "persow_total) values (8,0.40,'1111111000000000000000',0.01348)");
+                    "persow_total) values (6,0.50,'1111111111110000000000',0.04800)");
+            db.execSQL("insert into " +DRUG_PIG_TABLE+" (drug_id,drug_sow_persow_usage,drug_sow_persow_option,"+
+                    "persow_total) values (8,0.30,'1111111111110000000000',0.02880)");
 
             db.execSQL("insert into " +INJECTION_COST_TABLE+" (drug_id,drug_sow_persow_option,"+
                     "persow_total,piglet_total) values (1,'1100000000000000000000000000000000000000000000000000000',15.384615385,0)");

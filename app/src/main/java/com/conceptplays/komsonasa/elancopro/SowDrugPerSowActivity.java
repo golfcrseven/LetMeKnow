@@ -135,7 +135,7 @@ public class SowDrugPerSowActivity extends Activity {
         chkD25 = (CheckBox)findViewById(R.id.chkD25);
         chkD26 = (CheckBox)findViewById(R.id.chkD26);
 
-        edtUsage = (EditText)findViewById(R.id.edtUsage);
+        edtUsage = (EditText)findViewById(R.id.edtUsage2);
         edtD5 = (EditText)findViewById(R.id.edtD5);
         edtD6 = (EditText)findViewById(R.id.edtD6);
         edtD7 = (EditText)findViewById(R.id.edtD7);
@@ -174,10 +174,17 @@ public class SowDrugPerSowActivity extends Activity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i2, int i3) {
+
                if(charSequence.toString().equals("")){
                    usage = 0.0;
                }else{
-                   usage = Double.valueOf(charSequence.toString());
+                   if(charSequence.toString().equals(".")) {
+                       usage = 0.0;
+                   }else{
+                       usage = Double.valueOf(String.valueOf(charSequence.toString()));
+                   }
+
+                   usage = usage*1.0;
                }
                 getFeedC();
                 getPSD();

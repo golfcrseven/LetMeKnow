@@ -302,9 +302,9 @@ public class AddInjectionActivity extends Activity {
                 medicineChapter chapter = new medicineChapter();
                 checkBoxChapter chkChapter = new checkBoxChapter(null, false);
 
-                if(Drug_value.contains(cursor.getString(0))){ //If don't have drug
-                    //
-                }else{
+//                if(Drug_value.contains(cursor.getString(0))){ //If don't have drug
+//                    //
+//                }else{
                     chkChapter.drugID = Integer.valueOf(cursor.getString(0));
                     chkChapter.setSelected(false);
                     chkList.add(chkChapter);
@@ -314,7 +314,7 @@ public class AddInjectionActivity extends Activity {
                     chapter.chapterPrice = cursor.getString(2);
                     medicineChaptersList.add(chapter);
 
-                }
+//                }
 
 
             }while(cursor.moveToNext());

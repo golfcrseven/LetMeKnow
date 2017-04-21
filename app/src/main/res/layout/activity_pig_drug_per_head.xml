@@ -50,7 +50,7 @@
                 <EditText
                     android:layout_width="100dp"
                     android:layout_height="35dp"
-                    android:inputType="numberDecimal"
+                    android:inputType="number|numberDecimal"
                     android:ems="10"
                     android:id="@+id/edtUsage"
                     android:layout_weight="1"
