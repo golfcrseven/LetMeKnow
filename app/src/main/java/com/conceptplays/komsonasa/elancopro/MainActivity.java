@@ -75,17 +75,18 @@ public class MainActivity extends FragmentActivity{
 
         // adding nav drawer items to array
         // Home
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[0], navMenuIcons.getResourceId(0, -1)));
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[1], navMenuIcons.getResourceId(1, -1)));
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[2], navMenuIcons.getResourceId(2, -1)));
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[3], navMenuIcons.getResourceId(3, -1)));
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[4], navMenuIcons.getResourceId(4, -1)));
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1)));
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[6], navMenuIcons.getResourceId(6, -1)));
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[7], navMenuIcons.getResourceId(7, -1)));
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[8], navMenuIcons.getResourceId(8, -1)));
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[9], navMenuIcons.getResourceId(9, -1)));
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[10], navMenuIcons.getResourceId(10, -1)));
+        Integer i = 1;
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[0], navMenuIcons.getIndex(0)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[1], navMenuIcons.getIndex(1)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[2], navMenuIcons.getIndex(2)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[3], navMenuIcons.getIndex(3)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[4], navMenuIcons.getIndex(4)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getIndex(5)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[6], navMenuIcons.getIndex(6)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[7], navMenuIcons.getIndex(7)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[8], navMenuIcons.getIndex(8)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[9], navMenuIcons.getIndex(9)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[10], navMenuIcons.getIndex(10)));
 
         // Recycle the typed array
         navMenuIcons.recycle();
