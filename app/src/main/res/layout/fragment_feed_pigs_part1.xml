@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="15dp"
+        android:paddingBottom="50dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Standard value / Pig"
+        android:id="@+id/textView47"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="- Feed per day"
+        android:id="@+id/textView56"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_below="@+id/textView47"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textView56"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/linearLayout2pdph">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout56"
+        android:layout_below="@+id/linearLayout2pdph"
+        android:layout_alignLeft="@+id/linearLayout2pdph"
+        android:layout_alignStart="@+id/linearLayout2pdph"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average weanling pig 2 feed usage"
+                android:id="@+id/textView74"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/m27"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="3.0"
+                android:id="@+id/m27"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout57"
+        android:layout_below="@+id/linearLayout56"
+        android:layout_alignLeft="@+id/linearLayout56"
+        android:layout_alignStart="@+id/linearLayout56"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average weanling pig usage"
+                android:id="@+id/textView88"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/m28"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="28"
+                android:id="@+id/m28"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout58"
+        android:layout_below="@+id/linearLayout57"
+        android:layout_alignLeft="@+id/linearLayout57"
+        android:layout_alignStart="@+id/linearLayout57"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average starter pig feed usage"
+                android:id="@+id/textView94"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/m29"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="29"
+                android:id="@+id/m29"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout59"
+        android:layout_below="@+id/linearLayout58"
+        android:layout_alignLeft="@+id/linearLayout58"
+        android:layout_alignStart="@+id/linearLayout58"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average growing pig feed usage"
+                android:id="@+id/textView109"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/m30"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="30"
+                android:id="@+id/m30"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout60"
+        android:layout_below="@+id/linearLayout59"
+        android:layout_alignLeft="@+id/linearLayout59"
+        android:layout_alignStart="@+id/linearLayout59"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average fattening pig feed usage"
+                android:id="@+id/textView121"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/m31"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="31"
+                android:id="@+id/m31"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout61"
+        android:layout_below="@+id/linearLayout60"
+        android:layout_alignLeft="@+id/linearLayout60"
+        android:layout_alignStart="@+id/linearLayout60"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Total feed usage"
+                android:id="@+id/textView136"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/m32"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="32"
+                android:id="@+id/m32"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="- Feed per week"
+        android:id="@+id/textView100"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@+id/linearLayout61"
+        android:layout_alignLeft="@+id/textView56"
+        android:layout_alignStart="@+id/textView56"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout62"
+        android:layout_below="@+id/textView100"
+        android:layout_alignLeft="@+id/linearLayout61"
+        android:layout_alignStart="@+id/linearLayout61"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average weanling pig 1 feed usage"
+                android:id="@+id/textView115"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/n26"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="n26"
+                android:id="@+id/n26"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout63"
+        android:layout_below="@+id/linearLayout62"
+        android:layout_alignLeft="@+id/linearLayout62"
+        android:layout_alignStart="@+id/linearLayout62"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average weanling pig 2 feed usage"
+                android:id="@+id/textView142"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/n27"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="3.0"
+                android:id="@+id/n27"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout64"
+        android:layout_below="@+id/linearLayout63"
+        android:layout_alignLeft="@+id/linearLayout63"
+        android:layout_alignStart="@+id/linearLayout63"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average weanling pig usage"
+                android:id="@+id/textView154"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/n28"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="28"
+                android:id="@+id/n28"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout65"
+        android:layout_below="@+id/linearLayout64"
+        android:layout_alignLeft="@+id/linearLayout64"
+        android:layout_alignStart="@+id/linearLayout64"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average starter pig feed usage"
+                android:id="@+id/textView166"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/n29"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="29"
+                android:id="@+id/n29"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout66"
+        android:layout_below="@+id/linearLayout65"
+        android:layout_alignLeft="@+id/linearLayout65"
+        android:layout_alignStart="@+id/linearLayout65"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average growing pig feed usage"
+                android:id="@+id/textView170"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/n30"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="30"
+                android:id="@+id/n30"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout67"
+        android:layout_below="@+id/linearLayout66"
+        android:layout_alignLeft="@+id/linearLayout66"
+        android:layout_alignStart="@+id/linearLayout66"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average fattening pig feed usage"
+                android:id="@+id/textView175"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/n31"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="31"
+                android:id="@+id/n31"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout68"
+        android:layout_below="@+id/linearLayout67"
+        android:layout_alignLeft="@+id/linearLayout67"
+        android:layout_alignStart="@+id/linearLayout67"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Total feed usage"
+                android:id="@+id/textView179"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/n32"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="32"
+                android:id="@+id/n32"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="- Feed per month"
+        android:id="@+id/textView127"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@+id/linearLayout68"
+        android:layout_alignLeft="@+id/textView100"
+        android:layout_alignStart="@+id/textView100"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout69"
+        android:layout_below="@+id/textView127"
+        android:layout_alignLeft="@+id/linearLayout68"
+        android:layout_alignStart="@+id/linearLayout68"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average weanling pig 1 feed usage"
+                android:id="@+id/textView148"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/o26"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="n26"
+                android:id="@+id/o26"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout70"
+        android:layout_below="@+id/linearLayout69"
+        android:layout_alignLeft="@+id/linearLayout69"
+        android:layout_alignStart="@+id/linearLayout69"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average weanling pig 2 feed usage"
+                android:id="@+id/textView168"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/o27"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="3.0"
+                android:id="@+id/o27"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout71"
+        android:layout_below="@+id/linearLayout70"
+        android:layout_alignLeft="@+id/linearLayout70"
+        android:layout_alignStart="@+id/linearLayout70"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average weanling pig usage"
+                android:id="@+id/textView177"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/o28"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="28"
+                android:id="@+id/o28"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout72"
+        android:layout_below="@+id/linearLayout71"
+        android:layout_alignLeft="@+id/linearLayout71"
+        android:layout_alignStart="@+id/linearLayout71"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average starter pig feed usage"
+                android:id="@+id/textView183"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/o29"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="29"
+                android:id="@+id/o29"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout73"
+        android:layout_below="@+id/linearLayout72"
+        android:layout_alignLeft="@+id/linearLayout72"
+        android:layout_alignStart="@+id/linearLayout72"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average growing pig feed usage"
+                android:id="@+id/textView188"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/o30"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="30"
+                android:id="@+id/o30"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout74"
+        android:layout_below="@+id/linearLayout73"
+        android:layout_alignLeft="@+id/linearLayout73"
+        android:layout_alignStart="@+id/linearLayout73"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Average fattening pig feed usage"
+                android:id="@+id/textView192"
+                android:textSize="16dp"
+                android:textColor="#4a4a4a"
+                android:layout_toLeftOf="@+id/o31"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="31"
+                android:id="@+id/o31"
+                android:textSize="16dp"
+                android:textColor="#ff2a8543"
+                android:gravity="right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout75"
+            android:layout_below="@+id/linearLayout74"
+            android:layout_alignLeft="@+id/linearLayout74"
+            android:layout_alignStart="@+id/linearLayout74"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Total feed usage"
+                    android:id="@+id/textView193"
+                    android:textSize="16dp"
+                    android:textColor="#4a4a4a"
+                    android:layout_toLeftOf="@+id/o32"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="32"
+                    android:id="@+id/o32"
+                    android:textSize="16dp"
+                    android:textColor="#ff2a8543"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView226"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView47"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="kg."
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="723dp"
+            android:layout_marginLeft="132dp"
+            android:layout_marginStart="132dp"
+            android:layout_toEndOf="@+id/textView47"
+            android:layout_toRightOf="@+id/textView47">
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/m26"
+                android:fontFamily="sans-serif-light"
+                android:text="Average weanling pig 1 feed usage"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4a4a4a"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/m26"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:fontFamily="sans-serif-light"
+                android:gravity="right"
+                android:text="3.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff2a8543"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

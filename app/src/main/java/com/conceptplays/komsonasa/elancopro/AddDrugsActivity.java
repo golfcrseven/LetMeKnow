@@ -19,7 +19,6 @@ import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.conceptplays.komsonasa.elancopro.DB.DataBaseAdapter;
@@ -231,11 +230,13 @@ public class AddDrugsActivity extends Activity {
             }
 
             TextView chapterName = (TextView)convertView.findViewById(R.id.medicineName);
+            TextView chapterPrice = (TextView)convertView.findViewById(R.id.medicinePrice);
             TextView chapterNo = (TextView)convertView.findViewById(R.id.medecine_no);
 
             final medicineChapter chapter = medicineChapterList.get(position);
 
             chapterName.setText(chapter.chapterName);
+            chapterPrice.setText(chapter.chapterPrice+" ฿");
             chapterNo.setText((position + 1) + ")");
             if((position%2)==0)
                 convertView.setBackgroundColor(Color.parseColor("#ebebeb"));

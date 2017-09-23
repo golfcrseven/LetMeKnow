@@ -28,12 +28,23 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medium Text"
         android:id="@+id/medicineName"
-        android:layout_weight="0.9"
+        android:layout_weight="0.60"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:textColor="#000000"
         android:textSize="18dp"
         android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/medicinePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.31"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <CheckBox
         android:layout_width="26dp"
